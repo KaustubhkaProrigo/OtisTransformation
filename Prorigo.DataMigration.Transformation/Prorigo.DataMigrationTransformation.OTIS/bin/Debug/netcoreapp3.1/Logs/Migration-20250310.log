@@ -1,0 +1,49 @@
+2025-03-10 10:33:50.113 +05:30 [Error] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Prorigo.Plm.AutodeskToArasTransformer.Ametek.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 56
+2025-03-10 10:42:16.265 +05:30 [Error] Value cannot be null. (Parameter 'path1')
+System.ArgumentNullException: Value cannot be null. (Parameter 'path1')
+   at System.IO.Path.Combine(String path1, String path2)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileWriter.set_TypeName(String value) in D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileWriter.cs:line 36
+   at Prorigo.Plm.DataMigration.OtisDataTransformer.OtisDataTransformer.DefaultValueAdder(String transformName) in D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisDataTransformer.cs:line 63
+   at Prorigo.Plm.DataMigration.OtisDataTransformer.OtisDataTransformer.Transform() in D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisDataTransformer.cs:line 52
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 55
+2025-03-10 10:43:15.487 +05:30 [Error] Could not find a part of the path 'D:\DataMigrationProject\OTIS\DataFiles\FilesMetadata'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\DataMigrationProject\OTIS\DataFiles\FilesMetadata'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, Boolean loadAdditionalColumns)+MoveNext() in D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 112
+   at Prorigo.Plm.DataMigration.OtisDataTransformer.OtisDataTransformer.DefaultValueAdder(String transformName) in D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisDataTransformer.cs:line 96
+   at Prorigo.Plm.DataMigration.OtisDataTransformer.OtisDataTransformer.Transform() in D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisDataTransformer.cs:line 52
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 55
+2025-03-10 12:12:47.462 +05:30 [Error] Could not find a part of the path 'D:\DataMigrationProject\OTIS\DataFiles\OtisParameter\FilesMetadata'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\DataMigrationProject\OTIS\DataFiles\OtisParameter\FilesMetadata'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, Boolean loadAdditionalColumns)+MoveNext() in D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 112
+   at Prorigo.Plm.DataMigration.OtisDataTransformer.OtisDataTransformer.DefaultValueAdder(String transformName) in D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisDataTransformer.cs:line 96
+   at Prorigo.Plm.DataMigration.OtisDataTransformer.OtisDataTransformer.Transform() in D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisDataTransformer.cs:line 52
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 55
+2025-03-10 12:13:49.840 +05:30 [Error] Could not find a part of the path 'D:\DataMigrationProject\OTIS\DataFiles\OtisParameter\FilesMetadata'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\DataMigrationProject\OTIS\DataFiles\OtisParameter\FilesMetadata'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, Boolean loadAdditionalColumns)+MoveNext() in D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 112
+   at Prorigo.Plm.DataMigration.OtisDataTransformer.OtisDataTransformer.DefaultValueAdder(String transformName) in D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisDataTransformer.cs:line 96
+   at Prorigo.Plm.DataMigration.OtisDataTransformer.OtisDataTransformer.Transform() in D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisDataTransformer.cs:line 52
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 55

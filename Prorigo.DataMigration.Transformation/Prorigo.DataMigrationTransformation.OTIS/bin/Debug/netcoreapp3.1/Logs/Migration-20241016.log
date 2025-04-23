@@ -1,0 +1,30 @@
+2024-10-16 18:12:16.856 +05:30 [Error] Access to the path 'D:\Varient Management' is denied.
+System.UnauthorizedAccessException: Access to the path 'D:\Varient Management' is denied.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at Prorigo.DataMigrationTransformation.Training.ReCreateTSVForFeaturesOptionsTransformer.defaultFunction(String transformName) in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\ReCreateTSVForFeaturesOptionsTransformer.cs:line 66
+   at Prorigo.DataMigrationTransformation.Training.ReCreateTSVForFeaturesOptionsTransformer.Transform() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\ReCreateTSVForFeaturesOptionsTransformer.cs:line 42
+   at Prorigo.DataMigrationTransformation.Training.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\Program.cs:line 55
+2024-10-16 18:14:06.820 +05:30 [Error] Access to the path 'D:\Varient Management' is denied.
+System.UnauthorizedAccessException: Access to the path 'D:\Varient Management' is denied.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at Prorigo.DataMigrationTransformation.Training.ReCreateTSVForFeaturesOptionsTransformer.defaultFunction(String transformName) in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\ReCreateTSVForFeaturesOptionsTransformer.cs:line 66
+   at Prorigo.DataMigrationTransformation.Training.ReCreateTSVForFeaturesOptionsTransformer.Transform() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\ReCreateTSVForFeaturesOptionsTransformer.cs:line 42
+   at Prorigo.DataMigrationTransformation.Training.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\Program.cs:line 55
+2024-10-16 18:15:43.362 +05:30 [Error] Access to the path 'D:\Varient Management\Assignment 1' is denied.
+System.UnauthorizedAccessException: Access to the path 'D:\Varient Management\Assignment 1' is denied.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at Prorigo.DataMigrationTransformation.Training.ReCreateTSVForFeaturesOptionsTransformer.defaultFunction(String transformName) in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\ReCreateTSVForFeaturesOptionsTransformer.cs:line 66
+   at Prorigo.DataMigrationTransformation.Training.ReCreateTSVForFeaturesOptionsTransformer.Transform() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\ReCreateTSVForFeaturesOptionsTransformer.cs:line 42
+   at Prorigo.DataMigrationTransformation.Training.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\Program.cs:line 55

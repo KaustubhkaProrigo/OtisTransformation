@@ -1,0 +1,22 @@
+2024-12-06 14:31:11.389 +05:30 [Error] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at XMLFromStringNotation.ConvertToXML.GetCurrentNode(XmlElement spn, Int32 intPos, Int32 intSeq, String CurrOp) in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\ConvertToXML.cs:line 1093
+   at XMLFromStringNotation.ConvertToXML.ProcessStructList() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\ConvertToXML.cs:line 162
+   at XMLFromStringNotation.ConvertToXML.GetXML(String strInput) in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\ConvertToXML.cs:line 140
+   at Prorigo.DataMigrationTransformation.Training.VM_RuleTransformer.defaultFunction(String transformName) in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\VM_RuleTransformer.cs:line 89
+   at Prorigo.DataMigrationTransformation.Training.VM_RuleTransformer.Transform() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\VM_RuleTransformer.cs:line 52
+   at Prorigo.DataMigrationTransformation.Training.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\Program.cs:line 56
+2024-12-06 15:03:05.900 +05:30 [Error] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at XMLFromStringNotation.ConvertToXML.ProcessStructList() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\ConvertToXML.cs:line 638
+   at XMLFromStringNotation.ConvertToXML.GetXML(String strInput) in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\ConvertToXML.cs:line 140
+   at Prorigo.DataMigrationTransformation.Training.VM_RuleTransformer.defaultFunction(String transformName) in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\VM_RuleTransformer.cs:line 89
+   at Prorigo.DataMigrationTransformation.Training.VM_RuleTransformer.Transform() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\VM_RuleTransformer.cs:line 52
+   at Prorigo.DataMigrationTransformation.Training.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\Program.cs:line 56
+2024-12-06 15:05:15.454 +05:30 [Error] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at XMLFromStringNotation.ConvertToXML.ProcessStructList() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\ConvertToXML.cs:line 638
+   at XMLFromStringNotation.ConvertToXML.GetXML(String strInput) in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\ConvertToXML.cs:line 140
+   at Prorigo.DataMigrationTransformation.Training.VM_RuleTransformer.defaultFunction(String transformName) in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\VM_RuleTransformer.cs:line 89
+   at Prorigo.DataMigrationTransformation.Training.VM_RuleTransformer.Transform() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\VM_RuleTransformer.cs:line 52
+   at Prorigo.DataMigrationTransformation.Training.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\Program.cs:line 56

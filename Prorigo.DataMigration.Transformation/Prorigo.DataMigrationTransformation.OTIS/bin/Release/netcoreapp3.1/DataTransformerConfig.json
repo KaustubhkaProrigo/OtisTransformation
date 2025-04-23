@@ -1,0 +1,96 @@
+﻿{
+  "AttributeDelimiter": "»«",
+  "RowDelimiter": "◘",
+  "TsvAtrributeDelimeter": "\t",
+  "TsvRowDelimeter": "\n",
+  "Logging": {
+    "PathFormat": "Logs/Migration-{Date}.log",
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "Serilog": {
+    "WriteTo": [
+      {
+        "Name": "RollingFile",
+        "Args": { "pathFormat": "Logs/Migration-{Date}.log" }
+      }
+    ]
+  },
+  "DatToTsv": {
+    "ProcessAreaDataPath": "D:\\WorkSpace\\AutoDesk\\UAT4\\April24UAT3",
+    "DatRowDelimiter": "◘",
+    "DatColumnDelimiter": "»«",
+    "TsvRowDelimiter": "\n",
+    "TsvColumnDelimiter": "\t"
+  },
+  "ReorderColumns": {
+    "ProcessAreaDataPath": "D:\\Workspace\\Prorigo\\Aras\\3DViz\\Backup",
+    "ObjectCountPerFile": 50000,
+    "ColumnHeaders": "LxOid,NextRevId,PhysicalId,Type,Name,Revision,Created Date,Modified Date,Policy,State,Owner,Description,GEECOName,GEToBeVariantComments,GEVariantComments,GEToBeVariantName,GERefMappingCADModel,GEVariantName",
+    "Type": "S_PART"
+  },
+  "ExcelToTsv": {
+    "ProcessAreaDataPath": "D:\\NicTech  Required\\All Tsv's\\FileMetadata",
+    "DatRowDelimiter": "◘",
+    "DatColumnDelimiter": "»«",
+    "TsvRowDelimiter": "\n",
+    "TsvColumnDelimiter": "\t",
+    "ObjectCountPerFile": 100000
+  },
+  "AdFile": {
+    "ProcessAreaDataPath": "D:\\WorkSpace\\AutoDesk\\Datafile\\LADtafile",
+    "Types": [ "CAD" ],
+    "ObjectCountPerFile": 50000,
+    "FileStoreLocation": "D:\\WorkSpace\\AutoDesk\\Vault\\AutodeskVault",
+    "MaxParallelFileTransforms": 50,
+    "VaultLocation": "D:\\WorkSpace\\AutoDesk\\Vault\\ArasFileVault",
+    "VaultId": "67BBB9204FE84A8981ED8313049BA06C"
+  },
+  "ADDWGPartCad": {
+    "ProcessAreaDataPath": "D:\\WorkSpace\\AutoDesk\\UAT4\\CDFChange\\Datafiles\\MPDatafile",
+    "ObjectCountPerFile": 100000
+  },
+  "ADDocumentFile": {
+    "ProcessAreaDataPath": "D:\\WorkSpace\\AutoDesk\\UAT4\\CDFChange\\Datafiles\\MPDatafile",
+    "ObjectCountPerFile": 1000000,
+    "MaxParallelFileTransforms": 2
+  },
+  "ADCadStructure": {
+    "ProcessAreaDataPath": "D:\\WorkSpace\\AutoDesk\\UAT4\\CDFChange\\Datafiles\\MPDatafile",
+    "ObjectCountPerFile": 100000
+  },
+  "PartBOM": {
+    "ProcessAreaDataPath": "D:\\WorkSpace\\AutoDesk\\UAT4\\CDFChange\\Datafiles\\MPDatafile",
+    "ObjectCountPerFile": 100000
+  },
+  "AutoDeskPartDocument": {
+    "ProcessAreaDataPath": "D:\\WorkSpace\\AutoDesk\\UAT4\\CDFChange\\Datafiles\\MPDatafile",
+    "ObjectCountPerFile": 100000
+  },
+  "AutodeskPartToCad": {
+    "ProcessAreaDataPath": "D:\\WorkSpace\\AutoDesk\\UAT4\\CDFChange\\Datafiles\\MPDatafile",
+    "ObjectCountPerFile": 100000
+  },
+  "ADPart": {
+    "ProcessAreaDataPath": "D:\\WorkSpace\\AutoDesk\\UAT4\\CDFChange\\Datafiles\\MPDatafile",
+    "ObjectCountPerFile": 100000
+  },
+  "DuplicateDocumentID": {
+    "ProcessAreaDataPath": "D:\\WorkSpace\\AutoDesk\\UAT4\\CDFChange\\Datafiles\\MPDatafile",
+    "ObjectCountPerFile": 100000
+  },
+  "AdDocument": {
+    "ProcessAreaDataPath": "D:\\WorkSpace\\AutoDesk\\UAT4\\CDFChange\\Datafiles\\MPDatafile",
+    "ObjectCountPerFile": 100000
+  },
+  "ADCAD": {
+    "ProcessAreaDataPath": "D:\\WorkSpace\\AutoDesk\\UAT4\\CDFChange\\Datafiles\\MPDatafile",
+    "ObjectCountPerFile": 100000
+  }
+
+
+
+}

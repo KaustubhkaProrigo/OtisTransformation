@@ -1,0 +1,12 @@
+2024-02-24 00:00:24.479 +05:30 [Error] The given key '18307100.ipt' was not present in the dictionary.
+System.Collections.Generic.KeyNotFoundException: The given key '18307100.ipt' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Prorigo.Plm.EnoviaToArasTransformer.AutoDeskProject.PartDocumentTransformer.DefaultValueAdder(String transformName) in D:\Workspace\Migration Tool\plm-data_migration-master 3\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.EnnoviaToArasTransformer.AutoDeskProject\PartDocumentTransformer.cs:line 131
+   at Prorigo.Plm.EnoviaToArasTransformer.AutoDeskProject.PartDocumentTransformer.Transform() in D:\Workspace\Migration Tool\plm-data_migration-master 3\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.EnnoviaToArasTransformer.AutoDeskProject\PartDocumentTransformer.cs:line 50
+   at Prorigo.Plm.EnoviaToArasTransformer.AutoDeskProject.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Workspace\Migration Tool\plm-data_migration-master 3\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.EnnoviaToArasTransformer.AutoDeskProject\Program.cs:line 54
+2024-02-24 00:01:19.835 +05:30 [Error] The given key '18307100.ipt' was not present in the dictionary.
+System.Collections.Generic.KeyNotFoundException: The given key '18307100.ipt' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Prorigo.Plm.EnoviaToArasTransformer.AutoDeskProject.PartDocumentTransformer.DefaultValueAdder(String transformName) in D:\Workspace\Migration Tool\plm-data_migration-master 3\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.EnnoviaToArasTransformer.AutoDeskProject\PartDocumentTransformer.cs:line 131
+   at Prorigo.Plm.EnoviaToArasTransformer.AutoDeskProject.PartDocumentTransformer.Transform() in D:\Workspace\Migration Tool\plm-data_migration-master 3\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.EnnoviaToArasTransformer.AutoDeskProject\PartDocumentTransformer.cs:line 50
+   at Prorigo.Plm.EnoviaToArasTransformer.AutoDeskProject.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Workspace\Migration Tool\plm-data_migration-master 3\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.EnnoviaToArasTransformer.AutoDeskProject\Program.cs:line 54

@@ -1,0 +1,12 @@
+2025-04-21 18:41:17.357 +05:30 [Error] The process cannot access the file 'D:\DataMigrationProject\OTIS\OTIS_Templates\~$ENG00696-7 EBOM Template Instruction.xlsx' because it is being used by another process.
+System.IO.IOException: The process cannot access the file 'D:\DataMigrationProject\OTIS\OTIS_Templates\~$ENG00696-7 EBOM Template Instruction.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at OfficeOpenXml.ExcelPackage.WriteFileToStream(String path, Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor(FileInfo newFile)
+   at Prorigo.DataMigrationTransformation.OTIS.EBOMInOutExtractDataTransformer.TransformFile(String fileNameWithPath) in D:\DataMigrationProject\OTIS_Transformation_New\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\EBOMInOutExtractDataTransformer.cs:line 72
+   at Prorigo.DataMigrationTransformation.OTIS.EBOMInOutExtractDataTransformer.TransformExcelFiles(String directoryName) in D:\DataMigrationProject\OTIS_Transformation_New\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\EBOMInOutExtractDataTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.EBOMInOutExtractDataTransformer.Transform(String LicenseKey) in D:\DataMigrationProject\OTIS_Transformation_New\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\EBOMInOutExtractDataTransformer.cs:line 45
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigrationProject\OTIS_Transformation_New\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91

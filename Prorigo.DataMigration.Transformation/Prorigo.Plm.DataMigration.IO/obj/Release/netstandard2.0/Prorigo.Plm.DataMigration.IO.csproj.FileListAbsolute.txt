@@ -1,0 +1,9 @@
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\bin\Release\netstandard2.0\Prorigo.Plm.DataMigration.IO.deps.json
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\bin\Release\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\bin\Release\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\obj\Release\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfoInputs.cache
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\obj\Release\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfo.cs
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\obj\Release\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.CoreCompileInputs.cache
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\obj\Release\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\obj\Release\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\obj\Release\netstandard2.0\Prorigo.Plm.DataMigration.IO.GeneratedMSBuildEditorConfig.editorconfig

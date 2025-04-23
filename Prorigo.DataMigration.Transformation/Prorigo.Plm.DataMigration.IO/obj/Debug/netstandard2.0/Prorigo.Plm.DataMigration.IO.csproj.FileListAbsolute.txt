@@ -1,0 +1,109 @@
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.deps.json
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfoInputs.cache
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfo.cs
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.CoreCompileInputs.cache
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.AssemblyReference.cache
+D:\Data Migration Training\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.deps.json
+D:\Data Migration Training\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\Data Migration Training\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\Data Migration Training\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data Migration Training\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfoInputs.cache
+D:\Data Migration Training\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfo.cs
+D:\Data Migration Training\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.CoreCompileInputs.cache
+D:\Data Migration Training\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\Data Migration Training\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\DataMigration\Transformer\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.deps.json
+D:\DataMigration\Transformer\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\DataMigration\Transformer\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\DataMigration\Transformer\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.AssemblyReference.cache
+D:\DataMigration\Transformer\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.GeneratedMSBuildEditorConfig.editorconfig
+D:\DataMigration\Transformer\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfoInputs.cache
+D:\DataMigration\Transformer\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfo.cs
+D:\DataMigration\Transformer\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.CoreCompileInputs.cache
+D:\DataMigration\Transformer\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\DataMigration\Transformer\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.deps.json
+D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.AssemblyReference.cache
+D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.GeneratedMSBuildEditorConfig.editorconfig
+D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfoInputs.cache
+D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfo.cs
+D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.CoreCompileInputs.cache
+D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\Varient Management\VM_Rule Transformation\VM_Rule_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.deps.json
+D:\Varient Management\VM_Rule Transformation\VM_Rule_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\Varient Management\VM_Rule Transformation\VM_Rule_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\Varient Management\VM_Rule Transformation\VM_Rule_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.AssemblyReference.cache
+D:\Varient Management\VM_Rule Transformation\VM_Rule_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Varient Management\VM_Rule Transformation\VM_Rule_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfoInputs.cache
+D:\Varient Management\VM_Rule Transformation\VM_Rule_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfo.cs
+D:\Varient Management\VM_Rule Transformation\VM_Rule_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.CoreCompileInputs.cache
+D:\Varient Management\VM_Rule Transformation\VM_Rule_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\Varient Management\VM_Rule Transformation\VM_Rule_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.deps.json
+D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.AssemblyReference.cache
+D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfoInputs.cache
+D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfo.cs
+D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.CoreCompileInputs.cache
+D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.deps.json
+D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.AssemblyReference.cache
+D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.GeneratedMSBuildEditorConfig.editorconfig
+D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfoInputs.cache
+D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfo.cs
+D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.CoreCompileInputs.cache
+D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\DataMigrationProject\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\GitRepos\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.deps.json
+D:\GitRepos\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\GitRepos\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\GitRepos\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.AssemblyReference.cache
+D:\GitRepos\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitRepos\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfoInputs.cache
+D:\GitRepos\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfo.cs
+D:\GitRepos\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.CoreCompileInputs.cache
+D:\GitRepos\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\GitRepos\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\Downloads\OTIS_Transformation 3 (1)\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.deps.json
+D:\Downloads\OTIS_Transformation 3 (1)\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\Downloads\OTIS_Transformation 3 (1)\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\Downloads\OTIS_Transformation 3 (1)\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.AssemblyReference.cache
+D:\Downloads\OTIS_Transformation 3 (1)\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\OTIS_Transformation 3 (1)\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfoInputs.cache
+D:\Downloads\OTIS_Transformation 3 (1)\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfo.cs
+D:\Downloads\OTIS_Transformation 3 (1)\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.CoreCompileInputs.cache
+D:\Downloads\OTIS_Transformation 3 (1)\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\Downloads\OTIS_Transformation 3 (1)\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\DataMigrationProject\OTIS_Transformation_New\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.deps.json
+D:\DataMigrationProject\OTIS_Transformation_New\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\DataMigrationProject\OTIS_Transformation_New\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\DataMigrationProject\OTIS_Transformation_New\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.AssemblyReference.cache
+D:\DataMigrationProject\OTIS_Transformation_New\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.GeneratedMSBuildEditorConfig.editorconfig
+D:\DataMigrationProject\OTIS_Transformation_New\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfoInputs.cache
+D:\DataMigrationProject\OTIS_Transformation_New\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfo.cs
+D:\DataMigrationProject\OTIS_Transformation_New\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.CoreCompileInputs.cache
+D:\DataMigrationProject\OTIS_Transformation_New\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\DataMigrationProject\OTIS_Transformation_New\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\Git Repos\OtisTransformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.deps.json
+D:\Git Repos\OtisTransformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\Git Repos\OtisTransformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb
+D:\Git Repos\OtisTransformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.AssemblyReference.cache
+D:\Git Repos\OtisTransformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git Repos\OtisTransformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfoInputs.cache
+D:\Git Repos\OtisTransformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.AssemblyInfo.cs
+D:\Git Repos\OtisTransformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.csproj.CoreCompileInputs.cache
+D:\Git Repos\OtisTransformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.dll
+D:\Git Repos\OtisTransformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\obj\Debug\netstandard2.0\Prorigo.Plm.DataMigration.IO.pdb

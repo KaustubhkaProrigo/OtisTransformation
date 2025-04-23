@@ -1,0 +1,85 @@
+﻿{
+  "AttributeDelimiter": "»«",
+  "RowDelimiter": "◘",
+  "TsvAtrributeDelimeter": "\t",
+  "TsvRowDelimeter": "\n",
+  "Logging": {
+    "PathFormat": "Logs/Migration-{Date}.log",
+    "LicenseKey": "D:\\DataMigrationProject\\OTIS_Transformation_New\\License 3\\License\\DMFLicense2025 allIP.txt",
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "Serilog": {
+    "WriteTo": [
+      {
+        "Name": "RollingFile",
+        "Args": { "pathFormat": "Logs/Migration-{Date}.log" }
+      }
+    ]
+  },
+  "DatToTsv": {
+    "ProcessAreaDataPath": "D:\\DataMigration\\Transformation\\Transformation Project\\Assignment 3 1\\Assignment 3\\Datafile",
+    "DatRowDelimiter": "◘",
+    "DatColumnDelimiter": "»«",
+    "TsvRowDelimiter": "\n",
+    "TsvColumnDelimiter": "\t"
+  },
+  "ReorderColumns": {
+    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS\\DataFiles\\OtisParameter\\Global",
+    "ObjectCountPerFile": 50000,
+    "ColumnHeaders": "FileId,FileConfigurationID,FileName,Checksum,FileSize,Format,LocatedId,VaultId,FilePath,KeyedName",
+    "Type": "FilesMetadata"
+  },
+  "ExcelToTsvParameter": {
+    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS_Official_Migration\\Iteration1\\ExcelToTsvDatafiles\\Parameter",
+    "TsvRowDelimiter": "\n",
+    "TsvColumnDelimiter": "\t",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelToTsvPart": {
+    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS_Official_Migration\\Iteration1\\ExcelToTsvDatafiles\\Parameter",
+    "TsvRowDelimiter": "\n",
+    "TsvColumnDelimiter": "\t",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelToTsvDrawing": {
+    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS_Official_Migration\\Iteration1\\ExcelToTsvDatafiles\\Parameter",
+    "TsvRowDelimiter": "\n",
+    "TsvColumnDelimiter": "\t",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelEBOMExtractData": {
+    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS\\OTIS_Templates",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelEBOMInOutExtractData": {
+    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS\\OTIS_Templates",
+    "ObjectCountPerFile": 50000
+  },
+  "OtisFile": {
+    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS_25_03",
+    "ObjectCountPerFile": 100000,
+    "FileStoreLocation": "D:\\DataMigrationProject\\OneDrive_2025-03-04"
+  },
+  "OtisParameterFeatureOption": {
+    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS_16_04",
+    "ObjectCountPerFile": 100000,
+    "classification": [ "Global", "Internal" ]
+  },
+  "OtisPart": {
+    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS_03_04",
+    "ObjectCountPerFile": 100000
+  },
+  "OtisProduct": {
+    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS_03_04",
+    "ObjectCountPerFile": 100000
+  },
+  "Otis_VM_BreakdownItem": {
+    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS\\OTIS_Templates",
+    "ObjectCountPerFile": 50000
+  }
+}
+

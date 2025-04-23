@@ -1,0 +1,17 @@
+2023-12-06 20:13:52.933 +05:30 [Error] Value cannot be null. (Parameter 'path')
+System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.EnoviaToArasTransformer.NicholsonProject.CSVtoTSvTransformer.TransformCsvFiles(String directoryName) in D:\OwnPractice\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.EnnoviaToArasTransformer.NicholsonProject\CSVtoTSvTransformer.cs:line 46
+   at Prorigo.Plm.EnoviaToArasTransformer.NicholsonProject.CSVtoTSvTransformer.Transform() in D:\OwnPractice\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.EnnoviaToArasTransformer.NicholsonProject\CSVtoTSvTransformer.cs:line 39
+   at Prorigo.Plm.EnoviaToArasTransformer.Demant.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OwnPractice\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.EnnoviaToArasTransformer.NicholsonProject\Program.cs:line 55
+2023-12-06 20:24:40.980 +05:30 [Error] Please set the ExcelPackage.LicenseContext property. See https://epplussoftware.com/developers/licenseexception
+OfficeOpenXml.LicenseException: Please set the ExcelPackage.LicenseContext property. See https://epplussoftware.com/developers/licenseexception
+   at OfficeOpenXml.ExcelPackage.get_Workbook()
+   at OfficeOpenXml.ExcelPackage.CreateBlankWb()
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor()
+   at Prorigo.Plm.EnoviaToArasTransformer.NicholsonProject.CSVtoTSvTransformer.ConvertCsvFileToExcel(String csvFileNameWithPath) in D:\OwnPractice\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.EnnoviaToArasTransformer.NicholsonProject\CSVtoTSvTransformer.cs:line 62
+   at Prorigo.Plm.EnoviaToArasTransformer.NicholsonProject.CSVtoTSvTransformer.ConvertCsvFilesToExcel(String directoryName) in D:\OwnPractice\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.EnnoviaToArasTransformer.NicholsonProject\CSVtoTSvTransformer.cs:line 49
+   at Prorigo.Plm.EnoviaToArasTransformer.NicholsonProject.CSVtoTSvTransformer.Transform() in D:\OwnPractice\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.EnnoviaToArasTransformer.NicholsonProject\CSVtoTSvTransformer.cs:line 39
+   at Prorigo.Plm.EnoviaToArasTransformer.Demant.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OwnPractice\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.EnnoviaToArasTransformer.NicholsonProject\Program.cs:line 55

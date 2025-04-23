@@ -1,0 +1,21 @@
+2024-12-10 12:58:31.748 +05:30 [Error] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at XMLFromStringNotation.ConvertToXML.ProcessStructList() in D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Expression\ConvertToXML.cs:line 380
+   at XMLFromStringNotation.ConvertToXML.GetXML(String strInput) in D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Expression\ConvertToXML.cs:line 178
+   at Prorigo.DataMigrationTransformation.Expression.VM_RuleTransformer.defaultFunction(String transformName) in D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Expression\VM_RuleTransformer.cs:line 97
+   at Prorigo.DataMigrationTransformation.Expression.VM_RuleTransformer.Transform() in D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Expression\VM_RuleTransformer.cs:line 53
+   at Prorigo.DataMigrationTransformation.Expression.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Expression\Program.cs:line 56
+2024-12-10 13:02:36.301 +05:30 [Error] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at XMLFromStringNotation.ConvertToXML.ProcessStructList() in D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Expression\ConvertToXML.cs:line 380
+   at XMLFromStringNotation.ConvertToXML.GetXML(String strInput) in D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Expression\ConvertToXML.cs:line 178
+   at Prorigo.DataMigrationTransformation.Expression.VM_RuleTransformer.defaultFunction(String transformName) in D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Expression\VM_RuleTransformer.cs:line 97
+   at Prorigo.DataMigrationTransformation.Expression.VM_RuleTransformer.Transform() in D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Expression\VM_RuleTransformer.cs:line 53
+   at Prorigo.DataMigrationTransformation.Expression.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Expression\Program.cs:line 56
+2024-12-10 14:34:18.808 +05:30 [Error] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at XMLFromStringNotation.ConvertToXML.ProcessStructList() in D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Expression\ConvertToXML.cs:line 380
+   at XMLFromStringNotation.ConvertToXML.GetXML(String strInput) in D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Expression\ConvertToXML.cs:line 178
+   at Prorigo.DataMigrationTransformation.Expression.VM_RuleTransformer.defaultFunction(String transformName) in D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Expression\VM_RuleTransformer.cs:line 97
+   at Prorigo.DataMigrationTransformation.Expression.VM_RuleTransformer.Transform() in D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Expression\VM_RuleTransformer.cs:line 53
+   at Prorigo.DataMigrationTransformation.Expression.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Varient Management\VM_Rule Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Expression\Program.cs:line 56

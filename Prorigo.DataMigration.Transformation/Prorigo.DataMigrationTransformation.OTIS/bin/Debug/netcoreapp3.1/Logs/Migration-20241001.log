@@ -1,0 +1,90 @@
+2024-10-01 18:16:30.777 +05:30 [Error] Could not find a part of the path 'D:\DataMigration\Transformation\Transformation Project\Assignment 4\PART'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\DataMigration\Transformation\Transformation Project\Assignment 4\PART'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Prorigo.DataMigrationTransformation.Training.PartReadTransformer.PartReadMeta(String transformName) in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\PartReadTransformer.cs:line 58
+   at Prorigo.DataMigrationTransformation.Training.PartReadTransformer.Transform() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\PartReadTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.Training.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\Program.cs:line 54
+2024-10-01 18:19:01.426 +05:30 [Error] Could not find a part of the path 'D:\DataMigration\Transformation\Transformation Project\Assignment 4\PART'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\DataMigration\Transformation\Transformation Project\Assignment 4\PART'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Prorigo.DataMigrationTransformation.Training.PartReadTransformer.PartReadMeta(String transformName) in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\PartReadTransformer.cs:line 58
+   at Prorigo.DataMigrationTransformation.Training.PartReadTransformer.Transform() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\PartReadTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.Training.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\Program.cs:line 54
+2024-10-01 18:19:28.635 +05:30 [Error] Could not find a part of the path 'D:\DataMigration\Transformation\Transformation Project\Assignment 4\PART'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\DataMigration\Transformation\Transformation Project\Assignment 4\PART'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Prorigo.DataMigrationTransformation.Training.PartReadTransformer.PartReadMeta(String transformName) in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\PartReadTransformer.cs:line 58
+   at Prorigo.DataMigrationTransformation.Training.PartReadTransformer.Transform() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\PartReadTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.Training.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\Program.cs:line 54
+2024-10-01 18:21:22.113 +05:30 [Error] Could not find a part of the path 'D:\DataMigration\Transformation\Transformation Project\Assignment 4\PART'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\DataMigration\Transformation\Transformation Project\Assignment 4\PART'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Prorigo.DataMigrationTransformation.Training.PartReadTransformer.PartReadMeta(String transformName) in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\PartReadTransformer.cs:line 58
+   at Prorigo.DataMigrationTransformation.Training.PartReadTransformer.Transform() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\PartReadTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.Training.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\Program.cs:line 54
+2024-10-01 18:31:45.414 +05:30 [Error] Could not find a part of the path 'D:\DataMigration\Transformation\Transformation Project\Assignment 4\PART'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\DataMigration\Transformation\Transformation Project\Assignment 4\PART'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Prorigo.DataMigrationTransformation.Training.PartReadTransformer.PartReadMeta(String transformName) in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\PartReadTransformer.cs:line 58
+   at Prorigo.DataMigrationTransformation.Training.PartReadTransformer.Transform() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\PartReadTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.Training.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\Program.cs:line 54
+2024-10-01 18:37:57.662 +05:30 [Error] Could not find a part of the path 'D:\DataMigration\Transformation\Transformation Project\Assignment 4\PART'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\DataMigration\Transformation\Transformation Project\Assignment 4\PART'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Prorigo.DataMigrationTransformation.Training.PartReadTransformer.PartReadMeta(String transformName) in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\PartReadTransformer.cs:line 60
+   at Prorigo.DataMigrationTransformation.Training.PartReadTransformer.Transform() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\PartReadTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.Training.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\DataMigration\Transformation\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.Training\Program.cs:line 54
