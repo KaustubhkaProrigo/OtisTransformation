@@ -92,14 +92,14 @@ namespace Prorigo.DataMigrationTransformation.OTIS
             //    FileExtension = "tsv",
             //};
 
-            var OtisDrawingEntityReader = new TypeDataFileReader(_processAreaDataPath);
-            var OtisDrawingEntities = OtisDrawingEntityReader.ReadAllEntities<OtisDrawingEntity>(OtisDrawing);
+            var OtisDrawingEntityReader = new TypeDataFileReader(Path.Combine(_processAreaDataPath, "Drawing"));
+            var OtisDrawingEntities = OtisDrawingEntityReader.ReadAllEntities<OtisDrawingEntity>(OtisDrawing, "*.tsv");
 
-            var OtisDrawingPartEntityReader = new TypeDataFileReader(_processAreaDataPath);
-            var OtisDrawingToPartEntities = OtisDrawingPartEntityReader.ReadAllEntities<OtisCadToPartEntity>(OtisDrawingToPart);
+            var OtisDrawingPartEntityReader = new TypeDataFileReader(Path.Combine(_processAreaDataPath, "Drawing"));
+            var OtisDrawingToPartEntities = OtisDrawingPartEntityReader.ReadAllEntities<OtisCadToPartEntity>(OtisDrawingToPart, "*.tsv");
 
             var OtisPartEntityReader = new TypeDataFileReader(_processAreaDataPath);
-            var OtisPartEntities = OtisPartEntityReader.ReadAllEntities<OtisPartTSVEntity>(OtisPart);
+            var OtisPartEntities = OtisPartEntityReader.ReadAllEntities<OtisPartTSVEntity>(OtisPart, "*.tsv");
 
             //var OtisCADFileEntityReader = new TypeDataFileReader(_processAreaDataPath);
             //var OtisCADFileEntities = OtisCADFileEntityReader.ReadAllEntities<OtisCadFileEntity>(OtisDrawingToFile);

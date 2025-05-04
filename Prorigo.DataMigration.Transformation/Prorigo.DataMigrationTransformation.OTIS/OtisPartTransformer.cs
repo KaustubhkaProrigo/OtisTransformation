@@ -75,8 +75,8 @@ namespace Prorigo.DataMigrationTransformation.OTIS
                 FileExtension = "tsv",
             };
 
-            var OtisEntityReader = new TypeDataFileReader(_processAreaDataPath);
-            var OtisEntities = OtisEntityReader.ReadAllEntities<OTSPartEntity>(OtisPart);
+            var OtisEntityReader = new TypeDataFileReader(Path.Combine(_processAreaDataPath, "Part"));
+            var OtisEntities = OtisEntityReader.ReadAllEntities<OTSPartEntity>(OtisPart, "*.tsv");
 
             var OtisGroups = OtisEntities
                            .GroupBy(entity => new { entity.Part_Number })

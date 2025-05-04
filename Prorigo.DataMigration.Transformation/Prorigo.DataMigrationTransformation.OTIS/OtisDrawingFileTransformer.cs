@@ -73,7 +73,7 @@ namespace Prorigo.DataMigrationTransformation.OTIS
             _migrationDiagnostics.LogTransformTypeStartTime(transformName, FILEMETADATA);
             _migrationDiagnostics.LogTransformTypeStatus(transformName, FILEMETADATA, TransformStatus.InProgress);
 
-            var FileMetaDataWriter = new TypeDataFileWriter(Path.Combine(_processAreaDataPath, "FilesMetadata"), _objectCountPerFile)
+            var FileMetaDataWriter = new TypeDataFileWriter(Path.Combine(_processAreaDataPath, "Drawing"), _objectCountPerFile)
             {
                 FileBaseName = $"OtisFileMetaData",
                 TypeName = FILEMETADATA,
@@ -89,13 +89,13 @@ namespace Prorigo.DataMigrationTransformation.OTIS
             };
 
             var OtisCADEntityReader = new TypeDataFileReader(_processAreaDataPath);
-            var OtisCADEntities = OtisCADEntityReader.ReadAllEntities<ArasCadEntity>("Drawing");
+            var OtisCADEntities = OtisCADEntityReader.ReadAllEntities<ArasCadEntity>("Drawing", "*.tsv");
 
             //Dictionary<string, string> DrawingNameRevisionToIdMap = new Dictionary<string, string>();
             var DrawingNameRevisionToIdMap = OtisCADEntities.ToDictionary(e => e.ItemNumber+"|"+e.OtsRevision, e => e.ID);
 
-            var OtisCADFileEntityReader = new TypeDataFileReader(_processAreaDataPath);
-            var OtisCADFileEntities = OtisCADFileEntityReader.ReadAllEntities<OtisCadFileEntity>(OtisDrawingToFile);
+            var OtisCADFileEntityReader = new TypeDataFileReader(Path.Combine(_processAreaDataPath, "Drawing"));
+            var OtisCADFileEntities = OtisCADFileEntityReader.ReadAllEntities<OtisCadFileEntity>(OtisDrawingToFile, "*.tsv");
 
             long successCount = 0;
             using (FileMetaDataWriter)
