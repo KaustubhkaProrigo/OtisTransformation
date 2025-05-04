@@ -1,6 +1,0 @@
-2024-04-19 13:39:32.758 +05:30 [Error] The given key '56386080' was not present in the dictionary.
-System.Collections.Generic.KeyNotFoundException: The given key '56386080' was not present in the dictionary.
-   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
-   at Prorigo.Plm.AutodeskToArasTransformer.Ametek.ADDWGPartCadTransformer.DefaultValueAdder(String transformName) in D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.AutoDeskToArasTransformer.Ametek\ADDWGPartCadTransformer.cs:line 183
-   at Prorigo.Plm.AutodeskToArasTransformer.Ametek.ADDWGPartCadTransformer.Transform() in D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.AutoDeskToArasTransformer.Ametek\ADDWGPartCadTransformer.cs:line 51
-   at Prorigo.Plm.AutodeskToArasTransformer.Ametek.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.AutoDeskToArasTransformer.Ametek\Program.cs:line 54

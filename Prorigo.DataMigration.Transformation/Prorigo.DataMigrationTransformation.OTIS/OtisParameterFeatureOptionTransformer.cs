@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using DocumentFormat.OpenXml.Drawing.Diagrams;
+
 //using DocumentFormat.OpenXml.Office.SpreadSheetML.Y2023.Pivot2023Calculation;
 using DocumentFormat.OpenXml.Office2010.Excel;
+using DocumentFormat.OpenXml.Spreadsheet;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using OfficeOpenXml.FormulaParsing.Excel.Functions.Engineering;
@@ -12,6 +15,7 @@ using Prorigo.Plm.DataMigration.IO;
 using Prorigo.Plm.DataMigration.Transformer;
 using Prorigo.Plm.DataMigration.Transformer.Metrics;
 using Prorigo.Plm.DataMigration.Utilities;
+
 
 //using static ClosedXML.Excel.XLPredefinedFormat;
 
@@ -25,14 +29,16 @@ namespace Prorigo.Plm.DataMigration.OtisDataTransformer
 
         private readonly string _processAreaDataPath;
         private readonly long _objectCountPerFile;
-        private string[] _classification;
+        private string _classification = "Global";
         private readonly IConfigurationSection _typesConfigSection;
 
-        private const string OtisParameter = "OtisParameter";
+        private const string OtisParameter = "Conv_ExcelToTSV_Parameter";
         private const string FilesMetadata = "FilesMetadata";
         private const string VMFeature = "VMFeature";
         private const string VMOption = "VMOption";
         private const string VMFeatureOption = "VMFeatureOption";
+        private const string ParameterTofileRelationship = "ParameterTofileRelationship";
+        
 
         private bool IsNumeric(string str)
         {
@@ -44,10 +50,10 @@ namespace Prorigo.Plm.DataMigration.OtisDataTransformer
             _logger = logger;
             _migrationDiagnostics = migrationDiagnostics;
 
-            var OtisParameterSection = _configuration.GetSection("OtisParameter");
+            var OtisParameterSection = _configuration.GetSection("OtisParameterFeatureOption");
             _processAreaDataPath = OtisParameterSection.GetValue<string>("ProcessAreaDataPath");
             _objectCountPerFile = OtisParameterSection.GetValue<long>("ObjectCountPerFile");
-            _classification = OtisParameterSection.GetSection("classification").Get<string[]>();
+            //_classification = OtisParameterSection.GetSection("classification").Get<string[]>();
         }
         public void Transform(string LicenseKey)
         {
@@ -60,10 +66,12 @@ namespace Prorigo.Plm.DataMigration.OtisDataTransformer
                 var className = this.GetType().Name;
                 var transformName = className.Substring(0, className.IndexOf("Transformer"));
 
-                foreach (var classification in _classification)
-                {
-                    DefaultValueAdder(transformName, classification);
-                }
+                //foreach (var classification in _classification)
+                //{
+                //    DefaultValueAdder(transformName, classification);
+                //}
+
+                DefaultValueAdder(transformName, _classification);
             }
             else
             {
@@ -116,15 +124,27 @@ namespace Prorigo.Plm.DataMigration.OtisDataTransformer
                 FileExtension = "tsv",
             };
 
-            var OtisEntityReader = new TypeDataFileReader(Path.Combine(_processAreaDataPath, OtisParameter));
-            var OtisEntities = OtisEntityReader.ReadAllEntities<OtisParameterEntity>(classification);
+            var ParameterToFileWriter = new TypeDataFileWriter(Path.Combine(_processAreaDataPath, "Parameter"), _objectCountPerFile)
+            {
+                FileBaseName = $"{classification}_ParameterTofileRelationship",
+                TypeName = "ParameterTofileRelationship",
+                FileExtension = "tsv",
+            };
+
+            var OtisEntityReader = new TypeDataFileReader(_processAreaDataPath);
+            var OtisEntities = OtisEntityReader.ReadAllEntities<OtisParameterEntity>(OtisParameter);
 
             var OtisFileEntityReader = new TypeDataFileReader(Path.Combine(_processAreaDataPath, FilesMetadata));
             var OtisFileEntities = OtisFileEntityReader.ReadAllEntities<OtisFileMetaEntity>("FileMetadata");
 
+            //var OtisParameterToFileRelReader = new TypeDataFileReader(_processAreaDataPath);
+            //var OtisParameterToFileRelEntities = OtisParameterToFileRelReader.ReadAllEntities<ParameterToFileRelEntity>("ParameterTofileRelationship");
+
+
 
             HashSet<string> uniqueVMFeatures = new HashSet<string>();
             HashSet<string> uniqueVMOptions = new HashSet<string>();
+           
 
             Dictionary<string, string> vmFeatureIdMap = new Dictionary<string, string>(); 
             Dictionary<string, string> vmOptionIdMap = new Dictionary<string, string>();
@@ -144,8 +164,9 @@ namespace Prorigo.Plm.DataMigration.OtisDataTransformer
                     FileNameToIDMap[FileName] = FileEntity.FileId;
                 }
             }
-           
+            HashSet<(string sourceId, string relatedId)> processedRelationship = new HashSet<(string, string)>();
             long successCount = 0;
+
 
             using (VMFeatureWriter)
             {
@@ -155,13 +176,20 @@ namespace Prorigo.Plm.DataMigration.OtisDataTransformer
                     {
                         using (OtisRelationshipWriter)
                         {
+                            using (ParameterToFileWriter)
+                            { 
                             using (OtisItemTypeWriter)
                             {
                                 foreach (var OtisGroup in OtisGroups)
                                 {
                                     if (OtisItemTypeWriter.HeaderRow == null)
                                     {
-                                        OtisItemTypeWriter.HeaderRow = "id\tconfig_id\tots_name\tkeyed_name\titem_number\tots_description\tots_functional_description\tclassification\tots_parameter_type\tots_uom\tots_family\tcreated_on\tcreated_by_id\tcurrent_state\tpermission_id\tgeneration\tis_current\tis_released\tmajor_rev\tminor_rev\tstate\tots_is3dparameter\tots_image\n";
+                                        OtisItemTypeWriter.HeaderRow = "id\tconfig_id\tots_name\tkeyed_name\titem_number\tots_description\tots_functional_description\tclassification\tots_parameter_type\tots_uom\tots_family\tcreated_on\tcreated_by_id\tcurrent_state\tpermission_id\tgeneration\tis_current\tis_released\tmajor_rev\tminor_rev\tstate\tots_is3dparameter\tots_image\tots_requested_region\n";
+                                    }
+
+                                    if (string.IsNullOrWhiteSpace(OtisGroup.Key.Parameter))
+                                    {
+                                        continue;  // Skip if Value is blank or null
                                     }
 
                                     var ID = TransformerUtils.GetNewArasGuid();
@@ -200,7 +228,7 @@ namespace Prorigo.Plm.DataMigration.OtisDataTransformer
                                     var MINOR_REV = 1;
                                     var STATE = "Released";
                                     var ot_is_3d_Param = (ots_parameter_type.Contains("3DText") || ots_parameter_type.Contains("3DNumber") || ots_parameter_type.Contains("3DYES/NO")) ? "Yes" : "No";
-
+                                    var requested_region = "";
 
                                     if (ots_parameter_type.Contains("Yes/No", StringComparison.OrdinalIgnoreCase))
                                     {
@@ -216,11 +244,47 @@ namespace Prorigo.Plm.DataMigration.OtisDataTransformer
                                         ots_parameter_type = "Text";
                                     }
 
+                                    OtisItemTypeWriter.WriteRow($"{ID}\t{CONFIG_ID}\t{Parameter_Name}\t{Keyed_Name}\t{Item_Number}\t{DESCRIPTION}\t{Functional_Description}\t{Classification}\t{ots_parameter_type}\t{UOM}\t{Family}\t{CREATED_ON}\t{CREATED_BY_ID}\t{CURRENT_STATE}\t{PERMISSION_ID}\t{GENERATION}\t{IS_CURRENT}\t{IS_RELEASED}\t{MAJOR_REV}\t{MINOR_REV}\t{STATE}\t{ot_is_3d_Param}\t{ots_image}\t{requested_region}\n");
 
-                                    OtisItemTypeWriter.WriteRow($"{ID}\t{CONFIG_ID}\t{Parameter_Name}\t{Keyed_Name}\t{Item_Number}\t{DESCRIPTION}\t{Functional_Description}\t{Classification}\t{ots_parameter_type}\t{UOM}\t{Family}\t{CREATED_ON}\t{CREATED_BY_ID}\t{CURRENT_STATE}\t{PERMISSION_ID}\t{GENERATION}\t{IS_CURRENT}\t{IS_RELEASED}\t{MAJOR_REV}\t{MINOR_REV}\t{STATE}\t{ot_is_3d_Param}\t{ots_image}\n");
+                                        if (!string.IsNullOrEmpty(ots_image))
+                                        {
+                                            foreach (var ParamFile in OtisGroup)
+                                            {
+                                                
+                                                
+                                                    if (ParameterToFileWriter.HeaderRow == null)
+                                                    {
+                                                        ParameterToFileWriter.HeaderRow = "connectionId\tsourceId\trelatedId\tconfigId\tCreatedOn\tCreated_By_Id\tModified_On\tIs_Current\tMajor_Rev\tIs_Released\tNot_Lockable\tGeneration\tNew_version\tPermission_Id\tBehaviour\n";
+                                                    }
 
+                                                    var connectionId = TransformerUtils.GetNewArasGuid();
+                                                    var sourceId = ID;
+                                                    var relatedId = FileNameToIDMap[Parameter_Name];
+                                                if (processedRelationship.Contains((sourceId, relatedId))) 
+                                                {
+                                                    continue;
+                                                }
+                                                processedRelationship.Add((sourceId, relatedId));
 
-                                    foreach (var row in OtisGroup)
+                                                    var configId = connectionId;
+                                                    var CreatedOn = DateTime.Now.ToString();
+                                                    var Created_By_Id = "Data Migration";
+                                                    var Modified_On = DateTime.Now.ToString();
+                                                    var Is_Current = "1";
+                                                    var Major_Rev = "A";
+                                                    var Is_Released = "0";
+                                                    var Not_Lockable = "0";
+                                                    var Generation = "1";
+                                                    var New_version = "1";
+                                                    var Permission_Id = "9122CD065CF04141B8EFE263FC80BEA4";
+                                                    var Behaviour = "float";
+
+                                                    ParameterToFileWriter.WriteRow($"{connectionId}\t{sourceId}\t{relatedId}\t{configId}\t{CreatedOn}\t{Created_By_Id}\t{Modified_On}\t{Is_Current}\t{Major_Rev}\t{Is_Released}\t{Not_Lockable}\t{Generation}\t{New_version}\t{Permission_Id}\t{Behaviour}\n");
+
+                                                }
+                                            
+                                        }
+                                        foreach (var row in OtisGroup)
                                     {
                                         if (OtisRelationshipWriter.HeaderRow == null)
                                         {
@@ -234,7 +298,7 @@ namespace Prorigo.Plm.DataMigration.OtisDataTransformer
 
                                         var ConnectionID = TransformerUtils.GetNewArasGuid();
                                         var SourceID = ID;
-                                        var Value = row.Value; 
+                                        var Value = row.Value;
                                         var Value_Number = row.Value_Number;
                                         var Description = row.Value_Description;
                                         var Created_On = DateTime.Now.ToString();
@@ -250,7 +314,7 @@ namespace Prorigo.Plm.DataMigration.OtisDataTransformer
                                         var ots_released_date = DateTime.Now.ToString();
                                         var ots_to_effective_date = "12/31/2099";
 
-                                        
+
                                         OtisRelationshipWriter.WriteRow($"{ConnectionID}\t{SourceID}\t{Value}\t{Value_Number}\t{Description}\t{Created_On}\t{Created_By_Id}\t{Config_Id}\t{Permission_Id}\t{is_released}\t{not_lockable}\t{is_current}\t{major_rev}\t{generation}\t{behavior}\t{ots_released_date}\t{ots_to_effective_date}\n");
                                     }
 
@@ -260,7 +324,7 @@ namespace Prorigo.Plm.DataMigration.OtisDataTransformer
                                         {
                                             VMFeatureWriter.HeaderRow = "id\tkeyed_name\titem_number\tCreated_On\tCreated_By_Id\tConfig_Id\tPermission_Id\tis_released\tnot_lockable\tis_current\tmajor_rev\tgeneration\n";
                                         }
-                                       
+
                                         if (!uniqueVMFeatures.Contains(features.Parameter))
                                         {
                                             uniqueVMFeatures.Add(features.Parameter);
@@ -278,12 +342,12 @@ namespace Prorigo.Plm.DataMigration.OtisDataTransformer
                                             var major_rev = "A";
                                             var generation = 1;
                                             vmFeatureIdMap[keyed_name] = id;
-                                         
+
                                             VMFeatureWriter.WriteRow($"{id}\t{keyed_name}\t{item_number}\t{Created_On}\t{Created_By_Id}\t{Config_Id}\t{Permission_Id}\t{is_released}\t{not_lockable}\t{is_current}\t{major_rev}\t{generation}\n");
                                         }
                                     }
 
-
+                                   
                                     foreach (var options in OtisGroup)
                                     {
                                         if (VMOptionWriter.HeaderRow == null)
@@ -320,15 +384,16 @@ namespace Prorigo.Plm.DataMigration.OtisDataTransformer
                                             VMOptionWriter.WriteRow($"{id}\t{keyed_name}\t{item_number}\t{Created_On}\t{Created_By_Id}\t{Config_Id}\t{Permission_Id}\t{is_released}\t{not_lockable}\t{is_current}\t{major_rev}\t{generation}\n");
                                         }
                                     }
-                                
-                                    foreach (var featureoptions in OtisGroup)
+                                        
+
+                                        foreach (var featureoptions in OtisGroup)
                                     {
                                         if (VMFeatureOptionWriter.HeaderRow == null)
                                         {
                                             VMFeatureOptionWriter.HeaderRow = "connection_id\tsource_id\trelated_id\tsource_name\trelated_name\tCreated_On\tCreated_By_Id\tConfig_Id\tPermission_Id\tbehavior\n";
                                         }
 
-                                        var connection_id = TransformerUtils.GetNewArasGuid();                                       
+                                        var connection_id = TransformerUtils.GetNewArasGuid();
                                         var source_id = vmFeatureIdMap.ContainsKey(featureoptions.Parameter) ? vmFeatureIdMap[featureoptions.Parameter] : string.Empty;
                                         var related_id = vmOptionIdMap.ContainsKey(featureoptions.Value) ? vmOptionIdMap[featureoptions.Value] : string.Empty;
 
@@ -357,7 +422,7 @@ namespace Prorigo.Plm.DataMigration.OtisDataTransformer
                     }
                 }
             }
-
+            }
             _migrationDiagnostics.LogTransformTypeStatus(transformName, OtisParameter, TransformStatus.Completed, successCount, 0);
             _migrationDiagnostics.LogTransformTypeEndTime(transformName, OtisParameter);
         }

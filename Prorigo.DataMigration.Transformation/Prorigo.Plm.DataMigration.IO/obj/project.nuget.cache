@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T4chR9rc2hStBeGUImJZsZtiv2Y+7QoQCoBBjLyRvJ3VLI8R3pt3a9oxB9KI2cQlZdCIhw6x5RitqPky4M/MVA==",
+  "dgSpecHash": "DQ/odhDGoA4OXCuV3TiUeXAZykeK/jEX1qGQt+oMxxKw+ujc3N/BODESLU3iq3vjFuWbgl7Zx00oVPfbwK8x2Q==",
   "success": true,
-  "projectFilePath": "D:\\Git Repos\\OtisTransformation\\Prorigo.DataMigration.Transformation\\Prorigo.Plm.DataMigration.IO\\Prorigo.Plm.DataMigration.IO.csproj",
+  "projectFilePath": "D:\\Workspace Code Changes\\OTIS_Transformation\\Prorigo.DataMigration.Transformation\\Prorigo.Plm.DataMigration.IO\\Prorigo.Plm.DataMigration.IO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kaustubhka\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\kaustubhka\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

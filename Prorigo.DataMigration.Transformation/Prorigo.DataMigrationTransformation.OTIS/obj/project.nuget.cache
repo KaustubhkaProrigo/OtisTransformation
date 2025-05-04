@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "74dqoQMj0biIhlfqfOL+XV4GUeQ6ccUiuoJNoaPkcNGhdFJYXErM3qtSwzVJc6QdG811f0rD/FSyDBE9mFz/ww==",
+  "dgSpecHash": "NZox+6BIyEdueQ96Azq/EymSE+wnRiszqSnIV/fRoXTu6EdAVVpwC6xCn5nVFHSrEAb5sqFH0JED2HtUk3/GxA==",
   "success": true,
-  "projectFilePath": "D:\\Git Repos\\OtisTransformation\\Prorigo.DataMigration.Transformation\\Prorigo.DataMigrationTransformation.OTIS\\Prorigo.DataMigrationTransformation.OTIS.csproj",
+  "projectFilePath": "D:\\Workspace Code Changes\\OTIS_Transformation\\Prorigo.DataMigration.Transformation\\Prorigo.DataMigrationTransformation.OTIS\\Prorigo.DataMigrationTransformation.OTIS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kaustubhka\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\kaustubhka\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",

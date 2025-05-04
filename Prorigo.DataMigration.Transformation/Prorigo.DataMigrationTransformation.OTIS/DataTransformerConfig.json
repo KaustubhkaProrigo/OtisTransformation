@@ -5,7 +5,7 @@
   "TsvRowDelimeter": "\n",
   "Logging": {
     "PathFormat": "Logs/Migration-{Date}.log",
-    "LicenseKey": "D:\\DataMigrationProject\\OTIS_Transformation_New\\License 3\\License\\DMFLicense2025 allIP.txt",
+    "LicenseKey": "D:\\WorkSpace\\Licensing\\LicenKey\\DMFLicense2026 allIP.txt",
     "LogLevel": {
       "Default": "Information",
       "Microsoft": "Warning",
@@ -40,13 +40,13 @@
     "ObjectCountPerFile": 50000
   },
   "ExcelToTsvPart": {
-    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS_Official_Migration\\Iteration1\\ExcelToTsvDatafiles\\Parameter",
+    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS_Official_Migration\\Iteration1\\ExcelToTsvDatafiles\\Part",
     "TsvRowDelimiter": "\n",
     "TsvColumnDelimiter": "\t",
     "ObjectCountPerFile": 50000
   },
   "ExcelToTsvDrawing": {
-    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS_Official_Migration\\Iteration1\\ExcelToTsvDatafiles\\Parameter",
+    "ProcessAreaDataPath": "D:\\WorkSpace\\Otis migration\\TRData\\Drawing",
     "TsvRowDelimiter": "\n",
     "TsvColumnDelimiter": "\t",
     "ObjectCountPerFile": 50000
@@ -60,17 +60,17 @@
     "ObjectCountPerFile": 50000
   },
   "OtisFile": {
-    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS_25_03",
+    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS_Official_Migration\\Iteration1\\ExcelToTsvDatafiles\\Drawing",
     "ObjectCountPerFile": 100000,
-    "FileStoreLocation": "D:\\DataMigrationProject\\OneDrive_2025-03-04"
+    "FileStoreLocation": "D:\\DataMigrationProject\\OTIS_Official_Migration\\Iteration1\\ExcelToTsvDatafiles\\Drawing\\OneDrive_2025-04-28" //"D:\\DataMigrationProject\\OneDrive_2025-03-04"
   },
   "OtisParameterFeatureOption": {
-    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS_16_04",
-    "ObjectCountPerFile": 100000,
-    "classification": [ "Global", "Internal" ]
+    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS_Official_Migration\\Iteration1\\ExcelToTsvDatafiles\\Parameter",
+    "ObjectCountPerFile": 100000
+    //"classification": [ "Global" ] //"Global", "Internal"
   },
   "OtisPart": {
-    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS_03_04",
+    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS_Official_Migration\\Iteration1\\ExcelToTsvDatafiles\\Part",
     "ObjectCountPerFile": 100000
   },
   "OtisProduct": {
@@ -80,6 +80,17 @@
   "Otis_VM_BreakdownItem": {
     "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS\\OTIS_Templates",
     "ObjectCountPerFile": 50000
+  },
+  "OtisCADDrawing": {
+    "ProcessAreaDataPath": "D:\\WorkSpace\\Otis migration\\TRData\\Drawing",
+    "ObjectCountPerFile": 50000
+  },
+  "OtisDrawingFile": {
+    "ProcessAreaDataPath": "D:\\WorkSpace\\Otis migration\\TRData\\Drawing",
+    "ObjectCountPerFile": 50000,
+    "FileStoreLocation": "D:\\WorkSpace\\Otis migration\\VaultFiles",
+    "VaultName": "DrawingFileData",
+    "VaultId": "67BBB9204FE84A8981ED8313049BA06C"
   }
 }
 

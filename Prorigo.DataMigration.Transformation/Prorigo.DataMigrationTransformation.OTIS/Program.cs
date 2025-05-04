@@ -16,7 +16,7 @@ using Serilog;
 using Prorigo.Plm.DataMigration.Transformer;
 using Prorigo.Plm.DataMigration.Transformer.Metrics;
 using Prorigo.Plm.DataMigration.OtisDataTransformer;
-//using Prorigo.Plm.AutodeskToArasTransformer.Ametek;
+
 
 namespace Prorigo.DataMigrationTransformation.OTIS
 {
@@ -155,8 +155,6 @@ namespace Prorigo.DataMigrationTransformation.OTIS
 
             services.AddTransient<IDataTransformer, DatToTsvTransformer>();
             services.AddTransient<IDataTransformer, ReorderColumnsTransformer>();
-            //services.AddTransient<IDataTransformer, OtisParameterTransformer>(); 
-            //services.AddTransient<IDataTransformer, OtisExceltotsvTransformer>();
             services.AddTransient<IDataTransformer, OtisPartTransformer>();
             services.AddTransient<IDataTransformer, OtisFileTransformer>();
             services.AddTransient<IDataTransformer, OtisProductTransformer>();
@@ -171,6 +169,8 @@ namespace Prorigo.DataMigrationTransformation.OTIS
             services.AddTransient<IDataTransformer, ExcelToTsvPartTransformer>();
             services.AddTransient<IDataTransformer, ExcelToTsvParameterTransformer>();
             services.AddTransient<IDataTransformer, ExcelToTsvDrawingTransformer>();
+            services.AddTransient<IDataTransformer, OtisCADDrawingTransformer>();
+            services.AddTransient<IDataTransformer, OtisDrawingFileTransformer>();
         }
     }
 }

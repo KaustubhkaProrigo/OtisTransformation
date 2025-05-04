@@ -8,7 +8,7 @@ namespace Prorigo.DataMigrationTransformation.OTIS
     {
         DatToTsv,
         ReorderColumns,
-        OtisParameter,
+        OtisParameterFeatureOption,
         OtisExceltotsv,
         OtisPart,
         OtisFile,
@@ -20,9 +20,10 @@ namespace Prorigo.DataMigrationTransformation.OTIS
         EBOM2Extract,
         ExcelToTsvCellRangeInputOutput,
         ExcelToTsvStartCellValueInputOutput,
-        OtisParameterFeatureOption,
         ExcelToTsvPart,
         ExcelToTsvParameter,
-        ExcelToTsvDrawing
+        ExcelToTsvDrawing,
+        OtisCADDrawing,
+        OtisDrawingFile
     }
 }

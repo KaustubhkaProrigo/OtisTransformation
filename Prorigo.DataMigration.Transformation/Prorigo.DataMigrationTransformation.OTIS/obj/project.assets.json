@@ -5658,11 +5658,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git Repos\\OtisTransformation\\Prorigo.DataMigration.Transformation\\Prorigo.DataMigrationTransformation.OTIS\\Prorigo.DataMigrationTransformation.OTIS.csproj",
+      "projectUniqueName": "D:\\Workspace Code Changes\\OTIS_Transformation\\Prorigo.DataMigration.Transformation\\Prorigo.DataMigrationTransformation.OTIS\\Prorigo.DataMigrationTransformation.OTIS.csproj",
       "projectName": "ProrigoDataMigrationTransformer",
-      "projectPath": "D:\\Git Repos\\OtisTransformation\\Prorigo.DataMigration.Transformation\\Prorigo.DataMigrationTransformation.OTIS\\Prorigo.DataMigrationTransformation.OTIS.csproj",
+      "projectPath": "D:\\Workspace Code Changes\\OTIS_Transformation\\Prorigo.DataMigration.Transformation\\Prorigo.DataMigrationTransformation.OTIS\\Prorigo.DataMigrationTransformation.OTIS.csproj",
       "packagesPath": "C:\\Users\\kaustubhka\\.nuget\\packages\\",
-      "outputPath": "D:\\Git Repos\\OtisTransformation\\Prorigo.DataMigration.Transformation\\Prorigo.DataMigrationTransformation.OTIS\\obj\\",
+      "outputPath": "D:\\Workspace Code Changes\\OTIS_Transformation\\Prorigo.DataMigration.Transformation\\Prorigo.DataMigrationTransformation.OTIS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5678,20 +5678,20 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/ArasTraining/ArasTraining-DevOps-Implementation/_packaging/DevOps-Artifacts/nuget/v2": {}
+        "https://pkgs.dev.azure.com/ArasOTIS/ArasOTIS-SaaS-Implementation/_packaging/SaaS-Artifacts/nuget/v2": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Git Repos\\OtisTransformation\\Prorigo.DataMigration.Transformation\\Prorigo.Plm.DataMigration.IO\\Prorigo.Plm.DataMigration.IO.csproj": {
-              "projectPath": "D:\\Git Repos\\OtisTransformation\\Prorigo.DataMigration.Transformation\\Prorigo.Plm.DataMigration.IO\\Prorigo.Plm.DataMigration.IO.csproj"
+            "D:\\Workspace Code Changes\\OTIS_Transformation\\Prorigo.DataMigration.Transformation\\Prorigo.Plm.DataMigration.IO\\Prorigo.Plm.DataMigration.IO.csproj": {
+              "projectPath": "D:\\Workspace Code Changes\\OTIS_Transformation\\Prorigo.DataMigration.Transformation\\Prorigo.Plm.DataMigration.IO\\Prorigo.Plm.DataMigration.IO.csproj"
             },
-            "D:\\Git Repos\\OtisTransformation\\Prorigo.DataMigration.Transformation\\Prorigo.Plm.DataMigration.Transformer\\Prorigo.Plm.DataMigration.Transformer.csproj": {
-              "projectPath": "D:\\Git Repos\\OtisTransformation\\Prorigo.DataMigration.Transformation\\Prorigo.Plm.DataMigration.Transformer\\Prorigo.Plm.DataMigration.Transformer.csproj"
+            "D:\\Workspace Code Changes\\OTIS_Transformation\\Prorigo.DataMigration.Transformation\\Prorigo.Plm.DataMigration.Transformer\\Prorigo.Plm.DataMigration.Transformer.csproj": {
+              "projectPath": "D:\\Workspace Code Changes\\OTIS_Transformation\\Prorigo.DataMigration.Transformation\\Prorigo.Plm.DataMigration.Transformer\\Prorigo.Plm.DataMigration.Transformer.csproj"
             },
-            "D:\\Git Repos\\OtisTransformation\\Prorigo.DataMigration.Transformation\\Prorigo.Plm.DataMigration.Utilities\\Prorigo.Plm.DataMigration.Utilities.csproj": {
-              "projectPath": "D:\\Git Repos\\OtisTransformation\\Prorigo.DataMigration.Transformation\\Prorigo.Plm.DataMigration.Utilities\\Prorigo.Plm.DataMigration.Utilities.csproj"
+            "D:\\Workspace Code Changes\\OTIS_Transformation\\Prorigo.DataMigration.Transformation\\Prorigo.Plm.DataMigration.Utilities\\Prorigo.Plm.DataMigration.Utilities.csproj": {
+              "projectPath": "D:\\Workspace Code Changes\\OTIS_Transformation\\Prorigo.DataMigration.Transformation\\Prorigo.Plm.DataMigration.Utilities\\Prorigo.Plm.DataMigration.Utilities.csproj"
             }
           }
         }

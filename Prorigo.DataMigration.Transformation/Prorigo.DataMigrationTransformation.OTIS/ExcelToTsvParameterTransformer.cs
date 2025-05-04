@@ -139,8 +139,8 @@ namespace Prorigo.DataMigrationTransformation.OTIS
 
             var customReportDataFileWriter = new TypeDataFileWriter(_processAreaDataPath, _objectCountPerFile)
             {
-                FileBaseName = $"Conv_CSVToExl_Parameter",
-                TypeName = "Conv_CSVToExl_Parameter",
+                FileBaseName = $"Conv_ExcelToTSV_Parameter",
+                TypeName = "Conv_ExcelToTSV_Parameter",
                 FileExtension = "tsv"
             };
 

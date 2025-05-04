@@ -87,7 +87,6 @@ namespace Prorigo.DataMigrationTransformation.OTIS
                     var vaultId = "67BBB9204FE84A8981ED8313049BA06C";
                     var comment = "";
 
-
                     FileMetaDataWriter.WriteRow($"{FileId}\t{objectId}\t{fileName}\t{checksum}\t{fileSize}\t{fileFormat}\t{locatedId}\t{vaultId}\t{filePath}\t{comment}\n");
                    
                 }

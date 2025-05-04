@@ -105,31 +105,31 @@ namespace Prorigo.DataMigrationTransformation.OTIS
                     var id = TransformerUtils.GetNewArasGuid();
 
                     var ArasDrawingEntity = new ArasDrawingEntity
-                    {  
+                    {
                         ID = id,
-                        config_id= id,
+                        config_id = id,
                         IS_CURRENT = "1",
                         Generation = "1",
-                        KEYED_NAME= DrawingEntity.DrawingNumber,
-                        NAME= DrawingEntity.DrawingNumber,
+                        KEYED_NAME = DrawingEntity.DrawingNumber,
+                        NAME = DrawingEntity.DrawingNumber,
                         ITEM_NUMBER = DrawingEntity.DrawingNumber,
-                        DrawingNumber= DrawingEntity.DrawingNumber,
-                        Revision= DrawingEntity.Revision,
-                        Classification= DrawingEntity.Classification,
-                        Type= DrawingEntity.Type,
+                        DrawingNumber = DrawingEntity.DrawingNumber,
+                        Revision = DrawingEntity.Revision,
+                        Classification = DrawingEntity.Classification,
+                        Type = DrawingEntity.Type,
                         Description = DrawingEntity.Description,
                         Permission_Id = "03599ED7C23C4BE2962F85FDFDAF006B",
-                        MAJOR_REV= DrawingEntity.Revision,
+                        MAJOR_REV = DrawingEntity.Revision,
                         CREATED_ON = DrawingEntity.Origin_Date,
                         CREATED_BY_ID = DrawingEntity.OriginalCreator,
                         MODIFIED_ON = DrawingEntity.Origin_Date,
-                        MODIFIED_BY_ID= DrawingEntity.OriginalCreator,
-                        Origin_Date= DrawingEntity.Origin_Date,
-                        OriginalCreator=DrawingEntity.OriginalCreator,
-                        OriginalReviewer=DrawingEntity.OriginalReviewer,
-                        Origin_CN=DrawingEntity.Origin_CN,
-                        
-                        
+                        MODIFIED_BY_ID = DrawingEntity.OriginalCreator,
+                        Origin_Date = DrawingEntity.Origin_Date,
+                        OriginalCreator = DrawingEntity.OriginalCreator,
+                        OriginalReviewer = DrawingEntity.OriginalReviewer,
+                        Origin_CN = DrawingEntity.Origin_CN,
+
+
                     };
                     DrawingName_DrawingID[ArasDrawingEntity.DrawingNumber] = ArasDrawingEntity.ID;
 
@@ -176,7 +176,7 @@ namespace Prorigo.DataMigrationTransformation.OTIS
                     successCount++;
                 }
             }
-            
+
             using (DrawingParameterWriter)
             {
                 foreach (var kvp in DrawingName_ParameterID)
@@ -187,7 +187,7 @@ namespace Prorigo.DataMigrationTransformation.OTIS
                     List<string> parameterIds = kvp.Value;
 
                     if (!DrawingName_DrawingID.TryGetValue(drawingNo, out var drawingId))
-                        continue; 
+                        continue;
 
                     foreach (var parameterId in parameterIds)
                     {
@@ -196,12 +196,12 @@ namespace Prorigo.DataMigrationTransformation.OTIS
                             connectionID = TransformerUtils.GetNewArasGuid(),
                             FromID = drawingId,
                             TOID = parameterId,
-                            BEHAVIOR="float",
-                            IS_CURRENT="1",
-                            IS_RELEASED="0",
-                            Permission_Id= "03599ED7C23C4BE2962F85FDFDAF006B",
-                            NOT_LOCKABLE="1",
-                            Generation="1",
+                            BEHAVIOR = "float",
+                            IS_CURRENT = "1",
+                            IS_RELEASED = "0",
+                            Permission_Id = "03599ED7C23C4BE2962F85FDFDAF006B",
+                            NOT_LOCKABLE = "1",
+                            Generation = "1",
                         };
 
                         DrawingParameterWriter.WriteRow(ArasDrawing_ParameterEntity.DataRow);
@@ -214,8 +214,8 @@ namespace Prorigo.DataMigrationTransformation.OTIS
 
 
 
-            _migrationDiagnostics.LogTransformTypeStatus(transformName, Drawing, TransformStatus.Completed, successCount, 0);
-            _migrationDiagnostics.LogTransformTypeEndTime(transformName, Drawing);
+            //_migrationDiagnostics.LogTransformTypeStatus(transformName, Drawing, TransformStatus.Completed, successCount, 0);
+            //_migrationDiagnostics.LogTransformTypeEndTime(transformName, Drawing);
         }
     }
 }

@@ -8,6 +8,7 @@ using Prorigo.Plm.DataMigration.Transformer;
 using System.Collections.Generic;
 using Prorigo.Plm.DataMigration.IO;
 using Prorigo.Plm.DataMigration.Utilities;
+using DocumentFormat.OpenXml.Spreadsheet;
 
 namespace Prorigo.DataMigrationTransformation.OTIS
 {
@@ -71,76 +72,76 @@ namespace Prorigo.DataMigrationTransformation.OTIS
 
             using (var package = new ExcelPackage(new FileInfo(fileNameWithPath)))
             {
-                var worksheet = package.Workbook.Worksheets.FirstOrDefault(); //package.Workbook.Worksheets["EBOM Template"]
-                if (worksheet != null)
+                //var worksheet = package.Workbook.Worksheets.FirstOrDefault(); //package.Workbook.Worksheets["CADPartRelationship"]
+                var worksheets = package.Workbook.Worksheets; //package.Workbook.Worksheets["CADPartRelationship"]
+                foreach (var worksheet in worksheets) 
                 {
-                    int startRow = int.MaxValue;
-                    int endRow = 1;
-                    int startCol = int.MaxValue;
-                    int endCol = 1;
-
-                    for (int row = 1; row <= worksheet.Dimension.Rows; row++)
+                    if (worksheet.Name.Contains("DrawingData") || worksheet.Name.Contains("CADPartRelationship") || worksheet.Name.Contains("FileData"))
                     {
-                        for (int col = 1; col <= worksheet.Dimension.Columns; col++)
-                        {
-                            var cellValue = worksheet.Cells[row, col].Text;
 
-                            if (!string.IsNullOrWhiteSpace(cellValue))
+                        if (worksheet != null)
+                        {
+                            int startRow = int.MaxValue;
+                            int endRow = 1;
+                            int startCol = int.MaxValue;
+                            int endCol = 1;
+
+                            for (int row = 1; row <= worksheet.Dimension.Rows; row++)
                             {
-                                startRow = Math.Min(startRow, row);
-                                endRow = Math.Max(endRow, row);
-                                startCol = Math.Min(startCol, col);
-                                endCol = Math.Max(endCol, col);
+                                for (int col = 1; col <= worksheet.Dimension.Columns; col++)
+                                {
+                                    var cellValue = worksheet.Cells[row, col].Text;
+
+                                    if (!string.IsNullOrWhiteSpace(cellValue))
+                                    {
+                                        startRow = Math.Min(startRow, row);
+                                        endRow = Math.Max(endRow, row);
+                                        startCol = Math.Min(startCol, col);
+                                        endCol = Math.Max(endCol, col);
+                                    }
+                                }
                             }
+
+                            List<string[]> dataRows = new List<string[]>();
+
+                            string[] columnHeaders = new string[endCol];
+
+                            for (int row = startRow; row <= endRow; row++)
+                            {
+                                if (row == 1)
+                                {
+                                    for (int col = 0; col < endCol; col++)
+                                    {
+                                        columnHeaders[col] = worksheet.Cells[row, col + 1].Value.ToString();
+                                    }
+                                }
+
+                                else
+                                {
+                                    string[] dataRow = new string[endCol];
+                                    for (int i = 0; i < endCol; i++)
+                                    {
+                                        dataRow[i] = worksheet.Cells[row, i + 1].Value == null ? "" : worksheet.Cells[row, i + 1].Value.ToString();
+                                    }
+                                    dataRows.Add(dataRow);
+                                }
+                            }
+
+                            GenerateTsv(fileNameWithPath, columnHeaders, dataRows, worksheet.Name);
                         }
                     }
-
-                    // var tsvContent = "";
-
-                    List<string[]> dataRows = new List<string[]>();
-
-                    string[] columnHeaders = new string[endCol];
-
-                    for (int row = startRow; row <= endRow; row++)
-                    {
-                        if (row == 1)
-                        {
-                            for (int col = 0; col < endCol; col++)
-                            {
-                                columnHeaders[col] = worksheet.Cells[row, col + 1].Value.ToString();
-                            }
-                        }
-
-                        else
-                        {
-                            string[] dataRow = new string[endCol];
-                            for (int i = 0; i < endCol; i++)
-                            {
-                                dataRow[i] = worksheet.Cells[row, i + 1].Value == null ? "" : worksheet.Cells[row, i + 1].Value.ToString();
-                            }
-                            dataRows.Add(dataRow);
-                        }
-                    }
-
-                    GenerateTsv(fileNameWithPath, columnHeaders, dataRows);
-
-                    //if (!string.IsNullOrWhiteSpace(tsvContent))
-                    //{                       
-                    //    var tsvFileName = Path.ChangeExtension(fileNameWithPath, ".tsv");
-                    //    File.WriteAllText(tsvFileName, tsvContent);
-                    //}
                 }
             }
         }
 
-        private void GenerateTsv(string fileNameWithPath, string[] columnHeaders, List<string[]> dataRows)
+        private void GenerateTsv(string fileNameWithPath, string[] columnHeaders, List<string[]> dataRows, string worksheetName)
         {
             var fileNameWithChangedExtension = Path.ChangeExtension(fileNameWithPath, ".tsv");
 
             var customReportDataFileWriter = new TypeDataFileWriter(_processAreaDataPath, _objectCountPerFile)
             {
-                FileBaseName = $"Conv_CSVToExl_MPPTemplate",
-                TypeName = "Conv_CSVToExl_MPPTemplate",
+                FileBaseName = $"Conv_ExcelToTsv_DrawingTemplate_{worksheetName}",
+                TypeName = $"Conv_ExcelToTsv_DrawingTemplate_{worksheetName}",
                 FileExtension = "tsv"
             };
 

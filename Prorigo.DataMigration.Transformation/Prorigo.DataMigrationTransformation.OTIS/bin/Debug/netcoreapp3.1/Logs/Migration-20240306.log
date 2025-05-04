@@ -1,6 +1,0 @@
-2024-03-06 20:20:58.938 +05:30 [Error] The given key '715586BFAAF9413A840392DF1134069E' was not present in the dictionary.
-System.Collections.Generic.KeyNotFoundException: The given key '715586BFAAF9413A840392DF1134069E' was not present in the dictionary.
-   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
-   at Prorigo.Plm.AutodeskToArasTransformer.Ametek.ADCADTransformer.DefaultValueAdder(String transformName) in D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.AutoDeskToArasTransformer.Ametek\ADCADTransformer.cs:line 122
-   at Prorigo.Plm.AutodeskToArasTransformer.Ametek.ADCADTransformer.Transform() in D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.AutoDeskToArasTransformer.Ametek\ADCADTransformer.cs:line 51
-   at Prorigo.Plm.AutodeskToArasTransformer.Ametek.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Workspace Code Changes\WindchillExtractor\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.AutoDeskToArasTransformer.Ametek\Program.cs:line 54

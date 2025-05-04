@@ -11,6 +11,7 @@ namespace Prorigo.DataMigrationTransformation.OTIS.Entities
         public string Value_Number { get; set; }
         public string Value { get; set; }
         public string Value_Description { get; set; }
+        public string Local_Parameter_Value { get; set; }
         public string Function_Application { get; set; }
         public string DataType { get; set; }
         public string Loop { get; set; }
@@ -80,8 +81,11 @@ namespace Prorigo.DataMigrationTransformation.OTIS.Entities
             var Value_DescriptionIndex = dataRow.IndexOf('\t', ValueIndex + 1);
             Value_Description = dataRow.Substring(ValueIndex + 1, Value_DescriptionIndex - ValueIndex - 1);
 
-            var Function_ApplicationIndex = dataRow.IndexOf('\t', Value_DescriptionIndex + 1);
-            Function_Application = dataRow.Substring(Value_DescriptionIndex + 1, Function_ApplicationIndex - Value_DescriptionIndex - 1);
+            var Local_Parameter_ValueIndex = dataRow.IndexOf('\t', Value_DescriptionIndex + 1);
+            Local_Parameter_Value = dataRow.Substring(Value_DescriptionIndex + 1, Local_Parameter_ValueIndex - Value_DescriptionIndex - 1);
+
+            var Function_ApplicationIndex = dataRow.IndexOf('\t', Local_Parameter_ValueIndex + 1);
+            Function_Application = dataRow.Substring(Local_Parameter_ValueIndex + 1, Function_ApplicationIndex - Local_Parameter_ValueIndex - 1);
 
             var DataTypeIndex = dataRow.IndexOf('\t', Function_ApplicationIndex + 1);
             DataType = dataRow.Substring(Function_ApplicationIndex + 1, DataTypeIndex - Function_ApplicationIndex - 1);

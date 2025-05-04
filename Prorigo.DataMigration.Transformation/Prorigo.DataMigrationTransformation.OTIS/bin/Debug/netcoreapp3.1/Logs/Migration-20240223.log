@@ -1,3 +1,0 @@
-2024-02-23 18:44:10.546 +05:30 [Error] Object reference not set to an instance of an object.
-System.NullReferenceException: Object reference not set to an instance of an object.
-   at Prorigo.Plm.EnoviaToArasTransformer.AutoDeskProject.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Workspace\Migration Tool\plm-data_migration-master 3\plm-data_migration-master\EnoviaArasDataMigration\Prorigo.Plm.EnnoviaToArasTransformer.AutoDeskProject\Program.cs:line 54

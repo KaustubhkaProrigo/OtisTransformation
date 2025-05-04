@@ -26,7 +26,7 @@ namespace Prorigo.DataMigrationTransformation.OTIS
         private string _classification;
         private readonly IConfigurationSection _typesConfigSection;
 
-        private const string OtisPart = "OtisPart";
+        private const string OtisPart = "Conv_ExcelToTSV_PartTemplate";
 
         public OtisPartTransformer(IConfiguration configuration, ILogger<OtisPartTransformer> logger, IMigrationDiagnostics migrationDiagnostics)
         {
@@ -91,7 +91,7 @@ namespace Prorigo.DataMigrationTransformation.OTIS
                 {
                     if (OtisPartWriter.HeaderRow == null)
                     {
-                        OtisPartWriter.HeaderRow = "ARAS_UNIQUENESS_HELPER\tid\tconfig_id\tkeyed_name\titem_number\tname\tots_long_description\tclassification\tots_assembly_mode\tots_uom\tots_material\tweight\tots_serviceable\tots_service_kit_number\tots_source\tots_is_otis\tots_to_effective_date\tots_us_jurisdiction\tots_us_eccn\tots_us_category\tots_us_rationale\tots_us_source\tots_us_classifieremail\tots_us_date_classified\tots_chinese_description\tots_french_description\tots_japanese_description\tcreated_by_id\tcreated_on\tcurrent_state\tgeneration\tis_current\tis_released\tmajor_rev\tminor_rev\tmodified_on\tpermission_id\tstate\n";
+                        OtisPartWriter.HeaderRow = "ARAS_UNIQUENESS_HELPER\tid\tconfig_id\tkeyed_name\titem_number\tname\tdescription\tclassification\tpart_type\tsub_type\tots_uom\teffectivity_date\tots_assembly_mode\tunit\tots_material\tweight\tots_serviceable\tots_us_jurisdiction\tots_us_eccn\tots_us_category\tots_us_rationale\tots_us_source\tots_us_classifieremail\tots_us_date_classified\tots_chinese_description\tots_french_description\tots_japanese_description\tcreated_by_id\tcreated_on\tcurrent_state\tgeneration\tis_current\tis_released\tmajor_rev\tminor_rev\tmodified_on\tpermission_id\tMAKE_BUY\tstate\tots_revision\n";
                     }
 
                     var firstEntity = OtisGroup.First();
@@ -112,7 +112,6 @@ namespace Prorigo.DataMigrationTransformation.OTIS
                     firstEntity.MODIFIED_ON = DateTime.Now.ToString();
                     firstEntity.PERMISSION_ID = "95475AE006E7415794BDC93808DC04D2";
                     firstEntity.STATE = "Released";
-                    firstEntity.Make_Buy = "Make";
                     //firstEntity.Ots_Image = "";
 
 
