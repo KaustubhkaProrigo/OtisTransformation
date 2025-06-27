@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "Prorigo.DataMigrationTransformer": {
-      "commandName": "Project",
-      "commandLineArgs": "--transformType OtisDrawingFile"
-    }
-  }
-}
