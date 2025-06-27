@@ -1,0 +1,317 @@
+﻿{
+  "AttributeDelimiter": "»«",
+  "RowDelimiter": "◘",
+  "TsvAtrributeDelimeter": "\t",
+  "TsvRowDelimeter": "\n",
+  "Logging": {
+    "PathFormat": "Logs/Migration-{Date}.log",
+    "LicenseKey": "D:\\OTIS_Migration\\OtisIteration5Migration\\OTIS_Transformation_V6\\OTIS_Transformation_V5\\License 3\\License\\DMFLicense2025 allIP.txt",
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "Serilog": {
+    "WriteTo": [
+      {
+        "Name": "RollingFile",
+        "Args": { "pathFormat": "Logs/Migration-{Date}.log" }
+      }
+    ]
+  },
+  "DatToTsv": {
+    "ProcessAreaDataPath": "D:\\DataMigration\\Transformation\\Transformation Project\\Assignment 3 1\\Assignment 3\\Datafile",
+    "DatRowDelimiter": "◘",
+    "DatColumnDelimiter": "»«",
+    "TsvRowDelimiter": "\n",
+    "TsvColumnDelimiter": "\t"
+  },
+  "ReorderColumns": {
+    "ProcessAreaDataPath": "D:\\DataMigrationProject\\OTIS\\DataFiles\\OtisParameter\\Global",
+    "ObjectCountPerFile": 50000,
+    "ColumnHeaders": "FileId,FileConfigurationID,FileName,Checksum,FileSize,Format,LocatedId,VaultId,FilePath,KeyedName",
+    "Type": "FilesMetadata"
+  },
+  "OtisFile": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 100000,
+    "FileStoreLocation": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles\\OneDrive_2025-06-27\\Parameter Library Images" //"D:\\DataMigrationProject\\OneDrive_2025-03-04"
+  },
+  "ExcelToTsvPart": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "TsvRowDelimiter": "\n",
+    "TsvColumnDelimiter": "\t",
+    "ObjectCountPerFile": 50000
+  },
+  "OtisPartData": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 100000
+  },
+  "ExcelToTsvParameter": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "TsvRowDelimiter": "\n",
+    "TsvColumnDelimiter": "\t",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelToTsvInternalParameter": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "TsvRowDelimiter": "\n",
+    "TsvColumnDelimiter": "\t",
+    "ObjectCountPerFile": 50000
+  },
+  "OtisParameterFeatureOption": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 100000
+    //"classification": [ "Global" ] //"Global", "Internal"
+  },
+  "OtisInternalParameter": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 100000
+    //"classification": [ "Global" ] //"Global", "Internal"
+  },
+  "ExcelToTsvDrawing": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "TsvRowDelimiter": "\n",
+    "TsvColumnDelimiter": "\t",
+    "ObjectCountPerFile": 50000
+  },
+  "OtisCADDrawing": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "OtisDrawingFile": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000,
+    "FileStoreLocation": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles\\VaultFiles",
+    "VaultName": "DrawingFileData",
+    "VaultId": "67BBB9204FE84A8981ED8313049BA06C"
+  },
+  "ExcelEBOMExtractData": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000,
+    "ProcessType": [ "Fixed", "Parametric", "Semi-Para (Smart)" ]
+  },
+  "OtisEBOM": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000,
+    "ProcessType": [ "Fixed", "Parametric", "Semi-Para (Smart)" ]
+  },
+  "ExcelEBOMCalculationSheet": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000,
+    "ProcessType": [ "Parametric", "Semi-Para (Smart)" ]
+  },
+  "ExcelEBOMInOutExtractData": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000,
+    "ProcessType": [ "Fixed", "Parametric", "Semi-Para (Smart)" ]
+  },
+  "OtisConditionExpression": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000,
+    "ProcessType": [ "Parametric", "Semi-Para (Smart)" ]
+  },
+  "OtisCalculationSheetToInputParameterRelationship": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000,
+    "ProcessType": [ "Parametric", "Semi-Para (Smart)" ]
+  },
+  "OtisCalculationSheetToOutputParameterRelationship": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000,
+    "ProcessType": [ "Parametric", "Semi-Para (Smart)" ]
+  },
+  "OtisPartToCalculationSheetRelationship": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000,
+    "ProcessType": [ "Parametric", "Semi-Para (Smart)" ]
+  },
+  "OtisCADToCalculationSheet": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000,
+    "ProcessType": [ "Parametric", "Semi-Para (Smart)" ]
+  },
+  "ExcelToTsvSupplier": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelToTsvBuyerPlanner": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "Otis_Supplier": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "Otis_BuyerPlanner": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelToTsvODSData": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "OtisODS": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelToTsvProduct": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "TsvRowDelimiter": "\n",
+    "TsvColumnDelimiter": "\t",
+    "ObjectCountPerFile": 50000
+  },
+  "OtisProduct": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 100000
+  },
+  "ExcelToTsvContract": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelToTsvBranchPlantData": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "TsvRowDelimiter": "\n",
+    "TsvColumnDelimiter": "\t",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelToTsvRelBranchPlantLocation": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "TsvRowDelimiter": "\n",
+    "TsvColumnDelimiter": "\t",
+    "ObjectCountPerFile": 50000
+  },
+  "OtisBranchPlant": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "OtisContract": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "ObjectCountPerFile": 100000
+  },
+  "ExcelOdsData": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "HeaderRow": "ID\tRemark\tCondition\tTable Type\tType\tQty",
+    //"ExcelFolderName": "Otis_ODSData",
+    "ObjectCountPerFile": 50000
+  },
+  "ODSPart": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration5Migration\\27JuneDataFiles",
+    "HeaderRow": "ID\tRemark\tDrawing Number\tDrawing description\tQty",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelToTsvODSInput": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "ODSInput": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "ODSExpressions": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "ODSSelectionSet": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelToTsvUDC": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "TsvRowDelimiter": "\n",
+    "TsvColumnDelimiter": "\t",
+    "ObjectCountPerFile": 50000
+  },
+  "OtisUDC": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelToTsvODSOutput": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "ObjectCountPerFile": 50000,
+    "ProcessType": [ "ODS" ]
+  },
+  "ODSConditionExpression": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "ODSCalToOutputParameter": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelToTsvNonEnggPart": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "TsvRowDelimiter": "\n",
+    "TsvColumnDelimiter": "\t",
+    "ObjectCountPerFile": 50000
+  },
+  "OtisNonEnggPart": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "ObjectCountPerFile": 100000
+  },
+  "Excel_SODSData": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "HeaderRow": "ID\tSS No.\tDescription\tCondition\tODS No.\tQty.",
+    "ExcelFolderName": "SODS",
+    "ObjectCountPerFile": 50000
+  },
+  "OtisVm_ContentSODS": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "OtisSODSExpressions": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "OtisSODSSelectionSet": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelToTsvSODSInput": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "OtisSODSInput": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelToTsvSODSOutput": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "ObjectCountPerFile": 50000,
+    "HeaderRow": "ID\tParameter Name\tParameter Description\tParameter Type\tUOM\tValue List or Value Range\tCondition / Formula Detail\tDefault  Value / Formula Details"
+  },
+  "OtisSODSConditionExpression": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "OtisSODSCalToOutput": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\13JuneDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelToTsvPMSCalSheet": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\17JuneSITLoadDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "ExcelToTsvPMSInOut": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\17JuneSITLoadDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "PMSConditionExpression": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\17JuneSITLoadDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "PMSCalToInput": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\17JuneSITLoadDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "PMSCalToOutput": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\17JuneSITLoadDataFiles",
+    "ObjectCountPerFile": 50000
+  },
+  "PMSBreakdownItemToCalSheet": {
+    "ProcessAreaDataPath": "D:\\OTIS_Migration\\OtisIteration4Migration\\17JuneSITLoadDataFiles",
+    "ObjectCountPerFile": 50000
+  }
+}
+

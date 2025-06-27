@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = Prorigo.Plm.DataMigration.IO
+build_property.ProjectDir = D:\OTIS_Migration\OtisIteration5Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

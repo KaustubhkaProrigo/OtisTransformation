@@ -1,0 +1,105 @@
+2025-06-12 12:07:08.573 +05:30 [Error] An item with the same key has already been added. Key: NAA29100AM
+System.ArgumentException: An item with the same key has already been added. Key: NAA29100AM
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.WriteBreakdownItemToCalculationSheet(Dictionary`2 sodsNoToDescription) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 409
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.TransformFiles(String typeName, String transformName) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 183
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.Transform(String licenseKey) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 60
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-12 12:09:19.850 +05:30 [Error] An item with the same key has already been added. Key: NAA29100AM
+System.ArgumentException: An item with the same key has already been added. Key: NAA29100AM
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.WriteBreakdownItemToCalculationSheet(Dictionary`2 sodsNoToDescription) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 409
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.TransformFiles(String typeName, String transformName) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 183
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.Transform(String licenseKey) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 60
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-12 12:29:40.738 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration3Migration\SITLoad2JuneDataFiles\SODSData'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration3Migration\SITLoad2JuneDataFiles\SODSData'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern, EnumerationOptions enumerationOptions)
+   at System.IO.DirectoryInfo.GetFiles()
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.ReTransformFiles(String transformName) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 489
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.Transform(String licenseKey) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 63
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-12 12:32:47.646 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration3Migration\SITLoad2JuneDataFiles\SODSData'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration3Migration\SITLoad2JuneDataFiles\SODSData'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern, EnumerationOptions enumerationOptions)
+   at System.IO.DirectoryInfo.GetFiles()
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.ReTransformFiles(String transformName) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 489
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.Transform(String licenseKey) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 63
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-12 12:44:58.897 +05:30 [Error] An item with the same key has already been added. Key: NAA29100AM
+System.ArgumentException: An item with the same key has already been added. Key: NAA29100AM
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.WriteBreakdownItemToCalculationSheet(Dictionary`2 sodsNoToDescription) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 409
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.TransformFiles(String typeName, String transformName) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 183
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.Transform(String licenseKey) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 60
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-12 12:52:15.762 +05:30 [Error] An item with the same key has already been added. Key: NAA29100AM
+System.ArgumentException: An item with the same key has already been added. Key: NAA29100AM
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.WriteBreakdownItemToCalculationSheet(Dictionary`2 sodsNoToDescription) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 409
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.TransformFiles(String typeName, String transformName) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 183
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.Transform(String licenseKey) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 60
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-12 12:58:39.448 +05:30 [Error] An item with the same key has already been added. Key: NAA29100AM
+System.ArgumentException: An item with the same key has already been added. Key: NAA29100AM
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.WriteBreakdownItemToCalculationSheet(Dictionary`2 sodsNoToDescription) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 431
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.TransformFiles(String typeName, String transformName) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 198
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.Transform(String licenseKey) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-12 13:08:19.863 +05:30 [Error] An item with the same key has already been added. Key: NAA29100AM
+System.ArgumentException: An item with the same key has already been added. Key: NAA29100AM
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.WriteBreakdownItemToCalculationSheet(Dictionary`2 sodsNoToDescription) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 431
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.TransformFiles(String typeName, String transformName) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 198
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.Transform(String licenseKey) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-12 19:48:37.062 +05:30 [Error] An item with the same key has already been added. Key: NAA29100AM
+System.ArgumentException: An item with the same key has already been added. Key: NAA29100AM
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.WriteBreakdownItemToCalculationSheet(Dictionary`2 sodsNoToDescription) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 431
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.TransformFiles(String typeName, String transformName) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 198
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.Transform(String licenseKey) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-12 19:50:48.706 +05:30 [Error] An item with the same key has already been added. Key: NAA29100AM
+System.ArgumentException: An item with the same key has already been added. Key: NAA29100AM
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.WriteBreakdownItemToCalculationSheet(Dictionary`2 sodsNoToDescription) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 431
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.TransformFiles(String typeName, String transformName) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 198
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.Transform(String licenseKey) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91

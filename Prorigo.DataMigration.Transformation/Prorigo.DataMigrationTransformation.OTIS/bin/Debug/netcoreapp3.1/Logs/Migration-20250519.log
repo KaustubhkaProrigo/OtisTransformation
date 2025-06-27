@@ -1,0 +1,13 @@
+2025-05-19 16:16:07.910 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\DatafileInternalParameter\Parameter\FilesMetadata\FileMetadata'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\DatafileInternalParameter\Parameter\FilesMetadata\FileMetadata'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, Boolean loadAdditionalColumns)+MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 112
+   at Prorigo.Plm.DataMigration.OtisDataTransformer.OtisParameterFeatureOptionTransformer.DefaultValueAdder(String transformName, String classification) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisParameterFeatureOptionTransformer.cs:line 158
+   at Prorigo.Plm.DataMigration.OtisDataTransformer.OtisParameterFeatureOptionTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisParameterFeatureOptionTransformer.cs:line 74
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91

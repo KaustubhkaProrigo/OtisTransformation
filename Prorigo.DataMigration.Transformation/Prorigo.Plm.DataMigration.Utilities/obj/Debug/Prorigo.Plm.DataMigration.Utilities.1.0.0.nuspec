@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Prorigo.Plm.DataMigration.Utilities</id>
+    <version>1.0.0</version>
+    <authors>Prorigo.Plm.DataMigration.Utilities</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="DocumentFormat.OpenXml" version="2.16.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.SqlClient" version="4.1.0" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.6" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Smart Team Transformation Projects\STTransformation Project - updated\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.Utilities\bin\Debug\netstandard2.0\Prorigo.Plm.DataMigration.Utilities.dll" target="lib\netstandard2.0\Prorigo.Plm.DataMigration.Utilities.dll" />
+  </files>
+</package>

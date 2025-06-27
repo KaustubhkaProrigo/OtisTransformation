@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fhT2woZ9J88=",
+  "success": true,
+  "projectFilePath": "D:\\OTIS_Migration\\OtisIteration5Migration\\OTIS_Transformation_V6\\OTIS_Transformation_V5\\Prorigo.DataMigration.Transformation\\Prorigo.Plm.DataMigration.IO\\Prorigo.Plm.DataMigration.IO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vaibhavga\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\vaibhavga\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

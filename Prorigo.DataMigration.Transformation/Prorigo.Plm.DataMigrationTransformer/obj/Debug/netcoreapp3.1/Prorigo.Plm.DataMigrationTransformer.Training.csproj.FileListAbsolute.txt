@@ -1,0 +1,5 @@
+D:\Data Migration Training\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigrationTransformer\obj\Debug\netcoreapp3.1\Prorigo.Plm.DataMigrationTransformer.Training.csproj.AssemblyReference.cache
+D:\Data Migration Training\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigrationTransformer\obj\Debug\netcoreapp3.1\Prorigo.Plm.DataMigrationTransformer.Training.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data Migration Training\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigrationTransformer\obj\Debug\netcoreapp3.1\Prorigo.Plm.DataMigrationTransformer.Training.AssemblyInfoInputs.cache
+D:\Data Migration Training\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigrationTransformer\obj\Debug\netcoreapp3.1\Prorigo.Plm.DataMigrationTransformer.Training.AssemblyInfo.cs
+D:\Data Migration Training\Transformation Project\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigrationTransformer\obj\Debug\netcoreapp3.1\Prorigo.Plm.DataMigrationTransformer.Training.csproj.CoreCompileInputs.cache

@@ -1,0 +1,28 @@
+2025-06-02 14:44:54.013 +05:30 [Error] CAD Object does not exist: 'ISO15984|A'
+2025-06-02 14:44:54.443 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration3Migration\SITLoad2JuneDataFiles\VaultFiles\DrawingFileData\faa321ag_drw.pdf' | ObjectId: 64F69C3E35C8486C945B46ED40DEA508
+2025-06-02 14:44:54.455 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration3Migration\SITLoad2JuneDataFiles\VaultFiles\DrawingFileData\fO231w_drw.pdf' | ObjectId: B981254877854C83817C2FA472165340
+2025-06-02 14:44:54.562 +05:30 [Error] CAD Object does not exist: 'DIN929|F'
+2025-06-02 14:44:54.562 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration3Migration\SITLoad2JuneDataFiles\VaultFiles\DrawingFileData\iso15979_drw.pdf' | ObjectId: 0E6F0ADA7386423483F7D170BD8E8A4D
+2025-06-02 14:44:54.575 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration3Migration\SITLoad2JuneDataFiles\VaultFiles\DrawingFileData\dba26800j_drw.pdf' | ObjectId: 80114F66F7814101AB9136EEDD2A0BCD
+2025-06-02 14:44:54.580 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration3Migration\SITLoad2JuneDataFiles\VaultFiles\DrawingFileData\GDA25005B.pdf' | ObjectId: 4450BC3F5D2742D9821798E563DC2501
+2025-06-02 14:44:54.594 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration3Migration\SITLoad2JuneDataFiles\VaultFiles\DrawingFileData\NAA141C.pdf' | ObjectId: 6D50646BBF194A3CAD6375148C026FF5
+2025-06-02 14:44:54.754 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration3Migration\SITLoad2JuneDataFiles\VaultFiles\DrawingFileData\NAA176B.dwg' | ObjectId: CC31D1C8C08B41F3A83EB911FC09430A
+2025-06-02 14:44:54.754 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration3Migration\SITLoad2JuneDataFiles\VaultFiles\DrawingFileData\NAA176C.dwg' | ObjectId: 2C3D306286C4462582A4518AAC8002CB
+2025-06-02 14:44:54.754 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration3Migration\SITLoad2JuneDataFiles\VaultFiles\DrawingFileData\NAA187B.dwg' | ObjectId: 50D023718D0C4D05BF09899A5854E051
+2025-06-02 14:44:54.795 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration3Migration\SITLoad2JuneDataFiles\VaultFiles\DrawingFileData\daa443w.pdf' | ObjectId: 59671D0DCA634E5583735E35874649C0
+2025-06-02 14:44:54.799 +05:30 [Error] CAD Object does not exist: 'NON7201|Q'
+2025-06-02 14:44:54.800 +05:30 [Error] CAD Object does not exist: 'ISO4032|AB'
+2025-06-02 14:44:54.802 +05:30 [Error] CAD Object does not exist: 'ISO7045|AQ'
+2025-06-02 14:44:54.803 +05:30 [Error] CAD Object does not exist: 'ISO7093|N'
+2025-06-02 14:44:54.803 +05:30 [Error] CAD Object does not exist: 'NON1241|AK'
+2025-06-02 14:44:54.817 +05:30 [Error] CAD Object does not exist: 'HAA386KF|E'
+2025-06-02 14:44:54.817 +05:30 [Error] CAD Object does not exist: 'HAA347EP|E'
+2025-06-02 15:12:43.187 +05:30 [Error] The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+System.IO.InvalidDataException: The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+   at OfficeOpenXml.Packaging.ZipPackage..ctor(Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor(FileInfo newFile)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvRelBranchPlantLocationTransformer.TransformFile(String fileNameWithPath) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvRelBranchPlantLocationTransformer.cs:line 72
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvRelBranchPlantLocationTransformer.TransformExcelFiles(String directoryName) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvRelBranchPlantLocationTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvRelBranchPlantLocationTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvRelBranchPlantLocationTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91

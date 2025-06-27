@@ -1,0 +1,1731 @@
+2025-05-16 12:31:31.887 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Drawing\Conv_ExcelToTsv_DrawingTemplate_FileData'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Drawing\Conv_ExcelToTsv_DrawingTemplate_FileData'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at Prorigo.DataMigrationTransformation.OTIS.OtisDrawingFileTransformer.TrasnformDrawingFile(String transformName) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisDrawingFileTransformer.cs:line 105
+   at Prorigo.DataMigrationTransformation.OTIS.OtisDrawingFileTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisDrawingFileTransformer.cs:line 59
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-16 12:34:36.377 +05:30 [Error] CAD Object does not exist: 'NAA409BJ|E'
+2025-05-16 12:34:36.430 +05:30 [Error] CAD Object does not exist: 'NAA409BK|F'
+2025-05-16 12:34:36.430 +05:30 [Error] CAD Object does not exist: 'NAA409BN|C'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA409BP|C'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA367GG|E'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA367GF|E'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'TAA72AP|B'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'WAA315GF|A'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'ISO15984|A'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA367GH|E'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA367GJ|D'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA367GL|E'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA367HA|B'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA367HB|B'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA316DGL|B'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA316DGN|B'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA316DGK|B'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA316DGM|B'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA343M|D'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA367GK|E'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA367GV|B'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA367GW|B'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA367GX|B'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA367GZ|B'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA283ADY|A'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA363AAX|D'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA363AAZ|D'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA363ACD|B'
+2025-05-16 12:34:36.431 +05:30 [Error] CAD Object does not exist: 'NAA363ACF|B'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363YA|C'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA141B|A'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA283QB|E'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA315MF|H'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363AAY|D'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363ABA|D'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA315WY|A'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363ACE|B'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363ACG|B'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363XZ|C'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA386NT|C'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363ACP|A'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363ACR|A'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363ACT|A'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363ACW|A'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363ACQ|A'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363ACS|A'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363ACV|A'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363ACX|A'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA315XG|A'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA315XJ|A'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363ACM|A'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363ACY|A'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363YB|D'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA283YW|B'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA315XH|A'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA315XK|A'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363ACN|A'
+2025-05-16 12:34:36.432 +05:30 [Error] CAD Object does not exist: 'NAA363ACZ|A'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'NAA363YC|D'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'NAA363ABB|D'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'NAA363ABC|D'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'FAA307BS|B'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'FAA307F|F'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'FAA316KHN|B'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'FAA331DD|B'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'FAA331M|D'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'FAA389GF|B'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'FAA456AC|E'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'FAA456XV|A'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'FAA502BM|E'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'FAA23400AK|B'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'FAA24520K|A'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'GAA24350BP|C'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'WAA389AD|A'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'WAA389B|C'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'WAA389S|G'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'WAA712C|A'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'WAA24431B|A'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'WAA24520D|A'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'WAA24600R|A'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'FAA174AWJ|A'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'FAA177GR|B'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'FAA198AB|E'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'FAA231F|A'
+2025-05-16 12:34:36.433 +05:30 [Error] CAD Object does not exist: 'FAA102YL|A'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA124AJ|L'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA141BH|B'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA141R|C'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA149BK|G'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA156BN|A'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA172N|B'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA198AV|B'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA207E|D'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA307L|K'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA316CDL|A'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA316CDN|F'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA316CDP|E'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA316JPC|A'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA316KBE|A'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA316KBF|A'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA316KHQ|A'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA316KJF|C'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA316KJG|B'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA320AK|C'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA320AP|B'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA320Y|A'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA321AG|A'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA327PB|A'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA327PC|B'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA502BL|A'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA502BN|D'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA502BP|C'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA502CA|A'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA502HL|A'
+2025-05-16 12:34:36.434 +05:30 [Error] CAD Object does not exist: 'FAA712DD|A'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FAA717G|F'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FAA24350DJ|B'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FO141D|A'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'WAA102BS|A'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'WAA409D|A'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FO231W|A'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FO339CN|A'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FAA41AV|C'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FAA65J|A'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FAA72AY|A'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FAA76D|F'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FAA91AD|A'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FAA91CH|B'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FAA102XW|A'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FAA456AL|E'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FAA24390N|E'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FAA24520L|B'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'WAA389A|E'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'WAA389R|E'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'WAA24431A|C'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'WAA24431C|A'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'WAA24600L|A'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'WAA24600Q|A'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'WAA24600S|A'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FAA307G|F'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FAA316JLY|B'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FAA316KFT|B'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FAA370B|E'
+2025-05-16 12:34:36.435 +05:30 [Error] CAD Object does not exist: 'FAA431DJ|B'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FBA316CGA|A'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FBA316JHM|A'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FO67R|A'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FO72CA|A'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FO231W|A'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FO339CN|A'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'NAA174AAH|A'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'NAA342C|A'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'WAA102AN|A'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'WAA316AT|A'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'WAA409E|A'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'WAA712D|A'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FAA91BS|A'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FAA91R|D'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FAA316CDM|A'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FAA316CFZ|FA'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FAA316KFM|A'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FAA316KFN|B'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FAA316KFR|A'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FAA316KJB|B'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FAA316KJC|B'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FAA316KJD|B'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FAA316KJE|C'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FAA316KME|FA'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FAA316KWV|A'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FAA327BW|R'
+2025-05-16 12:34:36.436 +05:30 [Error] CAD Object does not exist: 'FAA327FC|D'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'FAA331AW|B'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'DIN929|F'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'ISO15979|N'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: '129CA|A'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'DAA10204G|C'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'DBA26800J|B'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'DCA26800CR|A'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'FBA316SL|A'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'GAA25005M|A'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'GDA25005B|B'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'HAA25302BA|E'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'NAA102GAA|P'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'NAA124F|A'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'NAA141C|A'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'NAA177A|A'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'NAA177B|B'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'NAA177D|B'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'NAA278AP|B'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'NAA306D|A'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'NAA308EW|G'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'NAA316AG|B'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'NAA316AVT|A'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'NAA316AWS|C'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'NAA316CDB|B'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'NAA316RM|C'
+2025-05-16 12:34:36.437 +05:30 [Error] CAD Object does not exist: 'NAA316VS|E'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA323N|C'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA339V|A'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA346CT|A'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA391A|A'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA391B|B'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA406J|C'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA431A|A'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA433AB|D'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA443AZ|E'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA443BT|B'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA462A|E'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA462V|A'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA613Z|B'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA618G|B'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA649A|A'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA731N|A'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA25090H|A'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA25090Y|E'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA26800R|B'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA26800S|A'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NLL316BP|C'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NLL25301C|B'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NO102BG|A'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NO102BR|A'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'WAA417D|A'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'WAA443A|A'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA102GD|E'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA102LT|B'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA316YA|B'
+2025-05-16 12:34:36.438 +05:30 [Error] CAD Object does not exist: 'NAA354B|B'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA374DE|A'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA26800AQ|A'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NLL299G|B'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NO72Y|B'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'TAA50AD|A'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA147ABX|C'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA147ABY|C'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA147ABZ|C'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA147ACA|C'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA147XC|E'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA147XH|E'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA147YM|E'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA147YN|E'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA174ADY|F'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA174ADZ|E'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA174AEC|D'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA308FE|G'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA406K|C'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA27076ER|E'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA27076EQ|B'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA147XB|B'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA147ABW|A'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA147ABT|A'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA147ABV|A'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA147ABS|A'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA147YL|B'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA147XG|B'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA147YK|B'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA174APW|B'
+2025-05-16 12:34:36.439 +05:30 [Error] CAD Object does not exist: 'NAA648L|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'NAA176B|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'NAA176C|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'NAA187B|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'FAA176X|D'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'NAA308EM|G'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: '9693J|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'NAA648P|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'PAA190M|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'JAA00176ABV|C'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'JAA00137AAA|B'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'NAA648H|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'PAA190B|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'NAA176D|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'JO614AV|H'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'NAA648B|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'NAA648X|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'NO190AN|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'NO137E|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'NAA648Z|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'NAA648E|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'AAA648G|X'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'XAA176AP|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'XAA188BV|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'XAA176AK|A'
+2025-05-16 12:34:36.440 +05:30 [Error] CAD Object does not exist: 'DAA443W|A'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'NAA27076EN|B'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'NON9801|Z'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'FAA72BV|E'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'NON7201|Q'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'ISO7089|AH'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'ISO4032|AB'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'ISO7040|M'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'ISO7045|AQ'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'NON7205|G'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'ISO7093|N'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'NON1241|AK'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'ISO4017|CX'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'NO99H|C'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'HAA25700CQ|H'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'HAA25700CR|E'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'HAA386KF|E'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'HAA347EP|E'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'HAA316NA|E'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'HAA102YR|C'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'HAA102AY|K'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'HAA348BF|L'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'HAA382K|Q'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'HAA347ACH|G'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'HAA315HP|M'
+2025-05-16 12:34:36.441 +05:30 [Error] CAD Object does not exist: 'HAA306AH|L'
+2025-05-16 12:34:36.442 +05:30 [Error] CAD Object does not exist: 'HAA347AYD|F'
+2025-05-16 12:34:36.442 +05:30 [Error] CAD Object does not exist: 'HAA347AXX|D'
+2025-05-16 12:39:11.799 +05:30 [Error] CAD Object does not exist: 'NAA409BJ|E'
+2025-05-16 12:39:11.851 +05:30 [Error] CAD Object does not exist: 'NAA409BK|F'
+2025-05-16 12:39:11.851 +05:30 [Error] CAD Object does not exist: 'NAA409BN|C'
+2025-05-16 12:39:11.851 +05:30 [Error] CAD Object does not exist: 'NAA409BP|C'
+2025-05-16 12:39:11.851 +05:30 [Error] CAD Object does not exist: 'NAA367GG|E'
+2025-05-16 12:39:11.851 +05:30 [Error] CAD Object does not exist: 'NAA367GF|E'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'TAA72AP|B'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'WAA315GF|A'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'ISO15984|A'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA367GH|E'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA367GJ|D'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA367GL|E'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA367HA|B'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA367HB|B'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA316DGL|B'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA316DGN|B'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA316DGK|B'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA316DGM|B'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA343M|D'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA367GK|E'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA367GV|B'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA367GW|B'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA367GX|B'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA367GZ|B'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA283ADY|A'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA363AAX|D'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA363AAZ|D'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA363ACD|B'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA363ACF|B'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA363YA|C'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA141B|A'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA283QB|E'
+2025-05-16 12:39:11.852 +05:30 [Error] CAD Object does not exist: 'NAA315MF|H'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363AAY|D'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363ABA|D'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA315WY|A'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363ACE|B'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363ACG|B'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363XZ|C'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA386NT|C'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363ACP|A'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363ACR|A'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363ACT|A'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363ACW|A'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363ACQ|A'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363ACS|A'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363ACV|A'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363ACX|A'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA315XG|A'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA315XJ|A'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363ACM|A'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363ACY|A'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363YB|D'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA283YW|B'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA315XH|A'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA315XK|A'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363ACN|A'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363ACZ|A'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363YC|D'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363ABB|D'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'NAA363ABC|D'
+2025-05-16 12:39:11.853 +05:30 [Error] CAD Object does not exist: 'FAA307BS|B'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA307F|F'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA316KHN|B'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA331DD|B'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA331M|D'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA389GF|B'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA456AC|E'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA456XV|A'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA502BM|E'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA23400AK|B'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA24520K|A'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'GAA24350BP|C'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'WAA389AD|A'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'WAA389B|C'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'WAA389S|G'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'WAA712C|A'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'WAA24431B|A'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'WAA24520D|A'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'WAA24600R|A'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA174AWJ|A'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA177GR|B'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA198AB|E'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA231F|A'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA102YL|A'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA124AJ|L'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA141BH|B'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA141R|C'
+2025-05-16 12:39:11.854 +05:30 [Error] CAD Object does not exist: 'FAA149BK|G'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA156BN|A'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA172N|B'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA198AV|B'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA207E|D'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA307L|K'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA316CDL|A'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA316CDN|F'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA316CDP|E'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA316JPC|A'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA316KBE|A'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA316KBF|A'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA316KHQ|A'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA316KJF|C'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA316KJG|B'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA320AK|C'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA320AP|B'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA320Y|A'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA321AG|A'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA327PB|A'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA327PC|B'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA502BL|A'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA502BN|D'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA502BP|C'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA502CA|A'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA502HL|A'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA712DD|A'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA717G|F'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FAA24350DJ|B'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'FO141D|A'
+2025-05-16 12:39:11.855 +05:30 [Error] CAD Object does not exist: 'WAA102BS|A'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'WAA409D|A'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FO231W|A'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FO339CN|A'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FAA41AV|C'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FAA65J|A'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FAA72AY|A'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FAA76D|F'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FAA91AD|A'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FAA91CH|B'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FAA102XW|A'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FAA456AL|E'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FAA24390N|E'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FAA24520L|B'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'WAA389A|E'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'WAA389R|E'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'WAA24431A|C'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'WAA24431C|A'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'WAA24600L|A'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'WAA24600Q|A'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'WAA24600S|A'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FAA307G|F'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FAA316JLY|B'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FAA316KFT|B'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FAA370B|E'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FAA431DJ|B'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FBA316CGA|A'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FBA316JHM|A'
+2025-05-16 12:39:11.856 +05:30 [Error] CAD Object does not exist: 'FO67R|A'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FO72CA|A'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FO231W|A'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FO339CN|A'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'NAA174AAH|A'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'NAA342C|A'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'WAA102AN|A'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'WAA316AT|A'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'WAA409E|A'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'WAA712D|A'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FAA91BS|A'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FAA91R|D'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FAA316CDM|A'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FAA316CFZ|FA'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FAA316KFM|A'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FAA316KFN|B'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FAA316KFR|A'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FAA316KJB|B'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FAA316KJC|B'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FAA316KJD|B'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FAA316KJE|C'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FAA316KME|FA'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FAA316KWV|A'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FAA327BW|R'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FAA327FC|D'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'FAA331AW|B'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'DIN929|F'
+2025-05-16 12:39:11.857 +05:30 [Error] CAD Object does not exist: 'ISO15979|N'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: '129CA|A'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'DAA10204G|C'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'DBA26800J|B'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'DCA26800CR|A'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'FBA316SL|A'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'GAA25005M|A'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'GDA25005B|B'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'HAA25302BA|E'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA102GAA|P'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA124F|A'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA141C|A'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA177A|A'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA177B|B'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA177D|B'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA278AP|B'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA306D|A'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA308EW|G'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA316AG|B'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA316AVT|A'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA316AWS|C'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA316CDB|B'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA316RM|C'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA316VS|E'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA323N|C'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA339V|A'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA346CT|A'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA391A|A'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA391B|B'
+2025-05-16 12:39:11.858 +05:30 [Error] CAD Object does not exist: 'NAA406J|C'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA431A|A'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA433AB|D'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA443AZ|E'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA443BT|B'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA462A|E'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA462V|A'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA613Z|B'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA618G|B'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA649A|A'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA731N|A'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA25090H|A'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA25090Y|E'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA26800R|B'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA26800S|A'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NLL316BP|C'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NLL25301C|B'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NO102BG|A'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NO102BR|A'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'WAA417D|A'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'WAA443A|A'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA102GD|E'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA102LT|B'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA316YA|B'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA354B|B'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA374DE|A'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA26800AQ|A'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NLL299G|B'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NO72Y|B'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'TAA50AD|A'
+2025-05-16 12:39:11.859 +05:30 [Error] CAD Object does not exist: 'NAA147ABX|C'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA147ABY|C'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA147ABZ|C'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA147ACA|C'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA147XC|E'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA147XH|E'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA147YM|E'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA147YN|E'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA174ADY|F'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA174ADZ|E'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA174AEC|D'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA308FE|G'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA406K|C'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA27076ER|E'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA27076EQ|B'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA147XB|B'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA147ABW|A'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA147ABT|A'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA147ABV|A'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA147ABS|A'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA147YL|B'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA147XG|B'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA147YK|B'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA174APW|B'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA648L|A'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA176B|A'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA176C|A'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA187B|A'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'FAA176X|D'
+2025-05-16 12:39:11.860 +05:30 [Error] CAD Object does not exist: 'NAA308EM|G'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: '9693J|A'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'NAA648P|A'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'PAA190M|A'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'JAA00176ABV|C'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'JAA00137AAA|B'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'NAA648H|A'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'PAA190B|A'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'NAA176D|A'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'JO614AV|H'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'NAA648B|A'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'NAA648X|A'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'NO190AN|A'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'NO137E|A'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'NAA648Z|A'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'NAA648E|A'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'AAA648G|X'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'XAA176AP|A'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'XAA188BV|A'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'XAA176AK|A'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'DAA443W|A'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'NAA27076EN|B'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'NON9801|Z'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'FAA72BV|E'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'NON7201|Q'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'ISO7089|AH'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'ISO4032|AB'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'ISO7040|M'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'ISO7045|AQ'
+2025-05-16 12:39:11.861 +05:30 [Error] CAD Object does not exist: 'NON7205|G'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'ISO7093|N'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'NON1241|AK'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'ISO4017|CX'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'NO99H|C'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'HAA25700CQ|H'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'HAA25700CR|E'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'HAA386KF|E'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'HAA347EP|E'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'HAA316NA|E'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'HAA102YR|C'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'HAA102AY|K'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'HAA348BF|L'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'HAA382K|Q'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'HAA347ACH|G'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'HAA315HP|M'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'HAA306AH|L'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'HAA347AYD|F'
+2025-05-16 12:39:11.862 +05:30 [Error] CAD Object does not exist: 'HAA347AXX|D'
+2025-05-16 12:45:06.724 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\Parameter Library Images'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\Parameter Library Images'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserDirectories(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetDirectories(String path)
+   at Prorigo.DataMigrationTransformation.OTIS.OtisFileTransformer.TrasnformSubDirectories(String directoryName, TypeDataFileWriter FileMetaDataWriter) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisFileTransformer.cs:line 73
+   at Prorigo.DataMigrationTransformation.OTIS.OtisFileTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisFileTransformer.cs:line 58
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-16 12:46:55.800 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Drawing\Conv_ExcelToTsv_DrawingTemplate_FileData'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Drawing\Conv_ExcelToTsv_DrawingTemplate_FileData'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at Prorigo.DataMigrationTransformation.OTIS.OtisDrawingFileTransformer.TrasnformDrawingFile(String transformName) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisDrawingFileTransformer.cs:line 105
+   at Prorigo.DataMigrationTransformation.OTIS.OtisDrawingFileTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisDrawingFileTransformer.cs:line 59
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-16 12:48:11.859 +05:30 [Error] The process cannot access the file 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Drawing\~$OTIS_Drawing_InputFileTemplate.xlsx' because it is being used by another process.
+System.IO.IOException: The process cannot access the file 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Drawing\~$OTIS_Drawing_InputFileTemplate.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at OfficeOpenXml.ExcelPackage.WriteFileToStream(String path, Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor(FileInfo newFile)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvDrawingTransformer.TransformFile(String fileNameWithPath) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvDrawingTransformer.cs:line 73
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvDrawingTransformer.TransformExcelFiles(String directoryName) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvDrawingTransformer.cs:line 63
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvDrawingTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvDrawingTransformer.cs:line 47
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-16 12:50:13.425 +05:30 [Error] CAD Object does not exist: 'NAA409BJ|E'
+2025-05-16 12:50:13.477 +05:30 [Error] CAD Object does not exist: 'NAA409BK|F'
+2025-05-16 12:50:13.477 +05:30 [Error] CAD Object does not exist: 'NAA409BN|C'
+2025-05-16 12:50:13.477 +05:30 [Error] CAD Object does not exist: 'NAA409BP|C'
+2025-05-16 12:50:13.477 +05:30 [Error] CAD Object does not exist: 'NAA367GG|E'
+2025-05-16 12:50:13.477 +05:30 [Error] CAD Object does not exist: 'NAA367GF|E'
+2025-05-16 12:50:13.477 +05:30 [Error] CAD Object does not exist: 'TAA72AP|B'
+2025-05-16 12:50:13.477 +05:30 [Error] CAD Object does not exist: 'WAA315GF|A'
+2025-05-16 12:50:13.477 +05:30 [Error] CAD Object does not exist: 'ISO15984|A'
+2025-05-16 12:50:13.477 +05:30 [Error] CAD Object does not exist: 'NAA367GH|E'
+2025-05-16 12:50:13.477 +05:30 [Error] CAD Object does not exist: 'NAA367GJ|D'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA367GL|E'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA367HA|B'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA367HB|B'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA316DGL|B'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA316DGN|B'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA316DGK|B'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA316DGM|B'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA343M|D'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA367GK|E'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA367GV|B'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA367GW|B'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA367GX|B'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA367GZ|B'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA283ADY|A'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA363AAX|D'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA363AAZ|D'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA363ACD|B'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA363ACF|B'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA363YA|C'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA141B|A'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA283QB|E'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA315MF|H'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA363AAY|D'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA363ABA|D'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA315WY|A'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA363ACE|B'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA363ACG|B'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA363XZ|C'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA386NT|C'
+2025-05-16 12:50:13.478 +05:30 [Error] CAD Object does not exist: 'NAA363ACP|A'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA363ACR|A'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA363ACT|A'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA363ACW|A'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA363ACQ|A'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA363ACS|A'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA363ACV|A'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA363ACX|A'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA315XG|A'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA315XJ|A'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA363ACM|A'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA363ACY|A'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA363YB|D'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA283YW|B'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA315XH|A'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA315XK|A'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA363ACN|A'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA363ACZ|A'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA363YC|D'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA363ABB|D'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'NAA363ABC|D'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'FAA307BS|B'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'FAA307F|F'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'FAA316KHN|B'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'FAA331DD|B'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'FAA331M|D'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'FAA389GF|B'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'FAA456AC|E'
+2025-05-16 12:50:13.479 +05:30 [Error] CAD Object does not exist: 'FAA456XV|A'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA502BM|E'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA23400AK|B'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA24520K|A'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'GAA24350BP|C'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'WAA389AD|A'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'WAA389B|C'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'WAA389S|G'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'WAA712C|A'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'WAA24431B|A'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'WAA24520D|A'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'WAA24600R|A'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA174AWJ|A'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA177GR|B'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA198AB|E'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA231F|A'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA102YL|A'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA124AJ|L'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA141BH|B'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA141R|C'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA149BK|G'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA156BN|A'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA172N|B'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA198AV|B'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA207E|D'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA307L|K'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA316CDL|A'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA316CDN|F'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA316CDP|E'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA316JPC|A'
+2025-05-16 12:50:13.480 +05:30 [Error] CAD Object does not exist: 'FAA316KBE|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA316KBF|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA316KHQ|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA316KJF|C'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA316KJG|B'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA320AK|C'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA320AP|B'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA320Y|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA321AG|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA327PB|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA327PC|B'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA502BL|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA502BN|D'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA502BP|C'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA502CA|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA502HL|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA712DD|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA717G|F'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA24350DJ|B'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FO141D|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'WAA102BS|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'WAA409D|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FO231W|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FO339CN|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA41AV|C'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA65J|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA72AY|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA76D|F'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA91AD|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA91CH|B'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA102XW|A'
+2025-05-16 12:50:13.481 +05:30 [Error] CAD Object does not exist: 'FAA456AL|E'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FAA24390N|E'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FAA24520L|B'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'WAA389A|E'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'WAA389R|E'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'WAA24431A|C'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'WAA24431C|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'WAA24600L|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'WAA24600Q|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'WAA24600S|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FAA307G|F'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FAA316JLY|B'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FAA316KFT|B'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FAA370B|E'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FAA431DJ|B'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FBA316CGA|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FBA316JHM|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FO67R|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FO72CA|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FO231W|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FO339CN|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'NAA174AAH|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'NAA342C|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'WAA102AN|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'WAA316AT|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'WAA409E|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'WAA712D|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FAA91BS|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FAA91R|D'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FAA316CDM|A'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FAA316CFZ|FA'
+2025-05-16 12:50:13.482 +05:30 [Error] CAD Object does not exist: 'FAA316KFM|A'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'FAA316KFN|B'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'FAA316KFR|A'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'FAA316KJB|B'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'FAA316KJC|B'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'FAA316KJD|B'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'FAA316KJE|C'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'FAA316KME|FA'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'FAA316KWV|A'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'FAA327BW|R'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'FAA327FC|D'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'FAA331AW|B'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'DIN929|F'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'ISO15979|N'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: '129CA|A'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'DAA10204G|C'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'DBA26800J|B'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'DCA26800CR|A'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'FBA316SL|A'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'GAA25005M|A'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'GDA25005B|B'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'HAA25302BA|E'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'NAA102GAA|P'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'NAA124F|A'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'NAA141C|A'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'NAA177A|A'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'NAA177B|B'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'NAA177D|B'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'NAA278AP|B'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'NAA306D|A'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'NAA308EW|G'
+2025-05-16 12:50:13.483 +05:30 [Error] CAD Object does not exist: 'NAA316AG|B'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA316AVT|A'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA316AWS|C'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA316CDB|B'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA316RM|C'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA316VS|E'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA323N|C'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA339V|A'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA346CT|A'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA391A|A'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA391B|B'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA406J|C'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA431A|A'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA433AB|D'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA443AZ|E'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA443BT|B'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA462A|E'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA462V|A'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA613Z|B'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA618G|B'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA649A|A'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA731N|A'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA25090H|A'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA25090Y|E'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA26800R|B'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NAA26800S|A'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NLL316BP|C'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NLL25301C|B'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NO102BG|A'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'NO102BR|A'
+2025-05-16 12:50:13.484 +05:30 [Error] CAD Object does not exist: 'WAA417D|A'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'WAA443A|A'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA102GD|E'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA102LT|B'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA316YA|B'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA354B|B'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA374DE|A'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA26800AQ|A'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NLL299G|B'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NO72Y|B'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'TAA50AD|A'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA147ABX|C'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA147ABY|C'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA147ABZ|C'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA147ACA|C'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA147XC|E'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA147XH|E'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA147YM|E'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA147YN|E'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA174ADY|F'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA174ADZ|E'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA174AEC|D'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA308FE|G'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA406K|C'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA27076ER|E'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA27076EQ|B'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA147XB|B'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA147ABW|A'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA147ABT|A'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA147ABV|A'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA147ABS|A'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA147YL|B'
+2025-05-16 12:50:13.485 +05:30 [Error] CAD Object does not exist: 'NAA147XG|B'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NAA147YK|B'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NAA174APW|B'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NAA648L|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NAA176B|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NAA176C|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NAA187B|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'FAA176X|D'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NAA308EM|G'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: '9693J|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NAA648P|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'PAA190M|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'JAA00176ABV|C'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'JAA00137AAA|B'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NAA648H|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'PAA190B|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NAA176D|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'JO614AV|H'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NAA648B|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NAA648X|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NO190AN|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NO137E|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NAA648Z|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NAA648E|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'AAA648G|X'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'XAA176AP|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'XAA188BV|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'XAA176AK|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'DAA443W|A'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NAA27076EN|B'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'NON9801|Z'
+2025-05-16 12:50:13.486 +05:30 [Error] CAD Object does not exist: 'FAA72BV|E'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'NON7201|Q'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'ISO7089|AH'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'ISO4032|AB'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'ISO7040|M'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'ISO7045|AQ'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'NON7205|G'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'ISO7093|N'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'NON1241|AK'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'ISO4017|CX'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'NO99H|C'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'HAA25700CQ|H'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'HAA25700CR|E'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'HAA386KF|E'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'HAA347EP|E'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'HAA316NA|E'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'HAA102YR|C'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'HAA102AY|K'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'HAA348BF|L'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'HAA382K|Q'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'HAA347ACH|G'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'HAA315HP|M'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'HAA306AH|L'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'HAA347AYD|F'
+2025-05-16 12:50:13.487 +05:30 [Error] CAD Object does not exist: 'HAA347AXX|D'
+2025-05-16 12:50:57.181 +05:30 [Error] CAD Object does not exist: 'NAA409BJ|E'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'NAA409BK|F'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'NAA409BN|C'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'NAA409BP|C'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'NAA367GG|E'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'NAA367GF|E'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'TAA72AP|B'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'WAA315GF|A'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'ISO15984|A'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'NAA367GH|E'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'NAA367GJ|D'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'NAA367GL|E'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'NAA367HA|B'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'NAA367HB|B'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'NAA316DGL|B'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'NAA316DGN|B'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'NAA316DGK|B'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'NAA316DGM|B'
+2025-05-16 12:50:57.258 +05:30 [Error] CAD Object does not exist: 'NAA343M|D'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA367GK|E'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA367GV|B'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA367GW|B'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA367GX|B'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA367GZ|B'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA283ADY|A'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA363AAX|D'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA363AAZ|D'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA363ACD|B'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA363ACF|B'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA363YA|C'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA141B|A'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA283QB|E'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA315MF|H'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA363AAY|D'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA363ABA|D'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA315WY|A'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA363ACE|B'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA363ACG|B'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA363XZ|C'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA386NT|C'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA363ACP|A'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA363ACR|A'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA363ACT|A'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA363ACW|A'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA363ACQ|A'
+2025-05-16 12:50:57.259 +05:30 [Error] CAD Object does not exist: 'NAA363ACS|A'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'NAA363ACV|A'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'NAA363ACX|A'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'NAA315XG|A'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'NAA315XJ|A'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'NAA363ACM|A'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'NAA363ACY|A'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'NAA363YB|D'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'NAA283YW|B'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'NAA315XH|A'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'NAA315XK|A'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'NAA363ACN|A'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'NAA363ACZ|A'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'NAA363YC|D'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'NAA363ABB|D'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'NAA363ABC|D'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'FAA307BS|B'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'FAA307F|F'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'FAA316KHN|B'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'FAA331DD|B'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'FAA331M|D'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'FAA389GF|B'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'FAA456AC|E'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'FAA456XV|A'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'FAA502BM|E'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'FAA23400AK|B'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'FAA24520K|A'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'GAA24350BP|C'
+2025-05-16 12:50:57.260 +05:30 [Error] CAD Object does not exist: 'WAA389AD|A'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'WAA389B|C'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'WAA389S|G'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'WAA712C|A'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'WAA24431B|A'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'WAA24520D|A'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'WAA24600R|A'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA174AWJ|A'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA177GR|B'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA198AB|E'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA231F|A'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA102YL|A'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA124AJ|L'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA141BH|B'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA141R|C'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA149BK|G'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA156BN|A'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA172N|B'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA198AV|B'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA207E|D'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA307L|K'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA316CDL|A'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA316CDN|F'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA316CDP|E'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA316JPC|A'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA316KBE|A'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA316KBF|A'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA316KHQ|A'
+2025-05-16 12:50:57.261 +05:30 [Error] CAD Object does not exist: 'FAA316KJF|C'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA316KJG|B'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA320AK|C'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA320AP|B'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA320Y|A'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA321AG|A'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA327PB|A'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA327PC|B'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA502BL|A'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA502BN|D'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA502BP|C'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA502CA|A'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA502HL|A'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA712DD|A'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA717G|F'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA24350DJ|B'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FO141D|A'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'WAA102BS|A'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'WAA409D|A'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FO231W|A'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FO339CN|A'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA41AV|C'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA65J|A'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA72AY|A'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA76D|F'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA91AD|A'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA91CH|B'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA102XW|A'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA456AL|E'
+2025-05-16 12:50:57.262 +05:30 [Error] CAD Object does not exist: 'FAA24390N|E'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'FAA24520L|B'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'WAA389A|E'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'WAA389R|E'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'WAA24431A|C'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'WAA24431C|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'WAA24600L|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'WAA24600Q|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'WAA24600S|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'FAA307G|F'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'FAA316JLY|B'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'FAA316KFT|B'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'FAA370B|E'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'FAA431DJ|B'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'FBA316CGA|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'FBA316JHM|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'FO67R|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'FO72CA|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'FO231W|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'FO339CN|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'NAA174AAH|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'NAA342C|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'WAA102AN|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'WAA316AT|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'WAA409E|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'WAA712D|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'FAA91BS|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'FAA91R|D'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'FAA316CDM|A'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'FAA316CFZ|FA'
+2025-05-16 12:50:57.263 +05:30 [Error] CAD Object does not exist: 'FAA316KFM|A'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'FAA316KFN|B'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'FAA316KFR|A'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'FAA316KJB|B'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'FAA316KJC|B'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'FAA316KJD|B'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'FAA316KJE|C'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'FAA316KME|FA'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'FAA316KWV|A'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'FAA327BW|R'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'FAA327FC|D'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'FAA331AW|B'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'DIN929|F'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'ISO15979|N'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: '129CA|A'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'DAA10204G|C'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'DBA26800J|B'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'DCA26800CR|A'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'FBA316SL|A'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'GAA25005M|A'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'GDA25005B|B'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'HAA25302BA|E'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'NAA102GAA|P'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'NAA124F|A'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'NAA141C|A'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'NAA177A|A'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'NAA177B|B'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'NAA177D|B'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'NAA278AP|B'
+2025-05-16 12:50:57.264 +05:30 [Error] CAD Object does not exist: 'NAA306D|A'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA308EW|G'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA316AG|B'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA316AVT|A'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA316AWS|C'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA316CDB|B'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA316RM|C'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA316VS|E'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA323N|C'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA339V|A'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA346CT|A'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA391A|A'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA391B|B'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA406J|C'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA431A|A'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA433AB|D'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA443AZ|E'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA443BT|B'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA462A|E'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA462V|A'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA613Z|B'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA618G|B'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA649A|A'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA731N|A'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA25090H|A'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA25090Y|E'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA26800R|B'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NAA26800S|A'
+2025-05-16 12:50:57.265 +05:30 [Error] CAD Object does not exist: 'NLL316BP|C'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NLL25301C|B'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NO102BG|A'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NO102BR|A'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'WAA417D|A'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'WAA443A|A'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA102GD|E'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA102LT|B'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA316YA|B'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA354B|B'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA374DE|A'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA26800AQ|A'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NLL299G|B'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NO72Y|B'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'TAA50AD|A'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA147ABX|C'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA147ABY|C'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA147ABZ|C'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA147ACA|C'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA147XC|E'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA147XH|E'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA147YM|E'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA147YN|E'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA174ADY|F'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA174ADZ|E'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA174AEC|D'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA308FE|G'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA406K|C'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA27076ER|E'
+2025-05-16 12:50:57.266 +05:30 [Error] CAD Object does not exist: 'NAA27076EQ|B'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA147XB|B'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA147ABW|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA147ABT|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA147ABV|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA147ABS|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA147YL|B'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA147XG|B'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA147YK|B'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA174APW|B'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA648L|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA176B|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA176C|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA187B|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'FAA176X|D'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA308EM|G'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: '9693J|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA648P|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'PAA190M|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'JAA00176ABV|C'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'JAA00137AAA|B'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA648H|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'PAA190B|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA176D|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'JO614AV|H'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA648B|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA648X|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NO190AN|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NO137E|A'
+2025-05-16 12:50:57.267 +05:30 [Error] CAD Object does not exist: 'NAA648Z|A'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'NAA648E|A'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'AAA648G|X'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'XAA176AP|A'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'XAA188BV|A'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'XAA176AK|A'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'DAA443W|A'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'NAA27076EN|B'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'NON9801|Z'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'FAA72BV|E'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'NON7201|Q'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'ISO7089|AH'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'ISO4032|AB'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'ISO7040|M'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'ISO7045|AQ'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'NON7205|G'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'ISO7093|N'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'NON1241|AK'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'ISO4017|CX'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'NO99H|C'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'HAA25700CQ|H'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'HAA25700CR|E'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'HAA386KF|E'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'HAA347EP|E'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'HAA316NA|E'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'HAA102YR|C'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'HAA102AY|K'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'HAA348BF|L'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'HAA382K|Q'
+2025-05-16 12:50:57.268 +05:30 [Error] CAD Object does not exist: 'HAA347ACH|G'
+2025-05-16 12:50:57.269 +05:30 [Error] CAD Object does not exist: 'HAA315HP|M'
+2025-05-16 12:50:57.269 +05:30 [Error] CAD Object does not exist: 'HAA306AH|L'
+2025-05-16 12:50:57.269 +05:30 [Error] CAD Object does not exist: 'HAA347AYD|F'
+2025-05-16 12:50:57.269 +05:30 [Error] CAD Object does not exist: 'HAA347AXX|D'
+2025-05-16 12:53:52.152 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa409bj_drw.pdf' | ObjectId: 154B89901C1643149955C2ACF2857539
+2025-05-16 12:53:52.208 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa409bk_drw.pdf' | ObjectId: EC32F8068AC140E3B94089828D061BE2
+2025-05-16 12:53:52.209 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa409bn_drw.pdf' | ObjectId: 4637F0D332CE404086CE0230EF06C6E4
+2025-05-16 12:53:52.209 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa409bp_drw.pdf' | ObjectId: 2D30D4EE57224CEAA4E58C98DBD18300
+2025-05-16 12:53:52.209 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa367gg_drw.pdf' | ObjectId: 28F81C4ADE3640188DA324E3307946CE
+2025-05-16 12:53:52.209 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa367gf_drw.pdf' | ObjectId: 1ADAE05A27104AF4918658A596E1174C
+2025-05-16 12:53:52.209 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\taa72ap_drw.pdf' | ObjectId: 6B88BF7A090F471EBC510F35ADA3074D
+2025-05-16 12:53:52.209 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa315gf_drw.pdf' | ObjectId: 82558B748C8B46428FCDB845B2C4DB00
+2025-05-16 12:53:52.209 +05:30 [Error] CAD Object does not exist: 'ISO15984|A'
+2025-05-16 12:53:52.209 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa367gh_drw.pdf' | ObjectId: 16AB2AB2F5D2457680CBE65E3D563107
+2025-05-16 12:53:52.209 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa367gj_drw.pdf' | ObjectId: DD413636C4E445BAA49E74D4E6B7E51D
+2025-05-16 12:53:52.209 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa367gl_drw.pdf' | ObjectId: D23C81114E364F38BF27C5CC7F5B3AB6
+2025-05-16 12:53:52.209 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa367ha_drw.pdf' | ObjectId: 61D00D0D24B049B48504A3E05F16355A
+2025-05-16 12:53:52.209 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa367hb_drw.pdf' | ObjectId: 797191AD7C3A42338808E7721A92D6FC
+2025-05-16 12:53:52.209 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa316dgl_drw.pdf' | ObjectId: 544B65D260C240FBBEE724C0F2B54808
+2025-05-16 12:53:52.210 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa316dgn_drw.pdf' | ObjectId: AFF2BDF884064AAB913C6712F0C1FC8C
+2025-05-16 12:53:52.210 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa316dgk_drw.pdf' | ObjectId: A503F3B466264342850278F9EEAEF635
+2025-05-16 12:53:52.210 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa316dgm_drw.pdf' | ObjectId: D3D75B567A9E44A4A8841E08A7376C80
+2025-05-16 12:53:52.210 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa343m_drw.pdf' | ObjectId: 8E8249C92FB9447AB5CE94AB047F3E84
+2025-05-16 12:53:52.210 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa367gk_drw.pdf' | ObjectId: 4C70EB8FA6C54877B44DF280C572DD31
+2025-05-16 12:53:52.210 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa367gv_drw.pdf' | ObjectId: DACEBA9BE09A44BA99773F6EFE3F3B71
+2025-05-16 12:53:52.210 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa367gw_drw.pdf' | ObjectId: 236C2AE8BE56496980FEC8ED9E844A2F
+2025-05-16 12:53:52.210 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa367gx_drw.pdf' | ObjectId: 7A4F0473B0A547C283BF751D7ED01F65
+2025-05-16 12:53:52.210 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa367gz_drw.pdf' | ObjectId: 04CA9B2965124B1AA900E9D52C776F3E
+2025-05-16 12:53:52.210 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa283ady_drw.pdf' | ObjectId: F90320520FD54B048DCABED45294B2FF
+2025-05-16 12:53:52.210 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363aax_drw.pdf' | ObjectId: 0BF778D94529461797C5FD40EF6B4DDA
+2025-05-16 12:53:52.210 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363aaz_drw.pdf' | ObjectId: 594C8BB847BC45C5BB0B36F94566AA67
+2025-05-16 12:53:52.211 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363acd_drw.pdf' | ObjectId: 9FE72039A4CE4C71B48E4EE6FEA8ABB8
+2025-05-16 12:53:52.211 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363acf_drw.pdf' | ObjectId: 1913F2E2E18D4B529DC20696AE5179EC
+2025-05-16 12:53:52.211 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363ya_drw.pdf' | ObjectId: EEDAB3E1FC564E09976E73F04CDA87B3
+2025-05-16 12:53:52.211 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA141B.tif' | ObjectId: C10D817974A7429FA6FEBC1B4334416D
+2025-05-16 12:53:52.211 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa283qb_drw.pdf' | ObjectId: EA95D9E6A8874996806F58989CC696F7
+2025-05-16 12:53:52.211 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa315mf_drw.pdf' | ObjectId: EAEF49952D30403C8B8C86B0CE170242
+2025-05-16 12:53:52.211 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363aay_drw.pdf' | ObjectId: BAD368E412594C299AE31B9AF77639CB
+2025-05-16 12:53:52.211 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363aba_drw.pdf' | ObjectId: 92264CBF3EA64D0D98FBCF20217FC389
+2025-05-16 12:53:52.211 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa315wy_drw.pdf' | ObjectId: 7B595D3159134CF398725E3C92BF9D01
+2025-05-16 12:53:52.211 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363ace_drw.pdf' | ObjectId: CF5BBAC49CC744839DAABCBDCE80A07C
+2025-05-16 12:53:52.211 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363acg_drw.pdf' | ObjectId: A32F45A06B384B969AB8C4FCC8EFBC1B
+2025-05-16 12:53:52.211 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363xz_drw.pdf' | ObjectId: 196C77E145B641C38C5ED3666F6319F8
+2025-05-16 12:53:52.211 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA386NT.pdf' | ObjectId: 08A72E8BD6244B91B88965BBDE8C2CED
+2025-05-16 12:53:52.212 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363acp_drw.pdf' | ObjectId: 08FDD273EE5E4B2598010734A401C375
+2025-05-16 12:53:52.212 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363acr_drw.pdf' | ObjectId: F0CE313079DD47E288FFA21AAEA2AFF2
+2025-05-16 12:53:52.212 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363act_drw.pdf' | ObjectId: EC3C5CAF4FB848B6A6371B5191C28AD9
+2025-05-16 12:53:52.212 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363acw_drw.pdf' | ObjectId: EE326BC42B0A4A2FADD594A340D43E10
+2025-05-16 12:53:52.212 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363acq_drw.pdf' | ObjectId: 8E72ACFCF81C466591A346A4FF52D7A2
+2025-05-16 12:53:52.212 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363acs_drw.pdf' | ObjectId: B8B65C6E9DC848269553C7288CC42D2D
+2025-05-16 12:53:52.212 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363acv_drw.pdf' | ObjectId: C6CC39D2A2E245C2ACC86655BE0ABFF5
+2025-05-16 12:53:52.212 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363acx_drw.pdf' | ObjectId: 7511523874064516BAFBCBCADE3E81AB
+2025-05-16 12:53:52.212 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa315xg_drw.pdf' | ObjectId: 698A7164ECEA4B29AFEAC0C65D113B14
+2025-05-16 12:53:52.212 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa315xj_drw.pdf' | ObjectId: DA92B88AA3D94C0B89A2A7B182DE65FC
+2025-05-16 12:53:52.212 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363acm_drw.pdf' | ObjectId: 54D8EBCED7E34574B9B3F8123076D4B3
+2025-05-16 12:53:52.212 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363acy_drw.pdf' | ObjectId: 2C7CC05A28D7460182DD7A39C67A09AE
+2025-05-16 12:53:52.212 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363yb_drw.pdf' | ObjectId: CACDF55E1F0E48A289BFE0C22AD368C5
+2025-05-16 12:53:52.213 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa283yw_drw.pdf' | ObjectId: A2996BBD803740E3BEC2D44E1EE4E5AD
+2025-05-16 12:53:52.213 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa315xh_drw.pdf' | ObjectId: A13FF212E8784D8CA1985F4327DA39D3
+2025-05-16 12:53:52.213 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa315xk_drw.pdf' | ObjectId: E6C26DDAC31E43B99635E3F806A04286
+2025-05-16 12:53:52.213 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363acn_drw.pdf' | ObjectId: 390B43B2901A4DB7AAB46070D59D278D
+2025-05-16 12:53:52.213 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363acz_drw.pdf' | ObjectId: 3085ED9CBBD842DDB8D8425C3811569E
+2025-05-16 12:53:52.213 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363yc_drw.pdf' | ObjectId: 019700CDEF1A4171B572C243BB2362FC
+2025-05-16 12:53:52.213 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363abb_drw.pdf' | ObjectId: 44816D0592BB4A979CB8BE074975BB8B
+2025-05-16 12:53:52.213 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa363abc_drw.pdf' | ObjectId: 80DECCE84F074DEFBD054A49D97DA769
+2025-05-16 12:53:52.213 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa307bs_drw.pdf' | ObjectId: 51413F2263F545FD8D6363968E9D8E04
+2025-05-16 12:53:52.213 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa307f_drw.pdf' | ObjectId: 13351381F0864E568D395927161D9128
+2025-05-16 12:53:52.213 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316khn_drw.pdf' | ObjectId: 9493416DB87741D59B903EB2F6BA33B5
+2025-05-16 12:53:52.213 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa331dd_drw.pdf' | ObjectId: FBD68A4A8B4345DCBF526B73AB7C7DC7
+2025-05-16 12:53:52.213 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa331m_drw.pdf' | ObjectId: 701EA1FC02184217A1847FDCE6964C4A
+2025-05-16 12:53:52.213 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa389gf_drw.pdf' | ObjectId: 9BDF29C0FA4A4AF489A94E3182EBDB57
+2025-05-16 12:53:52.214 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa456ac_drw.pdf' | ObjectId: 9FDDAE03AAD04FEBA5206D58E4CFB412
+2025-05-16 12:53:52.214 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa456xv_drw.pdf' | ObjectId: 510A3098375F4DCC83EE7EC699E3591D
+2025-05-16 12:53:52.214 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa502bm_drw.pdf' | ObjectId: 14FE3B1848DE41C5BA95382EB71DD550
+2025-05-16 12:53:52.214 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa23400ak_drw.pdf' | ObjectId: 0353DF6EC3814B8487C1EA4FC2CCAA30
+2025-05-16 12:53:52.214 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa24520k_drw.pdf' | ObjectId: 76B26480103346A6A7C72AFB609D8FFA
+2025-05-16 12:53:52.214 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\GAA24350BP.pdf' | ObjectId: 7F8A0FE756C24A17AE94C5EA603FD27F
+2025-05-16 12:53:52.214 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa389ad_drw.pdf' | ObjectId: 6A58E056682F43EDA895B219A3935820
+2025-05-16 12:53:52.214 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa389b_drw.pdf' | ObjectId: 0B69EB7448D5407D9B993E07C17B4377
+2025-05-16 12:53:52.214 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa389s_drw.pdf' | ObjectId: D8B45B9F6C674574BE070A9462E83007
+2025-05-16 12:53:52.214 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa712c_drw.pdf' | ObjectId: 725A00E087C742DEB76985810C1AFA32
+2025-05-16 12:53:52.214 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa24431b_drw.pdf' | ObjectId: 95CD6B4865A14ADFB54F156A6D1CB8D1
+2025-05-16 12:53:52.214 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa24520d_drw.pdf' | ObjectId: D597B54FC13F42A2854F097A09A8EBCC
+2025-05-16 12:53:52.215 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa24600r_drw.pdf' | ObjectId: AE69945EFF4B437897C46E049AAB0401
+2025-05-16 12:53:52.215 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\FAA174AWJ_a-g.pdf' | ObjectId: 6D1F88A3C9164F28880A81535324AB08
+2025-05-16 12:53:52.215 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\FAA177GR.pdf' | ObjectId: 88D9625340654FD8ACF67D740D7AD1FE
+2025-05-16 12:53:52.215 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa198ab_drw.pdf' | ObjectId: DCF1D2C5FF174411806BC6B448D2A6D9
+2025-05-16 12:53:52.215 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa231f_drw.pdf' | ObjectId: 377792D2CBD349A690F311418A07374E
+2025-05-16 12:53:52.215 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\FAA102YL_doc.pdf' | ObjectId: 89E3F6E1CB8E437A8C443F2A7DBA43AF
+2025-05-16 12:53:52.215 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\FAA124AJ.doc' | ObjectId: CA9A33FCF1904FAC8AF82B82F90E33CC
+2025-05-16 12:53:52.215 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\FAA141BH_docx.pdf' | ObjectId: CC0A59A329D5474AB10ACB6F307F50D2
+2025-05-16 12:53:52.215 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa141r_drw.pdf' | ObjectId: 896A879FC40240198BA242798E0EBFF8
+2025-05-16 12:53:52.215 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa149bk_drw.pdf' | ObjectId: 1DA80AB80F734315B34093F2EF179BD2
+2025-05-16 12:53:52.215 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa156bn_docx.pdf' | ObjectId: 9DF6A9446DFA44B2A66F2CB68C735961
+2025-05-16 12:53:52.215 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa172n_doc.pdf' | ObjectId: 6953C69DF0F640778812D61C91D9226E
+2025-05-16 12:53:52.215 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\FAA198AV.pdf' | ObjectId: FEB06D5521E24A9F8A4B2AD8EC398364
+2025-05-16 12:53:52.215 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\FAA207E.tif' | ObjectId: 551955393CF14E4F9B8E07EF6E1F8786
+2025-05-16 12:53:52.216 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa307l_drw.pdf' | ObjectId: F6518B411CFB40818D8EB42F7903875F
+2025-05-16 12:53:52.216 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316cdl_drw.pdf' | ObjectId: 7EADF29C49ED45CFA8B5C30BC21977CE
+2025-05-16 12:53:52.219 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316cdn_drw.pdf' | ObjectId: B9C2ADF19C7946E79C287D44A6CA7C3A
+2025-05-16 12:53:52.222 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316cdp_drw.pdf' | ObjectId: 36E1BFC3B8FA4E618497176B2763ACF3
+2025-05-16 12:53:52.222 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316jpc_drw.pdf' | ObjectId: F2E306A2EAA14E5CB5B6EF76D3728276
+2025-05-16 12:53:52.222 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316kbe_drw.pdf' | ObjectId: EAA16AE26DA54B1F8AEC3C2115E709D0
+2025-05-16 12:53:52.222 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316kbf_drw.pdf' | ObjectId: 35EF81A3CA084D06A441B9A2C761C9F9
+2025-05-16 12:53:52.222 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316khq_drw.pdf' | ObjectId: ACA576E458634A4EBECFBF62D518AFB8
+2025-05-16 12:53:52.222 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316kjf_drw.pdf' | ObjectId: 43AE7F0ABA29445B8FD39AD1AB34DEF7
+2025-05-16 12:53:52.222 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316kjg_drw.pdf' | ObjectId: 1F782EF666494D6C839412694DEA5474
+2025-05-16 12:53:52.223 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa320ak_drw.pdf' | ObjectId: 63734CDE1A264FA6B517BB204BE655AA
+2025-05-16 12:53:52.223 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa320ap_drw.pdf' | ObjectId: 57F9F78C35BA443AB9782AD6C5CE2063
+2025-05-16 12:53:52.223 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\FAA320Y.tif' | ObjectId: 04A0D4055AB74CCE80472867A136779C
+2025-05-16 12:53:52.223 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa321ag_drw.pdf' | ObjectId: E098F0915CD04FF6825DEF5458537B79
+2025-05-16 12:53:52.223 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa327pb_drw.pdf' | ObjectId: 0873FEDE27CE41BDB72ACBFEF2EE2C20
+2025-05-16 12:53:52.223 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa327pc_drw.pdf' | ObjectId: 93ED1A604791464BA4CD0B783D169261
+2025-05-16 12:53:52.223 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa502bl_drw.pdf' | ObjectId: A70944B678494FC8A57ED82595A64313
+2025-05-16 12:53:52.223 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa502bn_drw.pdf' | ObjectId: 6BB226C7CAD44128ADC0DA73468A6C79
+2025-05-16 12:53:52.223 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa502bp_drw.pdf' | ObjectId: 85FBF307511C497CBA5607E748A1F0B4
+2025-05-16 12:53:52.223 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa502ca_drw.pdf' | ObjectId: 715D918E641E4E3095DFD84BAF148DF8
+2025-05-16 12:53:52.223 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa502hl_drw.pdf' | ObjectId: 464D5F81BF944F1D87173BECE7DD69AB
+2025-05-16 12:53:52.223 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa712dd_drw.pdf' | ObjectId: 56413164B2A8409B948AF0D57EE97529
+2025-05-16 12:53:52.223 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\FAA717G.doc' | ObjectId: E30CA59757504A9EA80412E0A22D0157
+2025-05-16 12:53:52.223 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\FAA24350DJ_doc.pdf' | ObjectId: F62A4284661042389B50C7DE6FF62F52
+2025-05-16 12:53:52.224 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\FO141D_docx.pdf' | ObjectId: A3A3DE17CC0C42668FDCEA8C4C61979E
+2025-05-16 12:53:52.224 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa102bs_drw.pdf' | ObjectId: CA58E4562C954B2C92575D68B4A9A251
+2025-05-16 12:53:52.224 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa409d_drw.pdf' | ObjectId: 7070B46A3D37431982C219699574DB80
+2025-05-16 12:53:52.224 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\fO231w_drw.pdf' | ObjectId: A807A99B4BFC47AC8A8DB0BB7E3CF052
+2025-05-16 12:53:52.224 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\fO339cn_drw.pdf' | ObjectId: 9F0E972D77EC407C9A4D73560BE32E7D
+2025-05-16 12:53:52.224 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa41av_drw.pdf' | ObjectId: 77C8000B06AC474F9427B65F8B4E862A
+2025-05-16 12:53:52.224 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa65j_drw.pdf' | ObjectId: A63ED65A9689456E8DE1136CE5C2DDC0
+2025-05-16 12:53:52.224 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa72ay.doc' | ObjectId: 56E082C145E740ABA2C5046632815DAD
+2025-05-16 12:53:52.224 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa76d_doc.pdf' | ObjectId: 8F43F040DDE54A3288BD01A44475B705
+2025-05-16 12:53:52.224 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa91ad_drw.pdf' | ObjectId: BF9F70C4B42440DA89A51542FB71AA07
+2025-05-16 12:53:52.224 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa91ch_drw.pdf' | ObjectId: 89B7667D469F46A3AD780BAECAE368B4
+2025-05-16 12:53:52.224 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa102xw_drw.pdf' | ObjectId: DB4176051D814F878E77564CED2C1EA1
+2025-05-16 12:53:52.224 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa456al_drw.pdf' | ObjectId: 30B661915DDF4F88B67B68D2A58CD9F0
+2025-05-16 12:53:52.224 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa24390n_drw.pdf' | ObjectId: 08567B71D4D340A69FEE6315830EEE8F
+2025-05-16 12:53:52.225 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa24520l_drw.pdf' | ObjectId: E322DA6625B74142B3281793D0EF29C5
+2025-05-16 12:53:52.225 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa389a_drw.pdf' | ObjectId: DAB78F867B9B4FF38675C54F1C4036D0
+2025-05-16 12:53:52.225 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa389r_drw.pdf' | ObjectId: 597836F2AE5B468A8D367DFF99E89E1B
+2025-05-16 12:53:52.225 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa24431a_drw.pdf' | ObjectId: AB93DCA731064BE3980DF9911897C21D
+2025-05-16 12:53:52.225 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa24431c_drw.pdf' | ObjectId: 64648956DDCE46AD9D9C8EFF3615DAAD
+2025-05-16 12:53:52.225 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa24600l_drw.pdf' | ObjectId: F75DD16C99A0406B987B5F011460B497
+2025-05-16 12:53:52.225 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa24600q_drw.pdf' | ObjectId: 8D3FDB376875435FBC497A528466759D
+2025-05-16 12:53:52.225 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa24600s_drw.pdf' | ObjectId: 5F070ACED6754B1EB2F3929E34043A29
+2025-05-16 12:53:52.225 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa307g_drw.pdf' | ObjectId: 0917DB470619435F82E335F03A2636C5
+2025-05-16 12:53:52.225 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316jly_drw.pdf' | ObjectId: FA44FA251BDA4B14BDFED2ED5A31B2D1
+2025-05-16 12:53:52.225 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316kft_drw.pdf' | ObjectId: 25F04B213C6A4C5F8199D4609039DB5F
+2025-05-16 12:53:52.225 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa370b_drw.pdf' | ObjectId: A2392F760A3348BC99B6423D3C4BE6C1
+2025-05-16 12:53:52.225 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa431dj_drw.pdf' | ObjectId: 6F5DD8B3DB7E4C2BBD5E3D201E584FF5
+2025-05-16 12:53:52.225 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\fba316cga_drw.pdf' | ObjectId: 68AA98D8B417457F9B5BE747BA9E548A
+2025-05-16 12:53:52.226 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\fba316jhm_drw.pdf' | ObjectId: 96C47BE154894DD1A6129AD13CDD9A0F
+2025-05-16 12:53:52.226 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\FO67R.tif' | ObjectId: AA39D21BAD7E4B7A974AB01B079D608E
+2025-05-16 12:53:52.226 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\FO72CA.tif' | ObjectId: 4A6E008975324F9D9DEFAA44B0EAD592
+2025-05-16 12:53:52.226 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\FO231W.tif' | ObjectId: A807A99B4BFC47AC8A8DB0BB7E3CF052
+2025-05-16 12:53:52.226 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\FO339CN.pdf' | ObjectId: 9F0E972D77EC407C9A4D73560BE32E7D
+2025-05-16 12:53:52.226 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA174AAH.pdf' | ObjectId: 4BB06E2627B84BC8868E0E78B7004447
+2025-05-16 12:53:52.226 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA342C.pdf' | ObjectId: 40D92E7C8C6B4A06B46F108D2678180C
+2025-05-16 12:53:52.226 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa102an_drw.pdf' | ObjectId: B97495DCA5A5426085C7457B1EF26164
+2025-05-16 12:53:52.226 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa316at_drw.pdf' | ObjectId: D915DEE4079E46A78E53CEA33D476F2F
+2025-05-16 12:53:52.226 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa409e_drw.pdf' | ObjectId: 31612F16C4BF4949BDCCEDE72AEB4725
+2025-05-16 12:53:52.226 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\waa712d_drw.pdf' | ObjectId: A3E0CE25048045F2AE612F53BB614E5B
+2025-05-16 12:53:52.226 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\FAA91BS_doc.pdf' | ObjectId: 88965128490647EEA501DE516EBFBDF9
+2025-05-16 12:53:52.226 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa91r_drw.pdf' | ObjectId: 25E2B90E88C6401EB0894E94EEDD1135
+2025-05-16 12:53:52.226 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316cdm_drw.pdf' | ObjectId: 617EECDA7C00470C8558637F05AFD17E
+2025-05-16 12:53:52.227 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316cfz_drw.pdf' | ObjectId: 68E83730675849F79C9E887CF39AF30E
+2025-05-16 12:53:52.227 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316kfm_drw.pdf' | ObjectId: BDF8688F438944D2A436A2406C27D2B5
+2025-05-16 12:53:52.227 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316kfn_drw.pdf' | ObjectId: 4F349C7F8ED344188BD72C9F34991EBF
+2025-05-16 12:53:52.227 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316kfr_drw.pdf' | ObjectId: 651148A0D7CD47F096F83F2545ADAF43
+2025-05-16 12:53:52.227 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316kjb_drw.pdf' | ObjectId: 6DAB74BA86424B899B0AD7960E3A2AA8
+2025-05-16 12:53:52.227 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316kjc_drw.pdf' | ObjectId: 0285F5B5D258407B93E8228656836276
+2025-05-16 12:53:52.227 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316kjd_drw.pdf' | ObjectId: 5F41B3C8E58F4024A15E23B544D40E79
+2025-05-16 12:53:52.227 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316kje_drw.pdf' | ObjectId: C55F9F8E680F4B6EB0E2AC0F5EEF33FC
+2025-05-16 12:53:52.227 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316kme_drw.pdf' | ObjectId: B2EB277BB66E4E168DA6D416579401F2
+2025-05-16 12:53:52.227 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa316kwv_drw.pdf' | ObjectId: 84B86108E60744AEA3607E2A05D81637
+2025-05-16 12:53:52.227 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa327bw_drw.pdf' | ObjectId: 5375F504B86643D1BF4531B939A525AB
+2025-05-16 12:53:52.227 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa327fc_drw.pdf' | ObjectId: A36BE82F542A468BB99C69D6CE32397C
+2025-05-16 12:53:52.227 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa331aw_drw.pdf' | ObjectId: E15AC91DF38C4805BEC717504441FA65
+2025-05-16 12:53:52.227 +05:30 [Error] CAD Object does not exist: 'DIN929|F'
+2025-05-16 12:53:52.227 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\iso15979_drw.pdf' | ObjectId: 63B01DD2E010437AAC07E4BCB36B9E93
+2025-05-16 12:53:52.228 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\129CA.tif' | ObjectId: 2F42B6117A8E47BBA169BB041A8ABD8A
+2025-05-16 12:53:52.228 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\DAA10204G.pdf' | ObjectId: 6FA5482871E5452791B5D9F9DC4E94E9
+2025-05-16 12:53:52.228 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\dba26800j_drw.pdf' | ObjectId: F7F9A0E6EEFB4194BBC40779E09879E5
+2025-05-16 12:53:52.228 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\DCA26800CR.pdf' | ObjectId: 884A7558A254402CA87481E18A2C5705
+2025-05-16 12:53:52.228 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\fba316sl_drw.pdf' | ObjectId: B774B8BC95FD4079ADF8E61DEC07AB61
+2025-05-16 12:53:52.228 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\GAA25005M.tif' | ObjectId: F123C6273424435FBC81C68EC5AA78D0
+2025-05-16 12:53:52.228 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\GDA25005B.pdf' | ObjectId: 2F529DE875B349DD81393A51614C9335
+2025-05-16 12:53:52.228 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\haa25302ba_drw.pdf' | ObjectId: 0E66AC3473AC4A4F9E312A184337F13C
+2025-05-16 12:53:52.228 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA102GA.pdf' | ObjectId: EBCF6B0336174B17B112B3E1DA95BC48
+2025-05-16 12:53:52.228 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA124F.pdf' | ObjectId: DE9B3388950F4E1A9845A46912BA5348
+2025-05-16 12:53:52.228 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA141C.pdf' | ObjectId: E7CC68783CDC4C1FA0B1200C3D262BAA
+2025-05-16 12:53:52.228 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA177A.pdf' | ObjectId: 139D2D880F1C49A396A2F012E7F30A67
+2025-05-16 12:53:52.228 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA177B.pdf' | ObjectId: BE0C25A79B3D42E2A2F70417ACCEC75A
+2025-05-16 12:53:52.228 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA177D.pdf' | ObjectId: 0E3F77B1BA224250A3B1518D0A0D6842
+2025-05-16 12:53:52.229 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA278AP.pdf' | ObjectId: 2EA8C1C90AF24E7BB35BC53B267B28FF
+2025-05-16 12:53:52.229 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA306D.pdf' | ObjectId: 7DAD6626A6204BF08E5050B517953838
+2025-05-16 12:53:52.229 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA308EW.pdf' | ObjectId: E8AEF81F47B4441E89F288A9ED3F903F
+2025-05-16 12:53:52.229 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA316AG.pdf' | ObjectId: 84AC9DE2B8AF4BEFBC58D1BD62D41B8C
+2025-05-16 12:53:52.229 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa316avt.pdf' | ObjectId: ED1326B3C7AC4647A54852C28B984390
+2025-05-16 12:53:52.229 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA316AWS.pdf' | ObjectId: D915DB26565C4B20B4C647FB7C5CB1FA
+2025-05-16 12:53:52.229 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa316cdb_drw.pdf' | ObjectId: 6D2E472E7A094895B31AC662F2A73F05
+2025-05-16 12:53:52.229 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA316RM.pdf' | ObjectId: 35E3C1825A644912956B82DA85DB5116
+2025-05-16 12:53:52.229 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA316VS.pdf' | ObjectId: 4915D602A952490DB9A3FD01C2F928C9
+2025-05-16 12:53:52.229 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA323N.pdf' | ObjectId: 4FAE3D32A07B426A9B8BA6817F4A35E2
+2025-05-16 12:53:52.229 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA339V.pdf' | ObjectId: A87568C0277E41D795CFE311D691366D
+2025-05-16 12:53:52.229 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA346CT.pdf' | ObjectId: 4F3392B1AD944E00AAB05A96B588155D
+2025-05-16 12:53:52.229 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA391A.pdf' | ObjectId: FBF293FA03EE460F8EECA5A6C6E22011
+2025-05-16 12:53:52.230 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA391B.pdf' | ObjectId: 6C04BC8CA7DF4941846916328D7FF846
+2025-05-16 12:53:52.230 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA406J.pdf' | ObjectId: 28189B014EC64BFE867669EC68E250D1
+2025-05-16 12:53:52.230 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA431A.pdf' | ObjectId: 8F3706F3F2744BECBE938DF78F7B1FD7
+2025-05-16 12:53:52.230 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA433AB.pdf' | ObjectId: 55222210762D41E7AB17E269D2DFFCC7
+2025-05-16 12:53:52.230 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA443AZ.pdf' | ObjectId: B848BF69A7A541E6B11A61BC1BD75C46
+2025-05-16 12:53:52.230 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA443BT.pdf' | ObjectId: E10AD9A47A334930985BF69A13B9205C
+2025-05-16 12:53:52.230 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA462A.pdf' | ObjectId: 1A6C53E334CB46159F4765CC0C991F15
+2025-05-16 12:53:52.230 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\naa462v.pdf' | ObjectId: 275BDDCD0CBE4C44B6F5E80680AF585A
+2025-05-16 12:53:52.230 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA613Z.pdf' | ObjectId: A93204C0E2F5438A8325249321C84ED1
+2025-05-16 12:53:52.230 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA618G.pdf' | ObjectId: 44ECF4CCB3D4483C91E5A5C5C2691893
+2025-05-16 12:53:52.230 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA649A.pdf' | ObjectId: 0ACF8AC7F0234CD3BB73A781041B048B
+2025-05-16 12:53:52.230 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA731N.pdf' | ObjectId: 548D9FF4F5BF449B82F1326B10E7F8DC
+2025-05-16 12:53:52.230 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA25090H.pdf' | ObjectId: DBD91B2041DA43AF8BC7D98AD48EC9AB
+2025-05-16 12:53:52.230 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA25090Y.pdf' | ObjectId: 08DEA5ED7E034BE5A88D668EE05262E7
+2025-05-16 12:53:52.231 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA26800R.pdf' | ObjectId: D8E89EFDB80648BE8B375FEB69F2C0EF
+2025-05-16 12:53:52.231 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA26800S.pdf' | ObjectId: FEE2E3110CEF43638AA06CF886658A6F
+2025-05-16 12:53:52.231 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NLL316BP.pdf' | ObjectId: 7C2EB0D09C834F2AB0BDEBD99607DB25
+2025-05-16 12:53:52.231 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NLL25301C.pdf' | ObjectId: 8DA8FB64F1FF43098451C19318D27E6B
+2025-05-16 12:53:52.231 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NO102BG.pdf' | ObjectId: 69E71C68CA074A368D7838EC9817F589
+2025-05-16 12:53:52.231 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NO102BR.pdf' | ObjectId: A4075AD7173447C7A9D672E5F61D530A
+2025-05-16 12:53:52.231 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\WAA417D.pdf' | ObjectId: 3285F187AA83475CA6B2795AFE6A079F
+2025-05-16 12:53:52.231 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\WAA443A.pdf' | ObjectId: 534674877E864EBA9F05BAD7C1A612DB
+2025-05-16 12:53:52.231 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA102GD.pdf' | ObjectId: 26FACA1C8E6B4DE880CB77391764EF82
+2025-05-16 12:53:52.231 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA102LT.pdf' | ObjectId: BF0F445D647E4DE291EE0C0B565798EC
+2025-05-16 12:53:52.231 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA316YA.pdf' | ObjectId: 2BB849CE870F41AE978A4EB2694FC1FF
+2025-05-16 12:53:52.231 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA354B.pdf' | ObjectId: 0AA885BC61114A2CA59B38F245BF4BA9
+2025-05-16 12:53:52.231 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA374DE.pdf' | ObjectId: 1347CBF8913A43869B8B74C66684DEAA
+2025-05-16 12:53:52.231 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA26800AQ.pdf' | ObjectId: 923EC755B32248069C0C0B6A3BE22F47
+2025-05-16 12:53:52.232 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\nll299g_drw.pdf' | ObjectId: 5C42DBD0D10A41F6A8FACB546D962C8B
+2025-05-16 12:53:52.232 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NO72Y.pdf' | ObjectId: CF9B95293A724B6F88227632B43CFE3B
+2025-05-16 12:53:52.232 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\taa50ad.pdf' | ObjectId: 4A64683F50934A73B9FD202AA5A377DD
+2025-05-16 12:53:52.232 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA147ABX.pdf' | ObjectId: 65297883F1E04453B370B01A7F06097F
+2025-05-16 12:53:52.232 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA147ABY.pdf' | ObjectId: 2E6CC42400B84F9BBFE1EE4335E8D773
+2025-05-16 12:53:52.232 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA147ABZ.pdf' | ObjectId: FF2C648064EF4E97B19C9EB43AFE2A5A
+2025-05-16 12:53:52.232 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA147ACA.pdf' | ObjectId: 004FCE7616A44B5998D0C2CAA322209C
+2025-05-16 12:53:52.232 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA147XC.pdf' | ObjectId: 1D6469829F1641BC8A1A3B5267A2113F
+2025-05-16 12:53:52.232 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA147XH.pdf' | ObjectId: B33CB87B29614F3CBC83461397A06F3C
+2025-05-16 12:53:52.232 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA147YM.pdf' | ObjectId: 990406B56FF44D66BAF2F747D31C75D8
+2025-05-16 12:53:52.232 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA147YN.pdf' | ObjectId: CF2D63C906D84DED81D311A44767FCE7
+2025-05-16 12:53:52.232 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA174ADY.pdf' | ObjectId: 43D9609179624B84B77D2B7DBAE0CCE7
+2025-05-16 12:53:52.232 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA174ADZ.pdf' | ObjectId: 9BBA4301677F422D84FD39F3AD04B8B3
+2025-05-16 12:53:52.232 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA174AEC.pdf' | ObjectId: 48B1C432288146AEB038A306354CCD54
+2025-05-16 12:53:52.232 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA308FE.pdf' | ObjectId: 35866E9819CD48679CABF403BFBE5622
+2025-05-16 12:53:52.233 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA406K.pdf' | ObjectId: F2E71D05C7AD4DA689BF87ECE2F20C37
+2025-05-16 12:53:52.233 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA27076ER.xls' | ObjectId: 352A7C22FE2F4AA48D6AC6999F73B72E
+2025-05-16 12:53:52.233 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA27076EQ.xls' | ObjectId: 6449FDD0EA844ACB99AB40B8FD88EDC0
+2025-05-16 12:53:52.233 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA147XB.pdf' | ObjectId: D80A91742BC346AE978EDC1831E95CA8
+2025-05-16 12:53:52.233 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA147ABW.pdf' | ObjectId: 970C948DB14A455A905E24F8A822CCE6
+2025-05-16 12:53:52.233 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA147ABT.pdf' | ObjectId: 8565B0650997456CAEDF0314C1F6EE53
+2025-05-16 12:53:52.233 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA147ABV.pdf' | ObjectId: ABAA520401FF43BCA6C8268C347DCB90
+2025-05-16 12:53:52.233 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA147ABS.pdf' | ObjectId: DD90842CD83248CBA28BB23DB27F9092
+2025-05-16 12:53:52.233 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA147YL.pdf' | ObjectId: F9065DE4472242749460BCAEC91805E0
+2025-05-16 12:53:52.233 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA147XG.pdf' | ObjectId: 18076906ACF44F2AA8259562FD560815
+2025-05-16 12:53:52.233 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA147YK.pdf' | ObjectId: 82F42BBD18254CD8A143ACD50FF1778A
+2025-05-16 12:53:52.233 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA174APW.pdf' | ObjectId: 5B952C5DEB804270BA7078EFBA51F35B
+2025-05-16 12:53:52.233 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA648L.pdf' | ObjectId: E3564212EBB841D9A7828A06D181E02C
+2025-05-16 12:53:52.233 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA176B.dwg' | ObjectId: 9E56E83A35174E9699D1AC9CF5C60D42
+2025-05-16 12:53:52.234 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA176C.dwg' | ObjectId: DF665D7C331D49CEBE0FCEC953E9AD63
+2025-05-16 12:53:52.234 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA187B.dwg' | ObjectId: E9C82E76E65F41D5865259DE6A698933
+2025-05-16 12:53:52.234 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa176x.doc' | ObjectId: AD96350A950C43F091F0D3B4118DE552
+2025-05-16 12:53:52.234 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA308EM.pdf' | ObjectId: 9146EEDA03AE43CBBF2E905250685B0C
+2025-05-16 12:53:52.234 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\9693J.tif' | ObjectId: 4F86290F8F8A4677BFDAAEF3586A736F
+2025-05-16 12:53:52.234 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA648P.pdf' | ObjectId: C9220BFCCF3B4A45B2DB535035803F88
+2025-05-16 12:53:52.234 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\PAA190M.tif' | ObjectId: 8E87BCDA55A1418EA83FEA2D0D86BEA3
+2025-05-16 12:53:52.234 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\JAA00176ABV.tif' | ObjectId: 02E24504C36D49EFB7754CE1E728EF24
+2025-05-16 12:53:52.234 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\JAA00137AAA.tif' | ObjectId: 4999E1267D4B4775919BD738940FF5AF
+2025-05-16 12:53:52.234 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA648H.pdf' | ObjectId: B1C02F39A2734660A54808B79FE0E2CE
+2025-05-16 12:53:52.234 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\PAA190B.tif' | ObjectId: A04CBECC28A74F988D106AE9C90D4D85
+2025-05-16 12:53:52.234 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA176D.pdf' | ObjectId: BD24FDDC71C04CA6B51913CF433DA26E
+2025-05-16 12:53:52.234 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\JO614AV.tif' | ObjectId: 4B07269F5C8444EF8A0F6F23D41CB02C
+2025-05-16 12:53:52.234 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA648B.pdf' | ObjectId: 8EDC5348A0734723B3D9D3784EE8D58B
+2025-05-16 12:53:52.235 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA648X.pdf' | ObjectId: 783C0410F3F7479DA11F88F35246DC26
+2025-05-16 12:53:52.235 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NO190AN.pdf' | ObjectId: F8740E5BF7D74B0BACAA253A909A4A3D
+2025-05-16 12:53:52.235 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NO137E.pdf' | ObjectId: 8C6AF1728B534150BA27BCFC7CB796E2
+2025-05-16 12:53:52.235 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA648Z.pdf' | ObjectId: 04B3381A492A46EC917AA53B3A8A2558
+2025-05-16 12:53:52.235 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA648E.pdf' | ObjectId: 151FCE91AD5342E28CEBC4759612AEBC
+2025-05-16 12:53:52.235 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\AAA648G.pdf' | ObjectId: 8412C7DF80A244E896A508256D3A35FE
+2025-05-16 12:53:52.235 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\XAA176AP.pdf' | ObjectId: 058DD3F9E049434FA5B1F0278FC99B75
+2025-05-16 12:53:52.235 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\XAA188BV.pdf' | ObjectId: FC44C4C714CA422B836E86A8002F7DF0
+2025-05-16 12:53:52.235 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\XAA176AK.pdf' | ObjectId: ED7C5CFF123F4578A921FA4D41A8EE7D
+2025-05-16 12:53:52.235 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\daa443w.pdf' | ObjectId: 7C6BB3D61DD949AD905AE07CD39D019A
+2025-05-16 12:53:52.235 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NAA27076EN.xls' | ObjectId: D62F0F3064994E87989FE3EDB3D1D4CA
+2025-05-16 12:53:52.235 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\non9801_drw.pdf' | ObjectId: 7414607AA88848BA8A77BD4825DE9C86
+2025-05-16 12:53:52.235 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\faa72bv_drw.pdf' | ObjectId: F0AB1DCFE90540A0AA867634A72A51BA
+2025-05-16 12:53:52.235 +05:30 [Error] CAD Object does not exist: 'NON7201|Q'
+2025-05-16 12:53:52.235 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\iso7089_drw.pdf' | ObjectId: 83687204CAD34674B5B3B4FEF679306A
+2025-05-16 12:53:52.236 +05:30 [Error] CAD Object does not exist: 'ISO4032|AB'
+2025-05-16 12:53:52.236 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\iso7040_drw.pdf' | ObjectId: 5F16E1D383084ED183ED1D1BB167D663
+2025-05-16 12:53:52.236 +05:30 [Error] CAD Object does not exist: 'ISO7045|AQ'
+2025-05-16 12:53:52.236 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\non7205_drw.pdf' | ObjectId: E8E7563FCE2E46C884B26274988A843C
+2025-05-16 12:53:52.236 +05:30 [Error] CAD Object does not exist: 'ISO7093|N'
+2025-05-16 12:53:52.236 +05:30 [Error] CAD Object does not exist: 'NON1241|AK'
+2025-05-16 12:53:52.236 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\iso4017_drw.pdf' | ObjectId: 1545B75BB78F43648D57A8C245F58FCB
+2025-05-16 12:53:52.236 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\NO99H.pdf' | ObjectId: 87B19A242B274E1F910507C67BD3970F
+2025-05-16 12:53:52.236 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\haa25700cq_drw.pdf' | ObjectId: 426BA7C7E8034A189CD662529229704E
+2025-05-16 12:53:52.236 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\haa25700cr_drw.pdf' | ObjectId: 34DC0B843AB848FAAE3CFB247B113360
+2025-05-16 12:53:52.236 +05:30 [Error] CAD Object does not exist: 'HAA386KF|E'
+2025-05-16 12:53:52.236 +05:30 [Error] CAD Object does not exist: 'HAA347EP|E'
+2025-05-16 12:53:52.236 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\haa316na_drw.pdf' | ObjectId: EB1487D68BAA4E6AB6E9C9FABA496E8B
+2025-05-16 12:53:52.236 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\haa102yr_drw.pdf' | ObjectId: FC1CB99F848640638E03BFA37E8ECBAE
+2025-05-16 12:53:52.236 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\haa102ay_drw.pdf' | ObjectId: 4C4E9EBCC8FF4B8A9E5276CAD41A1C60
+2025-05-16 12:53:52.236 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\haa348bf_drw.pdf' | ObjectId: 406FE17A39EB46058DBC3D792B6A287C
+2025-05-16 12:53:52.236 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\haa382k_drw.pdf' | ObjectId: 88B9DE6E99194604B8321F78CECC624D
+2025-05-16 12:53:52.237 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\haa347ach_drw.pdf' | ObjectId: CCAC33E3ECDB4703B46690A95DA8B758
+2025-05-16 12:53:52.237 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\haa315hp_drw.pdf' | ObjectId: 522FDB096B14480F839D10904848B4A2
+2025-05-16 12:53:52.237 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\haa306ah_drw.pdf' | ObjectId: 66E4C326B3E043B2A435196394B502FC
+2025-05-16 12:53:52.237 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\haa347ayd_drw.pdf' | ObjectId: EC555D7DC37449A59FB353E3DE24F7BD
+2025-05-16 12:53:52.237 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\DrawingFileData\haa347axx_drw.pdf' | ObjectId: BC4C5F4D6AA046D59FA97351015659DE
+2025-05-16 12:57:20.448 +05:30 [Error] CAD Object does not exist: 'ISO15984|A'
+2025-05-16 12:57:21.090 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\faa321ag_drw.pdf' | ObjectId: E098F0915CD04FF6825DEF5458537B79
+2025-05-16 12:57:21.148 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\fO231w_drw.pdf' | ObjectId: A807A99B4BFC47AC8A8DB0BB7E3CF052
+2025-05-16 12:57:21.399 +05:30 [Error] CAD Object does not exist: 'DIN929|F'
+2025-05-16 12:57:21.399 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\iso15979_drw.pdf' | ObjectId: 63B01DD2E010437AAC07E4BCB36B9E93
+2025-05-16 12:57:21.420 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\dba26800j_drw.pdf' | ObjectId: F7F9A0E6EEFB4194BBC40779E09879E5
+2025-05-16 12:57:21.435 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\GDA25005B.pdf' | ObjectId: 2F529DE875B349DD81393A51614C9335
+2025-05-16 12:57:21.458 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\NAA141C.pdf' | ObjectId: E7CC68783CDC4C1FA0B1200C3D262BAA
+2025-05-16 12:57:21.719 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\NAA176B.dwg' | ObjectId: 9E56E83A35174E9699D1AC9CF5C60D42
+2025-05-16 12:57:21.719 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\NAA176C.dwg' | ObjectId: DF665D7C331D49CEBE0FCEC953E9AD63
+2025-05-16 12:57:21.719 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\NAA187B.dwg' | ObjectId: E9C82E76E65F41D5865259DE6A698933
+2025-05-16 12:57:21.786 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\daa443w.pdf' | ObjectId: 7C6BB3D61DD949AD905AE07CD39D019A
+2025-05-16 12:57:21.796 +05:30 [Error] CAD Object does not exist: 'NON7201|Q'
+2025-05-16 12:57:21.800 +05:30 [Error] CAD Object does not exist: 'ISO4032|AB'
+2025-05-16 12:57:21.804 +05:30 [Error] CAD Object does not exist: 'ISO7045|AQ'
+2025-05-16 12:57:21.808 +05:30 [Error] CAD Object does not exist: 'ISO7093|N'
+2025-05-16 12:57:21.808 +05:30 [Error] CAD Object does not exist: 'NON1241|AK'
+2025-05-16 12:57:21.838 +05:30 [Error] CAD Object does not exist: 'HAA386KF|E'
+2025-05-16 12:57:21.839 +05:30 [Error] CAD Object does not exist: 'HAA347EP|E'
+2025-05-16 13:03:36.629 +05:30 [Error] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.GenerateTsv(String processType, String fileNameWithPath, String sheetName, List`1 dataRows) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 210
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.TransformFile(String fileNameWithPath, String processType) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 171
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.TransformExcelFiles(String directoryName) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 65
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 44
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-16 13:07:20.345 +05:30 [Error] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.GenerateTsv(String processType, String fileNameWithPath, String sheetName, List`1 dataRows) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 210
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.TransformFile(String fileNameWithPath, String processType) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 171
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.TransformExcelFiles(String directoryName) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 65
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 44
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-16 13:11:45.784 +05:30 [Error] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.GenerateTsv(String processType, String fileNameWithPath, String sheetName, List`1 dataRows) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 210
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.TransformFile(String fileNameWithPath, String processType) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 171
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.TransformExcelFiles(String directoryName) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 65
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 44
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-16 13:12:59.421 +05:30 [Error] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.GenerateTsv(String processType, String fileNameWithPath, String sheetName, List`1 dataRows) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 219
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.TransformFile(String fileNameWithPath, String processType) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 171
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.TransformExcelFiles(String directoryName) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 65
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 44
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-16 13:15:09.306 +05:30 [Error] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.GenerateTsv(String processType, String fileNameWithPath, String sheetName, List`1 dataRows) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 219
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.TransformFile(String fileNameWithPath, String processType) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 171
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.TransformExcelFiles(String directoryName) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 65
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 44
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-16 13:34:42.621 +05:30 [Error] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.GenerateTsv(String processType, String fileNameWithPath, String sheetName, List`1 dataRows) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 210
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.TransformFile(String fileNameWithPath, String processType) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 171
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.TransformExcelFiles(String directoryName) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 65
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 44
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-16 13:52:15.448 +05:30 [Error] The process cannot access the file 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\BOM Files\Fixed\~$FAA174AWJ_EBOM.xlsx' because it is being used by another process.
+System.IO.IOException: The process cannot access the file 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\BOM Files\Fixed\~$FAA174AWJ_EBOM.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at OfficeOpenXml.ExcelPackage.WriteFileToStream(String path, Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.TransformFile(String fileNameWithPath, String processType) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 83
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.TransformExcelFiles(String directoryName) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 65
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 44
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-16 20:01:24.249 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Drawing\Conv_ExcelToTsv_DrawingTemplate_FileData'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Drawing\Conv_ExcelToTsv_DrawingTemplate_FileData'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at Prorigo.DataMigrationTransformation.OTIS.OtisDrawingFileTransformer.TrasnformDrawingFile(String transformName) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisDrawingFileTransformer.cs:line 105
+   at Prorigo.DataMigrationTransformation.OTIS.OtisDrawingFileTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisDrawingFileTransformer.cs:line 59
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-16 20:03:05.768 +05:30 [Error] CAD Object does not exist: 'ISO15984|A'
+2025-05-16 20:03:08.532 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\faa321ag_drw.pdf' | ObjectId: 1AA14C9A6C5240C6B04EB3DF945ADBAF
+2025-05-16 20:03:08.807 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\fO231w_drw.pdf' | ObjectId: 73FFFAA10A9C463383F462ED8C823F21
+2025-05-16 20:03:10.077 +05:30 [Error] CAD Object does not exist: 'DIN929|F'
+2025-05-16 20:03:10.078 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\iso15979_drw.pdf' | ObjectId: 53F099C25CDA4BAC979D18FFFF37188D
+2025-05-16 20:03:10.134 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\dba26800j_drw.pdf' | ObjectId: A1158213615749F0BCA30D5EC0B9B95E
+2025-05-16 20:03:10.192 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\GDA25005B.pdf' | ObjectId: 8D6330D13C274D258B1146C5CB9EB458
+2025-05-16 20:03:10.292 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\NAA141C.pdf' | ObjectId: D64CBAA31A744B44A116E9823E6A21A2
+2025-05-16 20:03:11.873 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\NAA176B.dwg' | ObjectId: 51CA725C37724472B5EC933A5240905A
+2025-05-16 20:03:11.873 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\NAA176C.dwg' | ObjectId: 91CCB2C8B35D414CA1C9646225B4370A
+2025-05-16 20:03:11.873 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\NAA187B.dwg' | ObjectId: 622A18CB6215428C9BAD25CEB53DFD5F
+2025-05-16 20:03:12.249 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\VaultFiles\DrawingFileData\daa443w.pdf' | ObjectId: C64CE4B9B2374DCCB85323B8D2024900
+2025-05-16 20:03:12.320 +05:30 [Error] CAD Object does not exist: 'NON7201|Q'
+2025-05-16 20:03:12.343 +05:30 [Error] CAD Object does not exist: 'ISO4032|AB'
+2025-05-16 20:03:12.368 +05:30 [Error] CAD Object does not exist: 'ISO7045|AQ'
+2025-05-16 20:03:12.393 +05:30 [Error] CAD Object does not exist: 'ISO7093|N'
+2025-05-16 20:03:12.393 +05:30 [Error] CAD Object does not exist: 'NON1241|AK'
+2025-05-16 20:03:12.521 +05:30 [Error] CAD Object does not exist: 'HAA386KF|E'
+2025-05-16 20:03:12.521 +05:30 [Error] CAD Object does not exist: 'HAA347EP|E'
+2025-05-16 20:30:38.568 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\FormulaLinkupParameters\Parametric'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\FormulaLinkupParameters\Parametric'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at System.Linq.Lookup`2.Create(IEnumerable`1 source, Func`2 keySelector, IEqualityComparer`1 comparer)
+   at System.Linq.GroupedEnumerable`2.GetEnumerator()
+   at Prorigo.DataMigrationTransformation.OTIS.OtisConditionExpressionTransformer.<DefaultValueAdder>g__GroupEntity|10_0(IEnumerable`1 FormulaLinkupEntities, List`1 FormulaEntities, <>c__DisplayClass10_0& , <>c__DisplayClass10_1& ) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisConditionExpressionTransformer.cs:line 94
+   at Prorigo.DataMigrationTransformation.OTIS.OtisConditionExpressionTransformer.DefaultValueAdder(String transformName, String processtype) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisConditionExpressionTransformer.cs:line 88
+   at Prorigo.DataMigrationTransformation.OTIS.OtisConditionExpressionTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisConditionExpressionTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-16 20:34:07.676 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\FormulaLinkupParameters\Parametric'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\FormulaLinkupParameters\Parametric'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at System.Linq.Lookup`2.Create(IEnumerable`1 source, Func`2 keySelector, IEqualityComparer`1 comparer)
+   at System.Linq.GroupedEnumerable`2.GetEnumerator()
+   at Prorigo.DataMigrationTransformation.OTIS.OtisConditionExpressionTransformer.<DefaultValueAdder>g__GroupEntity|10_0(IEnumerable`1 FormulaLinkupEntities, List`1 FormulaEntities, <>c__DisplayClass10_0& , <>c__DisplayClass10_1& ) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisConditionExpressionTransformer.cs:line 94
+   at Prorigo.DataMigrationTransformation.OTIS.OtisConditionExpressionTransformer.DefaultValueAdder(String transformName, String processtype) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisConditionExpressionTransformer.cs:line 88
+   at Prorigo.DataMigrationTransformation.OTIS.OtisConditionExpressionTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisConditionExpressionTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91

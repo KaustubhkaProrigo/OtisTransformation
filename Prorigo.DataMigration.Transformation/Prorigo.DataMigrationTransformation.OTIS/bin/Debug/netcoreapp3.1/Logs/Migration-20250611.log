@@ -1,0 +1,30 @@
+2025-06-11 12:17:02.700 +05:30 [Error] The given key '702489851' was not present in the dictionary.
+System.Collections.Generic.KeyNotFoundException: The given key '702489851' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Prorigo.DataMigrationTransformation.OTIS.OtisNonEnggPartTransformer.DefaultValueAdder(String transformName) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisNonEnggPartTransformer.cs:line 131
+   at Prorigo.DataMigrationTransformation.OTIS.OtisNonEnggPartTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisNonEnggPartTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-11 12:18:00.566 +05:30 [Error] The given key '702489851' was not present in the dictionary.
+System.Collections.Generic.KeyNotFoundException: The given key '702489851' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Prorigo.DataMigrationTransformation.OTIS.OtisNonEnggPartTransformer.DefaultValueAdder(String transformName) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisNonEnggPartTransformer.cs:line 131
+   at Prorigo.DataMigrationTransformation.OTIS.OtisNonEnggPartTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisNonEnggPartTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-11 12:18:13.841 +05:30 [Error] The given key '702489851' was not present in the dictionary.
+System.Collections.Generic.KeyNotFoundException: The given key '702489851' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Prorigo.DataMigrationTransformation.OTIS.OtisNonEnggPartTransformer.DefaultValueAdder(String transformName) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisNonEnggPartTransformer.cs:line 131
+   at Prorigo.DataMigrationTransformation.OTIS.OtisNonEnggPartTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisNonEnggPartTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-11 12:21:03.506 +05:30 [Error] The given key '702489851' was not present in the dictionary.
+System.Collections.Generic.KeyNotFoundException: The given key '702489851' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Prorigo.DataMigrationTransformation.OTIS.OtisNonEnggPartTransformer.DefaultValueAdder(String transformName) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisNonEnggPartTransformer.cs:line 131
+   at Prorigo.DataMigrationTransformation.OTIS.OtisNonEnggPartTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisNonEnggPartTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-11 12:43:16.733 +05:30 [Error] The given key 'Stores' was not present in the dictionary.
+System.Collections.Generic.KeyNotFoundException: The given key 'Stores' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Prorigo.DataMigrationTransformation.OTIS.OtisNonEnggPartTransformer.DefaultValueAdder(String transformName) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisNonEnggPartTransformer.cs:line 146
+   at Prorigo.DataMigrationTransformation.OTIS.OtisNonEnggPartTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisNonEnggPartTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91

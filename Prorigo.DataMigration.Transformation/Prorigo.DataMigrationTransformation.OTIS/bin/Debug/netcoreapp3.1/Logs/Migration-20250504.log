@@ -1,0 +1,37 @@
+2025-05-04 18:30:19.398 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\faa321ag_drw.pdf' | ObjectId: 0776DB81ECAB4062BE1D3BEF67157DCC
+2025-05-04 18:30:19.468 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\fO231w_drw.pdf' | ObjectId: C4CCDFA995084B3A95C7E0ED2D4E6FCF
+2025-05-04 18:30:19.645 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\iso15979_drw.pdf' | ObjectId: B99B0A32BEE34E44A92CAB5AB931690E
+2025-05-04 18:30:19.654 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\dba26800j_drw.pdf' | ObjectId: CB99B37F2ED641E3AFE7262504B551B2
+2025-05-04 18:30:19.657 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\GDA25005B.pdf' | ObjectId: A7DA60A82E1E41F5A87B21D00E573628
+2025-05-04 18:30:20.029 +05:30 [Error] CAD Object does not exist: 'PAA190B|A'
+2025-05-04 18:30:20.044 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\daa443w.pdf' | ObjectId: DE8F183EEBD04D89B27448F940AB51E6
+2025-05-04 18:32:52.156 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\faa321ag_drw.pdf' | ObjectId: 4D8C8490A26B45C089ADCA443E847109
+2025-05-04 18:32:52.202 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\fO231w_drw.pdf' | ObjectId: BE9384BA597D4530BB76F6F4C2EEDFD0
+2025-05-04 18:32:52.279 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\iso15979_drw.pdf' | ObjectId: 6F8872F417584038B3F981BE68F5EBFA
+2025-05-04 18:32:52.288 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\dba26800j_drw.pdf' | ObjectId: 6FC8A896BC9244508918413BF734F727
+2025-05-04 18:32:52.292 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\GDA25005B.pdf' | ObjectId: 7EAD937A52DC4371B74A09B289EF05E4
+2025-05-04 18:32:52.381 +05:30 [Error] CAD Object does not exist: 'PAA190B|A'
+2025-05-04 18:32:52.395 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\daa443w.pdf' | ObjectId: 3AC7CAC752F645B29788C000F458D9A6
+2025-05-04 18:44:25.426 +05:30 [Error] Could not find a part of the path 'D:\WorkSpace\Otis migration\TRData\Conv_ExcelToTSV_PartTemplate'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\WorkSpace\Otis migration\TRData\Conv_ExcelToTSV_PartTemplate'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\Workspace Code Changes\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at System.Linq.Lookup`2.Create(IEnumerable`1 source, Func`2 keySelector, IEqualityComparer`1 comparer)
+   at System.Linq.GroupedEnumerable`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartTransformer.DefaultValueAdder(String transformName) in D:\Workspace Code Changes\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartTransformer.cs:line 81
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartTransformer.Transform(String LicenseKey) in D:\Workspace Code Changes\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartTransformer.cs:line 53
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Workspace Code Changes\OTIS_Transformation\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-04 18:48:31.628 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\faa321ag_drw.pdf' | ObjectId: 3B9A44BA3F9242A18348531455D5327E
+2025-05-04 18:48:31.675 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\fO231w_drw.pdf' | ObjectId: A0CDE9641A7F44009E29F836810B6F99
+2025-05-04 18:48:31.750 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\iso15979_drw.pdf' | ObjectId: CDB47684C3174FCBACC8F5C35251358C
+2025-05-04 18:48:31.758 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\dba26800j_drw.pdf' | ObjectId: 1AED82556A034DC5A45D49F72785BE57
+2025-05-04 18:48:31.762 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\GDA25005B.pdf' | ObjectId: 9A04252FE6BE4E00BAB9C0154F3699BE
+2025-05-04 18:48:31.851 +05:30 [Error] CAD Object does not exist: 'PAA190B|A'
+2025-05-04 18:48:31.867 +05:30 [Error] File does not exist at 'D:\WorkSpace\Otis migration\VaultFiles\DrawingFileData\daa443w.pdf' | ObjectId: 0AD14F850E41454FA9E43391610B11C9

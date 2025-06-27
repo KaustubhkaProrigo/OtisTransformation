@@ -1,0 +1,87 @@
+2025-05-05 09:55:22.227 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration1Migration\5MaySITLoad\DataFiles\Part\Part\Conv_ExcelToTSV_PartTemplate'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration1Migration\5MaySITLoad\DataFiles\Part\Part\Conv_ExcelToTSV_PartTemplate'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at System.Linq.Lookup`2.Create(IEnumerable`1 source, Func`2 keySelector, IEqualityComparer`1 comparer)
+   at System.Linq.GroupedEnumerable`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartTransformer.DefaultValueAdder(String transformName) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartTransformer.cs:line 81
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartTransformer.cs:line 53
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-05 10:03:23.387 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration1Migration\5MaySITLoad\DataFiles\CAD\Drawing\Conv_ExcelToTsv_DrawingTemplate_DrawingData'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration1Migration\5MaySITLoad\DataFiles\CAD\Drawing\Conv_ExcelToTsv_DrawingTemplate_DrawingData'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at System.Linq.Lookup`2.Create(IEnumerable`1 source, Func`2 keySelector, IEqualityComparer`1 comparer)
+   at System.Linq.GroupedEnumerable`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Prorigo.DataMigrationTransformation.OTIS.OtisCADDrawingTransformer.DefaultValueAdder(String transformName) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisCADDrawingTransformer.cs:line 113
+   at Prorigo.DataMigrationTransformation.OTIS.OtisCADDrawingTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisCADDrawingTransformer.cs:line 57
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-05 10:06:07.304 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration1Migration\5MaySITLoad\DataFiles\CAD\CAD\Conv_ExcelToTsv_DrawingTemplate_DrawingData'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration1Migration\5MaySITLoad\DataFiles\CAD\CAD\Conv_ExcelToTsv_DrawingTemplate_DrawingData'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at System.Linq.Lookup`2.Create(IEnumerable`1 source, Func`2 keySelector, IEqualityComparer`1 comparer)
+   at System.Linq.GroupedEnumerable`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Prorigo.DataMigrationTransformation.OTIS.OtisCADDrawingTransformer.DefaultValueAdder(String transformName) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisCADDrawingTransformer.cs:line 113
+   at Prorigo.DataMigrationTransformation.OTIS.OtisCADDrawingTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisCADDrawingTransformer.cs:line 57
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-05 10:11:05.338 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration1Migration\5MaySITLoad\DataFiles\Drawing\Conv_ExcelToTsv_DrawingTemplate_DrawingData'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration1Migration\5MaySITLoad\DataFiles\Drawing\Conv_ExcelToTsv_DrawingTemplate_DrawingData'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at System.Linq.Lookup`2.Create(IEnumerable`1 source, Func`2 keySelector, IEqualityComparer`1 comparer)
+   at System.Linq.GroupedEnumerable`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Prorigo.DataMigrationTransformation.OTIS.OtisCADDrawingTransformer.DefaultValueAdder(String transformName) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisCADDrawingTransformer.cs:line 113
+   at Prorigo.DataMigrationTransformation.OTIS.OtisCADDrawingTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisCADDrawingTransformer.cs:line 57
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-05 10:15:42.037 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration1Migration\5MaySITLoad\DataFiles\Drawing\Conv_ExcelToTsv_DrawingTemplate_DrawingData'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration1Migration\5MaySITLoad\DataFiles\Drawing\Conv_ExcelToTsv_DrawingTemplate_DrawingData'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at System.Linq.Lookup`2.Create(IEnumerable`1 source, Func`2 keySelector, IEqualityComparer`1 comparer)
+   at System.Linq.GroupedEnumerable`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Prorigo.DataMigrationTransformation.OTIS.OtisCADDrawingTransformer.DefaultValueAdder(String transformName) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisCADDrawingTransformer.cs:line 113
+   at Prorigo.DataMigrationTransformation.OTIS.OtisCADDrawingTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisCADDrawingTransformer.cs:line 57
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration1Migration\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-05 11:17:35.756 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration1Migration\5MaySITLoad\VaultFiles\DrawingFileData\faa321ag_drw.pdf' | ObjectId: 95DFEBFF3C924E4194EDCD3D4CEF1BDB
+2025-05-05 11:17:35.875 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration1Migration\5MaySITLoad\VaultFiles\DrawingFileData\fO231w_drw.pdf' | ObjectId: 91CA125E6F7D4D77AE2B873E66D987B5
+2025-05-05 11:17:36.380 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration1Migration\5MaySITLoad\VaultFiles\DrawingFileData\iso15979_drw.pdf' | ObjectId: ED0692AFFDE64970A91C550544D5DCA5
+2025-05-05 11:17:36.405 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration1Migration\5MaySITLoad\VaultFiles\DrawingFileData\dba26800j_drw.pdf' | ObjectId: DDA0A076EF8840588A0F828580E8C484
+2025-05-05 11:17:36.419 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration1Migration\5MaySITLoad\VaultFiles\DrawingFileData\GDA25005B.pdf' | ObjectId: ACE7656800DE47C0BFDC8F8EB7233B3E
+2025-05-05 11:17:37.008 +05:30 [Error] CAD Object does not exist: 'PAA190B|A'
+2025-05-05 11:17:37.076 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration1Migration\5MaySITLoad\VaultFiles\DrawingFileData\daa443w.pdf' | ObjectId: 5FBBA8A838EC4A84AD108CE6D5BEF5B6

@@ -1,0 +1,22 @@
+2025-06-10 17:37:41.279 +05:30 [Error] Exception has been thrown by the target of an invocation.
+System.Exception: Failed to load row 'NLL386CH1	AURA CHAMPAGNE MIRROR GOLD	SSCH-AURA CHAMPAGNE MIRROR GOLD 1.2x1250x2500	Raw Material	Fixed	Mechanical	29.48	Buy	KG	Kishan	6/5/2025 12:00:00 AM	1.2	2500	1250		702489851	Stores							AISI 304 BA ST.STEEL SHEET PATTERN CANVAS COATED (SPECIAL SS)	SS304											' from file 'D:\OTIS_Migration\OtisIteration3Migration\SITLoad2JuneDataFiles\Non_Engg_Parts\Conv_ExcelToTSV_NonEnggPartTemplate\Conv_ExcelToTSV_NonEnggPartTemplate_2025-06-10 16-44-23_0.tsv'
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentOutOfRangeException: Length cannot be less than zero. (Parameter 'length')
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Prorigo.DataMigrationTransformation.OTIS.Entities.OtisNonEnggPartEntity.SetProperties(String dataRow) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Entities\OtisNonEnggPartEntity.cs:line 186
+   at Prorigo.DataMigrationTransformation.OTIS.Entities.OtisNonEnggPartEntity..ctor(String dataRow) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Entities\OtisNonEnggPartEntity.cs:line 76
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture)
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 92
+   --- End of inner exception stack trace ---
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 97
+   at System.Linq.Lookup`2.Create(IEnumerable`1 source, Func`2 keySelector, IEqualityComparer`1 comparer)
+   at System.Linq.GroupedEnumerable`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Prorigo.DataMigrationTransformation.OTIS.OtisNonEnggPartTransformer.DefaultValueAdder(String transformName) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisNonEnggPartTransformer.cs:line 82
+   at Prorigo.DataMigrationTransformation.OTIS.OtisNonEnggPartTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisNonEnggPartTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91

@@ -1,0 +1,19 @@
+2025-05-13 10:36:13.853 +05:30 [Error] CAD Object does not exist: 'ISO15984|A'
+2025-05-13 10:36:16.626 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\12MayDataFiles\VaultFiles\DrawingFileData\faa321ag_drw.pdf' | ObjectId: 86C4515246544C5991B5C95D460D2BBD
+2025-05-13 10:36:16.890 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\12MayDataFiles\VaultFiles\DrawingFileData\fO231w_drw.pdf' | ObjectId: FA5DF0333CA94556B855FA88E9DBB308
+2025-05-13 10:36:18.110 +05:30 [Error] CAD Object does not exist: 'DIN929|F'
+2025-05-13 10:36:18.110 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\12MayDataFiles\VaultFiles\DrawingFileData\iso15979_drw.pdf' | ObjectId: 027C10B0518A48ED89471981D5E60114
+2025-05-13 10:36:18.166 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\12MayDataFiles\VaultFiles\DrawingFileData\dba26800j_drw.pdf' | ObjectId: 96370006162C4367AA1F03935CC0CBE5
+2025-05-13 10:36:18.222 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\12MayDataFiles\VaultFiles\DrawingFileData\GDA25005B.pdf' | ObjectId: A054405766F4420CA04DA99CDE96C41D
+2025-05-13 10:36:18.319 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\12MayDataFiles\VaultFiles\DrawingFileData\NAA141C.pdf' | ObjectId: 578ADE9FE2CB483AB1D1110141AB8110
+2025-05-13 10:36:19.822 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\12MayDataFiles\VaultFiles\DrawingFileData\NAA176B.dwg' | ObjectId: C82432E9A6814C3796C1231D1CAB31EC
+2025-05-13 10:36:19.822 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\12MayDataFiles\VaultFiles\DrawingFileData\NAA176C.dwg' | ObjectId: 8098A9F183FD4AD3B0D657888A49AA7B
+2025-05-13 10:36:19.822 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\12MayDataFiles\VaultFiles\DrawingFileData\NAA187B.dwg' | ObjectId: 69664E38C1DD4CD0AECBDBFA71FC3DB5
+2025-05-13 10:36:20.172 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration2Migration\12MayDataFiles\VaultFiles\DrawingFileData\daa443w.pdf' | ObjectId: 09A5302FEE3A44C1B8A61120E07CAFE9
+2025-05-13 10:36:20.243 +05:30 [Error] CAD Object does not exist: 'NON7201|Q'
+2025-05-13 10:36:20.265 +05:30 [Error] CAD Object does not exist: 'ISO4032|AB'
+2025-05-13 10:36:20.288 +05:30 [Error] CAD Object does not exist: 'ISO7045|AQ'
+2025-05-13 10:36:20.310 +05:30 [Error] CAD Object does not exist: 'ISO7093|N'
+2025-05-13 10:36:20.310 +05:30 [Error] CAD Object does not exist: 'NON1241|AK'
+2025-05-13 10:36:20.437 +05:30 [Error] CAD Object does not exist: 'HAA386KF|E'
+2025-05-13 10:36:20.437 +05:30 [Error] CAD Object does not exist: 'HAA347EP|E'

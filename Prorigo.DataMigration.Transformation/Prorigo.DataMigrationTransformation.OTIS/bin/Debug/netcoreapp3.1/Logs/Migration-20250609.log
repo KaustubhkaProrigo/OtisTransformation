@@ -1,0 +1,9 @@
+2025-06-09 13:16:28.570 +05:30 [Error] The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+System.IO.InvalidDataException: The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+   at OfficeOpenXml.Packaging.ZipPackage..ctor(Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor(FileInfo newFile)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvRelBranchPlantLocationTransformer.TransformFile(String fileNameWithPath) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvRelBranchPlantLocationTransformer.cs:line 72
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvRelBranchPlantLocationTransformer.TransformExcelFiles(String directoryName) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvRelBranchPlantLocationTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvRelBranchPlantLocationTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvRelBranchPlantLocationTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration3Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91

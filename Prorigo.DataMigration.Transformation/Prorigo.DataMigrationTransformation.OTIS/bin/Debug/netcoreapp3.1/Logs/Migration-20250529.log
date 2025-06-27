@@ -1,0 +1,324 @@
+2025-05-29 15:47:53.274 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Parametric_CalculationSheet'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Parametric_CalculationSheet'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.DefaultValueAdder(String transformName, String processtype) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 101
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 15:49:24.643 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Parametric_CalculationSheet'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Parametric_CalculationSheet'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.DefaultValueAdder(String transformName, String processtype) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 101
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 15:49:59.391 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Parametric_CalculationSheet'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Parametric_CalculationSheet'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.DefaultValueAdder(String transformName, String processtype) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 101
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 15:51:05.751 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Parametric_CalculationSheet'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Parametric_CalculationSheet'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.DefaultValueAdder(String transformName, String processtype) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 101
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 15:52:58.381 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Parametric_CalculationSheet'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Parametric_CalculationSheet'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.DefaultValueAdder(String transformName, String processtype) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 101
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 15:54:31.932 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Parametric_CalculationSheet'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Parametric_CalculationSheet'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.DefaultValueAdder(String transformName, String processtype) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 101
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 15:54:45.148 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Parametric_CalculationSheet'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Parametric_CalculationSheet'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.DefaultValueAdder(String transformName, String processtype) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 101
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 15:55:30.755 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Parametric_CalculationSheet'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration2Migration\16MayDataFiles\Parametric_CalculationSheet'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.DefaultValueAdder(String transformName, String processtype) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 101
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 16:01:14.255 +05:30 [Error] Could not find a part of the path 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\Parametric_CalculationSheet'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\Parametric_CalculationSheet'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.DefaultValueAdder(String transformName, String processtype) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 101
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 16:02:36.382 +05:30 [Error] Could not find a part of the path 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\Parametric_CalculationSheet'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\Parametric_CalculationSheet'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.DefaultValueAdder(String transformName, String processtype) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 101
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 16:03:29.088 +05:30 [Error] Could not find a part of the path 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\Parametric_CalculationSheet'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\Parametric_CalculationSheet'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.DefaultValueAdder(String transformName, String processtype) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 101
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 16:03:55.820 +05:30 [Error] Could not find a part of the path 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\Parametric_CalculationSheet'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\Parametric_CalculationSheet'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.DefaultValueAdder(String transformName, String processtype) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 101
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 16:05:06.792 +05:30 [Error] Could not find a part of the path 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\Parametric_CalculationSheet'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\Parametric_CalculationSheet'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.DefaultValueAdder(String transformName, String processtype) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 101
+   at Prorigo.DataMigrationTransformation.OTIS.OtisPartToCalculationSheetRelationshipTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisPartToCalculationSheetRelationshipTransformer.cs:line 54
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 16:27:51.366 +05:30 [Error] CAD Object does not exist: 'ISO15984|A'
+2025-05-29 16:27:52.546 +05:30 [Error] File does not exist at 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\VaultFiles\DrawingFileData\faa321ag_drw.pdf' | ObjectId: 2681C00534E2494882CA9BDF79D66463
+2025-05-29 16:27:52.675 +05:30 [Error] File does not exist at 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\VaultFiles\DrawingFileData\fO231w_drw.pdf' | ObjectId: E5634856A5234F38B7D8433B056649DB
+2025-05-29 16:27:53.190 +05:30 [Error] CAD Object does not exist: 'DIN929|F'
+2025-05-29 16:27:53.190 +05:30 [Error] File does not exist at 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\VaultFiles\DrawingFileData\iso15979_drw.pdf' | ObjectId: C7A5195311CA4924805C9560F6CEA865
+2025-05-29 16:27:53.220 +05:30 [Error] File does not exist at 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\VaultFiles\DrawingFileData\dba26800j_drw.pdf' | ObjectId: F0E1FA6A3CC942A7B5CE703A56E3DFB7
+2025-05-29 16:27:53.250 +05:30 [Error] File does not exist at 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\VaultFiles\DrawingFileData\GDA25005B.pdf' | ObjectId: 624DAF037B4045558C3F3AADAF4563D3
+2025-05-29 16:27:53.309 +05:30 [Error] File does not exist at 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\VaultFiles\DrawingFileData\NAA141C.pdf' | ObjectId: 85EF79CB4354471293146D05C3CEDAE1
+2025-05-29 16:27:53.978 +05:30 [Error] File does not exist at 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\VaultFiles\DrawingFileData\NAA176B.dwg' | ObjectId: 1D3E0294297B4283B8D18BDF458CA7CE
+2025-05-29 16:27:53.978 +05:30 [Error] File does not exist at 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\VaultFiles\DrawingFileData\NAA176C.dwg' | ObjectId: 308F2DB4D59146FE93376EF25BDB7E17
+2025-05-29 16:27:53.978 +05:30 [Error] File does not exist at 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\VaultFiles\DrawingFileData\NAA187B.dwg' | ObjectId: C08AA38CD8D8448A84814329625C9F45
+2025-05-29 16:27:54.160 +05:30 [Error] File does not exist at 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\VaultFiles\DrawingFileData\daa443w.pdf' | ObjectId: 8A970D0C384E4C0F9722C6C06ED2F9D0
+2025-05-29 16:27:54.188 +05:30 [Error] CAD Object does not exist: 'NON7201|Q'
+2025-05-29 16:27:54.202 +05:30 [Error] CAD Object does not exist: 'ISO4032|AB'
+2025-05-29 16:27:54.217 +05:30 [Error] CAD Object does not exist: 'ISO7045|AQ'
+2025-05-29 16:27:54.219 +05:30 [Error] CAD Object does not exist: 'ISO7093|N'
+2025-05-29 16:27:54.219 +05:30 [Error] CAD Object does not exist: 'NON1241|AK'
+2025-05-29 16:27:54.276 +05:30 [Error] CAD Object does not exist: 'HAA386KF|E'
+2025-05-29 16:27:54.276 +05:30 [Error] CAD Object does not exist: 'HAA347EP|E'
+2025-05-29 16:56:10.778 +05:30 [Error] Could not find a part of the path 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\Conv_ExcelToTsv_ODSTemplate_ODSData'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\Conv_ExcelToTsv_ODSTemplate_ODSData'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, Boolean loadAdditionalColumns)+MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 112
+   at System.Linq.Lookup`2.Create(IEnumerable`1 source, Func`2 keySelector, IEqualityComparer`1 comparer)
+   at System.Linq.GroupedEnumerable`2.GetEnumerator()
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Prorigo.DataMigrationTransformation.OTIS.OtisODSTransformer.DefaultValueAdder(String transformName) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisODSTransformer.cs:line 95
+   at Prorigo.DataMigrationTransformation.OTIS.OtisODSTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisODSTransformer.cs:line 55
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 17:01:41.684 +05:30 [Error] The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+System.IO.InvalidDataException: The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+   at OfficeOpenXml.Packaging.ZipPackage..ctor(Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor(FileInfo newFile)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.TransformFile(String fileNameWithPath) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 72
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.TransformExcelFiles(String directoryName) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 17:02:14.958 +05:30 [Error] The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+System.IO.InvalidDataException: The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+   at OfficeOpenXml.Packaging.ZipPackage..ctor(Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor(FileInfo newFile)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.TransformFile(String fileNameWithPath) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 72
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.TransformExcelFiles(String directoryName) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 17:03:07.431 +05:30 [Error] The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+System.IO.InvalidDataException: The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+   at OfficeOpenXml.Packaging.ZipPackage..ctor(Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor(FileInfo newFile)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.TransformFile(String fileNameWithPath) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 72
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.TransformExcelFiles(String directoryName) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 17:04:39.351 +05:30 [Error] The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+System.IO.InvalidDataException: The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+   at OfficeOpenXml.Packaging.ZipPackage..ctor(Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor(FileInfo newFile)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.TransformFile(String fileNameWithPath) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 72
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.TransformExcelFiles(String directoryName) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 17:04:52.283 +05:30 [Error] The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+System.IO.InvalidDataException: The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+   at OfficeOpenXml.Packaging.ZipPackage..ctor(Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor(FileInfo newFile)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.TransformFile(String fileNameWithPath) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 72
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.TransformExcelFiles(String directoryName) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 17:06:51.037 +05:30 [Error] The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+System.IO.InvalidDataException: The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+   at OfficeOpenXml.Packaging.ZipPackage..ctor(Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor(FileInfo newFile)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.TransformFile(String fileNameWithPath) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 72
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.TransformExcelFiles(String directoryName) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 17:07:30.904 +05:30 [Error] The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+System.IO.InvalidDataException: The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+   at OfficeOpenXml.Packaging.ZipPackage..ctor(Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor(FileInfo newFile)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.TransformFile(String fileNameWithPath) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 72
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.TransformExcelFiles(String directoryName) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 17:08:31.047 +05:30 [Error] The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+System.IO.InvalidDataException: The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+   at OfficeOpenXml.Packaging.ZipPackage..ctor(Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor(FileInfo newFile)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.TransformFile(String fileNameWithPath) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 72
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.TransformExcelFiles(String directoryName) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvBranchPlantLocationTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvBranchPlantLocationTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 17:09:58.862 +05:30 [Error] The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+System.IO.InvalidDataException: The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+   at OfficeOpenXml.Packaging.ZipPackage..ctor(Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor(FileInfo newFile)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvRelBranchPlantLocationTransformer.TransformFile(String fileNameWithPath) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvRelBranchPlantLocationTransformer.cs:line 72
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvRelBranchPlantLocationTransformer.TransformExcelFiles(String directoryName) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvRelBranchPlantLocationTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvRelBranchPlantLocationTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvRelBranchPlantLocationTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 17:11:52.477 +05:30 [Error] The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+System.IO.InvalidDataException: The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+   at OfficeOpenXml.Packaging.ZipPackage..ctor(Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor(FileInfo newFile)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvRelBranchPlantLocationTransformer.TransformFile(String fileNameWithPath) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvRelBranchPlantLocationTransformer.cs:line 72
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvRelBranchPlantLocationTransformer.TransformExcelFiles(String directoryName) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvRelBranchPlantLocationTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvRelBranchPlantLocationTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvRelBranchPlantLocationTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 17:27:05.156 +05:30 [Error] The given key '1' was not present in the dictionary.
+System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Prorigo.DataMigrationTransformation.OTIS.ODSConditionExpressionTransformer.<DefaultValueAdder>g__GroupEntity|9_0(IEnumerable`1 FormulaLinkupEntities, List`1 FormulaEntities, <>c__DisplayClass9_0& , <>c__DisplayClass9_1& ) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ODSConditionExpressionTransformer.cs:line 146
+   at Prorigo.DataMigrationTransformation.OTIS.ODSConditionExpressionTransformer.DefaultValueAdder(String transformName) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ODSConditionExpressionTransformer.cs:line 85
+   at Prorigo.DataMigrationTransformation.OTIS.ODSConditionExpressionTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ODSConditionExpressionTransformer.cs:line 51
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 17:34:07.843 +05:30 [Error] Value cannot be null. (Parameter 'key')
+System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.Collections.Generic.Dictionary`2.FindEntry(TKey key)
+   at System.Collections.Generic.Dictionary`2.ContainsKey(TKey key)
+   at Prorigo.DataMigrationTransformation.OTIS.ODSCalToOutputParameterTransformer.DefaultValueAdder(String transformName) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ODSCalToOutputParameterTransformer.cs:line 87
+   at Prorigo.DataMigrationTransformation.OTIS.ODSCalToOutputParameterTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ODSCalToOutputParameterTransformer.cs:line 48
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-05-29 18:33:01.105 +05:30 [Error] Could not find a part of the path 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\BOM Files\ODS\ODS'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\DataMigrationProject\OTIS_Official_Migration\Iteration3\DataFiles\BOM Files\ODS\ODS'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, Boolean loadAdditionalColumns)+MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 112
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   at Prorigo.DataMigrationTransformation.OTIS.ODSInputTransformer.TransformFiles(String typeName, String transformName) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ODSInputTransformer.cs:line 93
+   at Prorigo.DataMigrationTransformation.OTIS.ODSInputTransformer.Transform(String LicenseKey) in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ODSInputTransformer.cs:line 51
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\Downloads\OTIS_Transformations\OTIS_Transformation_V1\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91

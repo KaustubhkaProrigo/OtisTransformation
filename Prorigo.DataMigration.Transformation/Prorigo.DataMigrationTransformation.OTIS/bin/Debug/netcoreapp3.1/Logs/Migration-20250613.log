@@ -1,0 +1,116 @@
+2025-06-13 12:15:45.011 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration3Migration\SITLoad2JuneDataFiles\SODSCalculationSheet'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration3Migration\SITLoad2JuneDataFiles\SODSCalculationSheet'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, Boolean loadAdditionalColumns)+MoveNext() in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 112
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.WriteBreakdownItemToCalculationSheet(Dictionary`2 sodsNoToDescription) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 428
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.TransformFiles(String typeName, String transformName) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 198
+   at Prorigo.DataMigrationTransformation.OTIS.Excel_SODSDataTransformer.Transform(String licenseKey) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Excel_SODSDataTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-13 12:26:19.844 +05:30 [Error] CAD Object does not exist: 'ISO15984|A'
+2025-06-13 12:26:20.508 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration4Migration\13JuneDataFiles\VaultFiles\DrawingFileData\faa321ag_drw.pdf' | ObjectId: 02B7D275B8C74E3394E16E2F339982A9
+2025-06-13 12:26:20.538 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration4Migration\13JuneDataFiles\VaultFiles\DrawingFileData\fO231w_drw.pdf' | ObjectId: B8FE0F810814483E820E32E840DC5FB2
+2025-06-13 12:26:20.835 +05:30 [Error] CAD Object does not exist: 'DIN929|F'
+2025-06-13 12:26:20.836 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration4Migration\13JuneDataFiles\VaultFiles\DrawingFileData\iso15979_drw.pdf' | ObjectId: 22F1A9F29FD24FC3B1A134A46145E368
+2025-06-13 12:26:20.848 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration4Migration\13JuneDataFiles\VaultFiles\DrawingFileData\dba26800j_drw.pdf' | ObjectId: E708288AEB8C4725A92789EF478B6A69
+2025-06-13 12:26:20.874 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration4Migration\13JuneDataFiles\VaultFiles\DrawingFileData\GDA25005B.pdf' | ObjectId: FD56B9D35026489FBDB6F7B8B9499CD5
+2025-06-13 12:26:20.904 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration4Migration\13JuneDataFiles\VaultFiles\DrawingFileData\NAA141C.pdf' | ObjectId: 9E47D43C569F4206B48E446298AC29CF
+2025-06-13 12:26:21.163 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration4Migration\13JuneDataFiles\VaultFiles\DrawingFileData\NAA176B.dwg' | ObjectId: 5FDF7DB493E44BA9A55543C910DD7AD9
+2025-06-13 12:26:21.163 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration4Migration\13JuneDataFiles\VaultFiles\DrawingFileData\NAA176C.dwg' | ObjectId: 397C37D8D6FA427A8948374DF2BEC2E0
+2025-06-13 12:26:21.163 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration4Migration\13JuneDataFiles\VaultFiles\DrawingFileData\NAA187B.dwg' | ObjectId: 37F7CEECFCEE4ED5AC0D552E90858AA0
+2025-06-13 12:26:21.255 +05:30 [Error] File does not exist at 'D:\OTIS_Migration\OtisIteration4Migration\13JuneDataFiles\VaultFiles\DrawingFileData\daa443w.pdf' | ObjectId: 17C5981D05E244958F0855181C5DD53F
+2025-06-13 12:26:21.259 +05:30 [Error] CAD Object does not exist: 'NON7201|Q'
+2025-06-13 12:26:21.260 +05:30 [Error] CAD Object does not exist: 'ISO4032|AB'
+2025-06-13 12:26:21.282 +05:30 [Error] CAD Object does not exist: 'ISO7045|AQ'
+2025-06-13 12:26:21.284 +05:30 [Error] CAD Object does not exist: 'ISO7093|N'
+2025-06-13 12:26:21.284 +05:30 [Error] CAD Object does not exist: 'NON1241|AK'
+2025-06-13 12:26:21.318 +05:30 [Error] CAD Object does not exist: 'HAA386KF|E'
+2025-06-13 12:26:21.318 +05:30 [Error] CAD Object does not exist: 'HAA347EP|E'
+2025-06-13 12:30:05.930 +05:30 [Error] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.GenerateTsv(String processType, String fileNameWithPath, String sheetName, List`1 dataRows) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 214
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.TransformFile(String fileNameWithPath, String processType) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 172
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.TransformExcelFiles(String directoryName) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 65
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelEBOMExtractDataTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelEBOMExtractDataTransformer.cs:line 44
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-13 14:17:38.091 +05:30 [Error] The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+System.IO.InvalidDataException: The file is not a valid Package file. If the file is encrypted, please supply the password in the constructor.
+   at OfficeOpenXml.Packaging.ZipPackage..ctor(Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor(FileInfo newFile)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvRelBranchPlantLocationTransformer.TransformFile(String fileNameWithPath) in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvRelBranchPlantLocationTransformer.cs:line 72
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvRelBranchPlantLocationTransformer.TransformExcelFiles(String directoryName) in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvRelBranchPlantLocationTransformer.cs:line 62
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvRelBranchPlantLocationTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvRelBranchPlantLocationTransformer.cs:line 46
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-13 14:27:19.967 +05:30 [Error] Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvODSInputTransformer.TransformFile(String directoryName) in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvODSInputTransformer.cs:line 120
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvODSInputTransformer.TransformExcelFiles(String directoryName) in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvODSInputTransformer.cs:line 60
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvODSInputTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvODSInputTransformer.cs:line 44
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-13 14:44:08.470 +05:30 [Error] The process cannot access the file 'D:\OTIS_Migration\OtisIteration4Migration\13JuneDataFiles\BOM Files\ODS\~$ODS0310AAK - Rear Enclosure_ New.xlsx' because it is being used by another process.
+System.IO.IOException: The process cannot access the file 'D:\OTIS_Migration\OtisIteration4Migration\13JuneDataFiles\BOM Files\ODS\~$ODS0310AAK - Rear Enclosure_ New.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at OfficeOpenXml.ExcelPackage.WriteFileToStream(String path, Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor(FileInfo newFile)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvODSInputTransformer.TransformFile(String directoryName) in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvODSInputTransformer.cs:line 75
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvODSInputTransformer.TransformExcelFiles(String directoryName) in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvODSInputTransformer.cs:line 60
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvODSInputTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvODSInputTransformer.cs:line 44
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-13 15:13:00.651 +05:30 [Error] Exception has been thrown by the target of an invocation.
+System.Exception: Failed to load row 'NAA29100AM	1	SS1	[{"AESTH" : "BASIC", "ODS" : "NO-O-595CY", "Qty." : 1, "ID" : 10001},{"AESTH" : "AURA,ATMOS,AMBIANCE_IN", "ODS" : "NO-O-595DM", "Qty." : 1, "ID" : 10002}]' from file 'D:\OTIS_Migration\OtisIteration4Migration\13JuneDataFiles\SODS\SODSSelection\SODSExpressions_2025-06-13 15-11-50_0.tsv'
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentOutOfRangeException: Length cannot be less than zero. (Parameter 'length')
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Prorigo.DataMigrationTransformation.OTIS.Entities.SODSExpressionEntity.SetProperties(String dataRow) in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Entities\SODSExpressionEntity.cs:line 40
+   at Prorigo.DataMigrationTransformation.OTIS.Entities.SODSExpressionEntity..ctor(String dataRow) in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Entities\SODSExpressionEntity.cs:line 25
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture)
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 92
+   --- End of inner exception stack trace ---
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 97
+   at Prorigo.DataMigrationTransformation.OTIS.OtisSODSSelectionSetTransformer.TransformFiles(String typeName, String transformName) in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisSODSSelectionSetTransformer.cs:line 96
+   at Prorigo.DataMigrationTransformation.OTIS.OtisSODSSelectionSetTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisSODSSelectionSetTransformer.cs:line 49
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-13 18:35:44.874 +05:30 [Error] Could not find a part of the path 'D:\OTIS_Migration\OtisIteration4Migration\13JuneDataFiles\BreakdownItem_Product\Product'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OTIS_Migration\OtisIteration4Migration\13JuneDataFiles\BreakdownItem_Product\Product'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at Prorigo.Plm.DataMigration.IO.TypeDataFileReader.ReadAllEntities[T](String typeName, String searchPattern, Boolean loadAdditionalColumns)+MoveNext() in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.Plm.DataMigration.IO\TypeDataFileReader.cs:line 71
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   at Prorigo.DataMigrationTransformation.OTIS.OtisVm_ContentSODSTransformer.TransformFiles(String typeName, String transformName) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisVm_ContentSODSTransformer.cs:line 95
+   at Prorigo.DataMigrationTransformation.OTIS.OtisVm_ContentSODSTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\OtisVm_ContentSODSTransformer.cs:line 55
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
+2025-06-13 18:45:23.456 +05:30 [Error] The process cannot access the file 'D:\OTIS_Migration\OtisIteration4Migration\13JuneDataFiles\Contract\~$Scheduler File-CCD.xlsx' because it is being used by another process.
+System.IO.IOException: The process cannot access the file 'D:\OTIS_Migration\OtisIteration4Migration\13JuneDataFiles\Contract\~$Scheduler File-CCD.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at OfficeOpenXml.ExcelPackage.WriteFileToStream(String path, Stream stream)
+   at OfficeOpenXml.ExcelPackage.ConstructNewFile(String password)
+   at OfficeOpenXml.ExcelPackage..ctor(FileInfo newFile)
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvContractTransformer.TransformFile(String fileNameWithPath) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvContractTransformer.cs:line 71
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvContractTransformer.TransformExcelFiles(String directoryName) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvContractTransformer.cs:line 61
+   at Prorigo.DataMigrationTransformation.OTIS.ExcelToTsvContractTransformer.Transform(String LicenseKey) in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\ExcelToTsvContractTransformer.cs:line 45
+   at Prorigo.DataMigrationTransformation.OTIS.Program.<>c.<<Main>b__0_0>d.MoveNext() in D:\OTIS_Migration\OtisIteration4Migration\OTIS_Transformation_V6\OTIS_Transformation_V5\Prorigo.DataMigration.Transformation\Prorigo.DataMigrationTransformation.OTIS\Program.cs:line 91
